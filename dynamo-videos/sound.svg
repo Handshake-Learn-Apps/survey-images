@@ -1,0 +1,57 @@
+<svg width="680" height="460" viewBox="0 0 680 460" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>AVA's sound-verifier 2x2: ground truth vs verifier verdict</title>
+<desc>A 2 by 2 grid crossing whether a submission is actually correct or wrong against whether the verifier passes or fails it. Correct and Pass is a true accept, sound. Wrong and Pass is a false accept, too loose, the failure AVA hunts first. Correct and Fail is a false reject, too strict. Wrong and Fail is a true reject, sound.</desc>
+
+<style>
+  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .th { font-size: 14px; font-weight: 600; }
+  .ts { font-size: 12px; font-weight: 400; }
+  .bg { fill: #ffffff; }
+  .fg { fill: #1a1a1a; }
+  .fg-sub { fill: #555555; }
+  .green-fill { fill: #EAF3DE; }
+  .green-title { fill: #173404; }
+  .green-sub { fill: #27500A; }
+  .red-fill { fill: #FCEBEB; }
+  .red-title { fill: #501313; }
+  .red-sub { fill: #791F1F; }
+  .amber-fill { fill: #FAEEDA; }
+  .amber-title { fill: #412402; }
+  .amber-sub { fill: #633806; }
+</style>
+
+<rect x="0" y="0" width="680" height="460" class="bg"/>
+
+<text x="90" y="55" class="ts fg-sub" text-anchor="middle">Verifier</text>
+<text x="270" y="55" class="ts fg-sub" text-anchor="middle">Actually correct</text>
+<text x="520" y="55" class="ts fg-sub" text-anchor="middle">Actually wrong</text>
+
+<text x="90" y="149" class="th fg" text-anchor="middle">PASS</text>
+<text x="90" y="319" class="th fg" text-anchor="middle">FAIL</text>
+
+<g>
+<rect x="155" y="70" width="230" height="150" rx="8" class="green-fill"/>
+<text x="270" y="139" class="th green-title" text-anchor="middle">True accept</text>
+<text x="270" y="159" class="ts green-sub" text-anchor="middle">Sound: correct work passes</text>
+</g>
+
+<g>
+<rect x="405" y="70" width="230" height="150" rx="8" class="red-fill"/>
+<text x="520" y="139" class="th red-title" text-anchor="middle">False accept</text>
+<text x="520" y="159" class="ts red-sub" text-anchor="middle">Too loose: wrong work passes</text>
+</g>
+
+<g>
+<rect x="155" y="240" width="230" height="150" rx="8" class="amber-fill"/>
+<text x="270" y="309" class="th amber-title" text-anchor="middle">False reject</text>
+<text x="270" y="329" class="ts amber-sub" text-anchor="middle">Too strict: real work blocked</text>
+</g>
+
+<g>
+<rect x="405" y="240" width="230" height="150" rx="8" class="green-fill"/>
+<text x="520" y="309" class="th green-title" text-anchor="middle">True reject</text>
+<text x="520" y="329" class="ts green-sub" text-anchor="middle">Sound: bad work blocked</text>
+</g>
+
+<text x="340" y="420" class="ts fg-sub" text-anchor="middle">Green = sound &#183; Red = false accept, blocks (Major) &#183; Amber = false reject</text>
+</svg>
