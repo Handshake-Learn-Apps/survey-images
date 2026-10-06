@@ -1,0 +1,14 @@
+source_start_seconds,source_end_seconds,duration_seconds,reason
+0,7.68,7.68,Opening setup chatter
+307.04,309.16,2.12,Quiet pause
+529.96,533.6,3.64,Pause and go-ahead handoff between modules
+735.76,737.48,1.72,Quiet pause
+895.0,897.6,2.6,Quiet pause
+1047.2,1048.8,1.6,Quiet pause
+1078.4,1079.92,1.52,Pause between modules
+1394.0,1400.12,6.12,Trailing pause and thanks between modules
+1548.68,1550.36,1.68,Quiet pause
+1644.44,1657.68,13.24,Trailing filler and internet interruption; restart retained
+1848.72,1862.88,14.16,"Thanks, interviewer handoff, and false start; final question retained"
+1869.2,1871.24,2.04,Quiet pause in final question
+1974.76,1990.122667,15.363,Closing pause and thanks

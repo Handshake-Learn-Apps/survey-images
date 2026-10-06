@@ -1,0 +1,221 @@
+[   0.00 -    5.00] All right, yeah, so please go ahead.
+[   5.00 -    7.00] You can tell us.
+[   7.00 -   11.00] What's your process for creating task is,
+[  11.00 -   13.00] how did you manage to stamp models,
+[  13.00 -   16.00] and if you have some general techniques or
+[  16.00 -   19.00] advice that you can give to other fellows?
+[  19.00 -   21.00] Yeah, yeah, absolutely.
+[  21.00 -   23.00] Kind of for context,
+[  23.00 -   26.00] you'll see that all of my,
+[  26.00 -   28.00] my tasks come from a computational biology background.
+[  28.00 -   32.00] And this is really at the intersection of data science and biology.
+[  32.00 -   34.00] So so large scale data,
+[  34.00 -   38.00] but using biological data.
+[  38.00 -   44.00] And these these data are have a very low signal to noise ratio.
+[  44.00 -   47.00] So it's very noisy data.
+[  47.00 -   51.00] And I've noticed just throughout my my career,
+[  51.00 -   54.00] there's a lot of nuances in,
+[  54.00 -   58.00] how to appropriately go about analyzing these data.
+[  58.00 -   64.00] So when I was reading the the background for for tasks and kind of what it,
+[  64.00 -   68.00] what is look for expected.
+[  68.00 -   70.00] For successful tasks,
+[  70.00 -   74.00] I started to realize a really resonated with how I failed early on.
+[  74.00 -   78.00] In my career when I was learning how to analyze these complicated data sets.
+[  78.00 -   83.00] So the the first few tasks I did were really inspired by.
+[  83.00 -   88.00] Examples where I had messed up where I might have known,
+[  88.00 -   92.00] let's say the biology underpinning the analysis pipelines,
+[  92.00 -   96.00] but I didn't understand the technical engineering or statistical aspects.
+[  96.00 -   98.00] And then sometimes there was vice versa.
+[  98.00 -  101.00] And I realized the most successful tasks and honestly,
+[ 101.00 -  102.00] the ones that I'm,
+[ 102.00 -  111.00] that I'm able to spin up quickly are ones in which they challenge the model.
+[ 111.00 -  115.00] From a interdisciplinary perspective.
+[ 115.00 -  119.00] So we're kind of at the point now where models are very apt at,
+[ 119.00 -  124.00] you know, the engineering in the coding.
+[ 124.00 -  129.00] And they might have raw knowledge in, you know,
+[ 129.00 -  130.00] in this case biology,
+[ 130.00 -  134.00] but it's the connection in the intersection of those two.
+[ 134.00 -  138.00] Where you might not be using a default parameter for an analysis pipeline,
+[ 138.00 -  143.00] or there's some underpinning biology that exists that might be driving.
+[ 143.00 -  147.00] And analyses in a certain direction that seem to really stump the model.
+[ 147.00 -  151.00] So it's perfectly capable of, you know, writing the code.
+[ 151.00 -  153.00] That is surface level correct,
+[ 153.00 -  160.00] but it's really missing that nuanced understanding of.
+[ 160.00 -  162.00] What the data represents, right?
+[ 162.00 -  166.00] So it's almost like the interpretation that it really seems to get stumped on.
+[ 166.00 -  170.00] You know, it's like I said, it's great at building the pipeline.
+[ 170.00 -  175.00] But when it comes to, hey, there's this little leap we have to make to the next step.
+[ 175.00 -  180.00] Of building out a pipeline that requires this interdisciplinary interpretation of where,
+[ 180.00 -  185.00] where we're at so far that it really seems to break down quite quickly.
+[ 185.00 -  187.00] So it's kind of fun for me to see because I,
+[ 187.00 -  189.00] as the earlier on my career, you know,
+[ 189.00 -  192.00] I, I actually kind of was at that stage.
+[ 192.00 -  194.00] And the models are kind of there right now.
+[ 194.00 -  198.00] And since I progress, I've kind of, you know, added a lot more expertise.
+[ 198.00 -  210.00] But it, it really seems to be at that just like couple year post-grad level of understanding and aptitude.
+[ 210.00 -  212.00] Great. Thank you very much.
+[ 212.00 -  216.00] Yeah, that's very insightful and very useful.
+[ 216.00 -  218.00] I follow up question about that.
+[ 218.00 -  221.00] When you're writing tasks.
+[ 221.00 -  226.00] What is your initial source of inspiration?
+[ 226.00 -  231.00] Do you just draw from your own professional work or from your own experience?
+[ 231.00 -  240.00] Or do you get inspiration from other sources like published papers or go workers work or something like that?
+[ 240.00 -  243.00] Yeah, I guess so I'm an academic.
+[ 243.00 -  249.00] So kind of my, my direct work or at least part of my responsibility is reading papers, right?
+[ 249.00 -  259.00] And kind of even though a paper might not directly relate to what I'm doing today today, it's still, you know, at least tangentially relevant to what I'm doing.
+[ 259.00 -  266.00] So I've noticed the inspiration or at least the easiest task and I've been able to spin up.
+[ 266.00 -  270.00] Operate in or under data modalities that I'm most familiar with.
+[ 270.00 -  278.00] And then I've tried to kind of branch outside of that and I've struggled personally because it just takes more time reading and understanding the caveats and the nuances of it.
+[ 278.00 -  307.00] So in, I do want to preface I feel like I've only done like seven or so tasks and they they've all mostly occupied different types of biological data that I personally dealt with and have like struggled in certain aspects of so those tasks or I guess my proposal for those tasks are primarily inspired by my own experiences.
+[ 308.00 -  312.00] Gotcha, thank you very much.
+[ 312.00 -  323.00] And while we're working in the project like with all the QC checks that we have in place, a github PR and all that stuff, what's them?
+[ 323.00 -  329.00] QC check that you think it's more difficult to actually pass.
+[ 329.00 -  336.00] And what's information you find more valuable from those checks to improve your task.
+[ 336.00 -  351.00] Yeah, I think and this is this is kind of where I've struggled and I'm going to get the naming wrong for exactly what task it is, but it's it's where you don't want to expose the right answer to the model and forget exactly what step this is.
+[ 351.00 -  366.00] And that's kind of been difficult for me because I want to provide sufficient information for the model and the task to go and execute it, but not too much context for it to just kind of one shot it.
+[ 366.00 -  379.00] And that's also something I've almost struggled with from the instruction standpoint of how do I make sure it has the appropriate amount of information to understand the problem and know what it has to set up.
+[ 379.00 -  388.00] Without just giving away the answers and I've actually felt that a number of times where it's like, oh, that the answer is actually already exposed in your instruction.
+[ 388.00 -  400.00] So I'm actually forgetting what what exact stage that is, but that's I would say that's that's something I've struggled with where I like, you know, accidentally or inadvertently given away the easy answer.
+[ 400.00 -  406.00] Yeah, sorry, it's a combination of artificiality and deep review.
+[ 406.00 -  424.00] If you could and this is actually something that we struggle with as well, could you provide some guidelines regarding where to draw that line because if you overspecify the instructions, there is no challenge for the agents, but if you do not give enough information, the problem is not well determined.
+[ 424.00 -  430.00] It's not what determined that you're not challenging it on the actual like field that you want it to be challenged on.
+[ 430.00 -  448.00] So I have approached it and this might not be right again, like I said, I've failed most of my submissions actually kind of fail on that and I just kind of have to tweak them and hope it gets by, but the balance I try to take is background, right.
+[ 448.00 -  455.00] So set up the problem like a researcher would have it and you know, let's say data is generated.
+[ 455.00 -  462.00] There's some sort of hypothesis that's going on, but that hypothesis has to go out and be validated, right.
+[ 462.00 -  471.00] So and of course within those those research validation standpoint, there are going to be nuances where all my traps exist.
+[ 471.00 -  482.00] But it's like, hey, if you set up set up with this goal in mind to analyze these data with like certain, you know, experimental design conditions, whatever it is.
+[ 482.00 -  492.00] Just like a researcher like a computational biologist would be given these, just go out and do that and execute and kind of fill in the gaps where you need.
+[ 492.00 -  502.00] But once I start explaining, okay, like first step do this, that step, ABC, then it kind of starts to get obvious about where is going to.
+[ 502.00 -  516.00] What it needs to do. So I kind of try to propose it in a form that is like how a researcher would would be dishing out a certain project proposal.
+[ 516.00 -  521.00] But again, I mean, it's not it's not perfect right and there is certainly a balance that exists there.
+[ 521.00 -  533.00] I don't think there's especially in like terminal bench for right it there's so capable that it's like how do you actually weigh these things.
+[ 533.00 -  537.00] Oh, yes, regarding the stop mechanism.
+[ 537.00 -  542.00] Do you think first of the task of the general problem.
+[ 542.00 -  547.00] Without consideration of what may cause the models to trip.
+[ 547.00 -  556.00] Or do you think of the mechanism that is going to make them fail and design a task around or some other approach that you.
+[ 556.00 -  565.00] I almost think it happens concurrently where I think about problems that I've had right and and kind of that exists in.
+[ 565.00 -  580.00] Okay, this was a project that already existed. I had these issues like let's start spinning it up and see if it trips it up and then I kind of as I start building it out like new ideas for traps that aren't like engineering problems and things come into play right like like.
+[ 580.00 -  585.00] I mean, I'm not going to have to go through the road blocks that require.
+[ 585.00 -  590.00] Wearing multiple hot hats and like drawing from multiple sort.
+[ 590.00 -  597.00] Sources of expertise come in that I'm very lucky that like in biology like there's so many different examples of this.
+[ 597.00 -  602.00] But I feel like I kind of just start with hey, I've had this issue before.
+[ 602.00 -  608.00] Like you know, I'm asked undergrad now in graduate school, like I see these issues.
+[ 608.00 -  616.00] I've seen you know people recently graduated in this field struggle with these issues, but there is a cut off that I know like hey past this point.
+[ 616.00 -  623.00] A human expert shouldn't be struggling with this issues these issues, but every single person along the way like has it well and I'm part of that.
+[ 623.00 -  627.00] So I'm just like pulling out of that bit and being like, oh, this is a good one.
+[ 627.00 -  632.00] So I really say it just comes from experience which might not be a good, you know, good.
+[ 632.00 -  640.00] Very helpful for other people, but I'm kind of lucky I've been exposed to many different data modalities and projects and things like that.
+[ 640.00 -  651.00] So in your experience working in this project, have you noticed any pattern or any knowledge gap or reasoning gap in the models that you think you can exploit it?
+[ 651.00 -  680.00] Yes. And it really comes back to I think my book my most effective trip ups or like traps or things and it kind of aligns with with human experience as well as is circumstances that like I said earlier, the model has to be an expert in two fields simultaneously and understand why you might not optimize for one over the other for example.
+[ 681.00 -  699.00] And I mentioned that like biological data is very messy. There are robust statistical methods to analyze biological data, but these data have artifacts themselves right they might be sampled in a certain way that leaves certain noise in there that that just by experience.
+[ 699.00 -  708.00] And I think that's a combination of biologists going to pick up but might not be well reported, let's say in the literature. So it's something that might not be picked up in training data.
+[ 708.00 -  723.00] And you kind of have to lean more towards on hey, I know the biological ground truth, but if I follow like the statistical or like computational route like in the purest form, it's actually going to lead you to the wrong biological answer.
+[ 723.00 -  738.00] So it's kind of like that bifurcation that exists, I say, hey, yeah, from a statistical perspective might you know might want to go this way, but because of how the data structured in like the characteristics of it, the biology is actually leading us this way.
+[ 738.00 -  741.00] Yeah, that makes perfect sense. Thank you.
+[ 741.00 -  752.00] And once you have an idea for a task and you work on it and you submit it to the platform to the give up PR and pass the checks.
+[ 752.00 -  761.00] I'm sure this has happened to you because I think it happens to every fellow working on this project that they reach pass at two and the model is able to solve the problem.
+[ 761.00 -  766.00] And you thought you had a really difficult problem, but it turns out that it was not difficult on that.
+[ 766.00 -  767.00] That's right.
+[ 767.00 -  770.00] And he can consult it at that point.
+[ 770.00 -  780.00] What did you do? Do you improve your current task or you start from scratch and try in a different task, maybe more difficult?
+[ 780.00 -  786.00] Yeah, if you improve it, how do you improve it? How do you make sure that it is actually more difficult?
+[ 786.00 -  791.00] So I'll be entirely honest, I only actually recently hit this problem.
+[ 791.00 -  802.00] Like a few days ago, and it was actually because I wanted to try a task that was pretty far outside of my personal domain knowledge within computation biology.
+[ 802.00 -  814.00] It was able to like both of them solve it very quickly, but actually any time I pulled from personal experience, I've never had an issue with I think with even one agent solving the task.
+[ 814.00 -  827.00] But I think it was because I wasn't quite familiar enough with how I was setting up the problem in a way that makes it difficult for the agent to weigh like I was saying before, like two domain knowledge is simultaneously.
+[ 827.00 -  832.00] And it ended up just being an engineering task for the agent and it was able to do it very quickly.
+[ 832.00 -  855.00] So it was I think at least I mean, I even end up one here, but I've from what I gathered and I ended up actually abandoning a task and redoing with another idea is like I'd mentioned these things are very capable of encoding and engineering and you know they can set up things very robustly.
+[ 855.00 -  864.00] And if you weigh too much on that as it's not going to be able to do it, it's probably going to be able to do it or it's just going to time out.
+[ 864.00 -  882.00] And but it's when you force it to be constrained to rely on like two sources of high level knowledge and actually make a decision that has consequence on degraded, then that's where it starts to fail.
+[ 882.00 -  898.00] But if you're just like, hey, spin this up like, you know, in a in a very well established library like to analyze this one thing you're using default parameters, the answer relies on that, and it's like it can do it very easy.
+[ 898.00 -  901.00] That's very helpful.
+[ 901.00 -  919.00] At some degree I envy you because there are some fields where the procedures and the methodologies are well established and it's kind of difficult to have this interface, perhaps of two different domains that are in conflict and that can leverage those those issues.
+[ 919.00 -  934.00] I think that you have pointed out something that is very important, which is that one should aim at a field or a discipline or let's say a task that requires a decision on the human that is not to solve the different data.
+[ 934.00 -  937.00] Yes, exactly.
+[ 937.00 -  965.00] So I think the biggest thing and this has saved me a ton of time and kind of allows me just to focus specifically on the task like like difficulty and materials and
+[ 965.00 -  984.00] brainstorming is when I was going through all of the instructions, you know, talking about how every, you know, just the whole structure of the system right how to add us in the PRs and how the quality quality controls are going to happen.
+[ 984.00 -  995.00] I wrote notes down that were very explicit in terms of what's expected from like a quality standpoint and I ended up turning that into a skill for my coding agent.
+[ 995.00 - 1007.00] So that means anytime I'm writing up the basics of here's exactly the task I wanted to do and perform and here the outcomes and here's my scoring my grading rubric.
+[1007.00 - 1021.00] I can then give it to the LLM and say, hey, based off what I put, does it hit all those quality checks and sometimes it doesn't and it's like, hey, you're missing this. Let me just go spin this up very quickly.
+[1021.00 - 1049.00] Also, this is also helpful for me too, like I included in the skill pieces that have to be human drive, for example, like the instruction stock and things like that. So I can work on that at a high, I'm like a high quality while the agent can, you know, figure out all the correct formatting that needs to go on for the submission.
+[1049.00 - 1063.00] That makes sense. Yeah, it does. Thank you. Yeah. So I think like having in it, it took me a little bit to realize, wait a minute, I can just put this, I can have it a skill, I can take care of all of my, you know, little nitty-gritty things that might take a while to debug.
+[1063.00 - 1074.00] It just, you know, formats it, but it's not perfect, but you know, the best I can. They're obviously little artificiality things that tend to pop up, but it's like, you know, for the most part is pretty good.
+[1074.00 - 1079.00] And I can focus on the stuff that like really should be challenging the in the task.
+[1079.00 - 1085.00] I state that some people struggle with is the calibration of other answers.
+[1085.00 - 1095.00] That's definitely something that I struggle with. And in many cases, we have to make a decision about what is a fair value or not.
+[1095.00 - 1109.00] Yeah. In that regard, if the cracks is conceptual, you might say, okay, there is a vacation at this decision that will lead to two different outcomes, and you can perhaps set up the difference.
+[1109.00 - 1116.00] But at the same time, there are other factors that interplay, such as the numerical precision, some of the modeling.
+[1116.00 - 1130.00] How do you work on getting the right numbers or the right thresholds for a task where perhaps the distinction between having the right answer or not is simply numerical.
+[1130.00 - 1133.00] Yeah.
+[1133.00 - 1143.00] I really try to avoid that type of outcome. And that was actually the one task I abandoned is because I relied on that.
+[1143.00 - 1169.00] And it was ultimately it should be, you know, my my successor ones that were one reason for me to do an hypothesize and also easy to implement in the past pretty quickly were ones that yes, it needed like numerical and needed to derive numerical input to determine direction, but ultimately like it was in a range.
+[1169.00 - 1180.00] And if you're like, you know, got that proceeded in the next step, it's still going to lead to the right answer and I made that pretty easy for it and it still did it wrong.
+[1180.00 - 1198.00] And that was because the answer is not numerical. It can't just be brute force. It's because it needed another domain knowledge expertise to weigh on on hey, you know, you have certain cell types here and in here's the data to support, you know, for example, these cell types and like a more descriptive structure.
+[1198.00 - 1212.00] Study is kind of that approach that I've noticed have worked best, but I kind of learned very quickly that if I rely on hey, just give me this answer within a range of numbers, it's probably going to be able to do it actually pretty quick.
+[1212.00 - 1223.00] But it's like luckily for better for us like biology, it's not just so much subjective, but it's also, you know, more qualitative sometimes and quantitative.
+[1224.00 - 1239.00] And you're dealing with, you know, a very complex system. And you can always represent that system as a field of numbers. Sometimes it truly does have to be in a system that we don't know yet, but I say and quantify, but you still have to report on that.
+[1239.00 - 1252.00] You actually mentioned something very important, especially with biology, that some questions may be kind of subjective and then it like some degree of
+[1252.00 - 1264.00] or they have some degree of ambiguity in the statement. So how do you make sure that the task is actually fair for the agents that it's failing for for valid systems.
+[1264.00 - 1269.00] The question is some views are because there is multiple possible answers or something.
+[1269.00 - 1284.00] Yes, yes. So I do have to rely on the fact that there are multiple possible answers, but there are indeed answers that are more correct than others, given the context of where it should be.
+[1284.00 - 1302.00] And that means, you know, you can have data that suggests two different things, but one can be more likely the biological answer based off either additional context or like because you did certain processing steps, you're more likely to see this biological outcome.
+[1302.00 - 1307.00] That's what I try to rely on a little bit is you have these nuances.
+[1307.00 - 1323.00] They're subjective from an outsider's point of view, but like as a field, you've kind of accepted it as, hey, we know these things are kind of ground truth, but they might not be able to be quantified, but they are known from a biological perspective.
+[1323.00 - 1330.00] And therefore it should lead you to this outcome if you follow what we know to be biological ground truth.
+[1330.00 - 1343.00] So there's subjectivity almost from the quantitative standpoint, but like I said, if you rely on it to just like hand you a number at the end is probably going to do a good job. But if that number kind of represents something a little bit more.
+[1343.00 - 1359.00] I don't want to say ambiguous, but like, like nuanced from a biological perspective, then it's all of a sudden like, wait, what do I do? I'm just going to like take the more, you know, statistically meaningful route.
+[1359.00 - 1369.00] But you know, abandoned some of the biology, but ultimately the reason for generating biological data is to understand biology, not just, you know, the statistical associated with it.
+[1369.00 - 1384.00] Not saying I'm having it make wrong or you know, right statistical decisions are wrong biology or vice versa, but there is, you know, a very strong nuance associated with how we represent biological data.
+[1384.00 - 1397.00] And it's in part just due to the inability to ask a certain things. So you have to, you know, take from other examples of biology to do so.
+[1397.00 - 1400.00] Yeah, that makes perfect sense. Thank you.
+[1400.00 - 1421.00] Another question more from for us and for the fellows, but when you started the project, did you find the instructions to be clear enough, did you struggle to understand some parts of the project or what was the most challenging part for starting this project for you?
+[1421.00 - 1437.00] Yeah, I think the things that were most helpful are actually the analysis, it drew of like, hey, in undergrad with like unlimited resources and unlimited amounts of time should still not be able to solve this problem.
+[1437.00 - 1449.00] And you know, as a as a graduate student, I mentor a lot of undergrads and I kind of see their capabilities. So I was like, oh, okay, like I know an example of something like that might work, how that might work.
+[1449.00 - 1458.00] So I think that was very helpful. I think some of the, I think about things that that we're confusing.
+[1458.00 - 1470.00] A lot of them have kind of been able to solve just by like wrapping this all up into into skills, so like more from like a technical perspective, how you guys want things formatted, etc.
+[1470.00 - 1488.00] I think some of the expectations on what determines a pass or like sorry, the model's ability to pass or like solve can be in, we're a little unclear and I just needed to revisit that.
+[1489.00 - 1498.00] Yeah, I think I think some of like the success and failure criteria might have been slightly ambiguous.
+[1498.00 - 1511.00] At first, and I'm still like trying to to walk that line of I, you know, I set out hoping I think this is going to work, you know, it kind of works from the human perspective as it I've seen human humans fail at this.
+[1512.00 - 1520.00] But I, I think I've just kind of gotten lucky that like I've done it this way and I haven't run into too many issues.
+[1520.00 - 1529.00] I definitely try to shy away from things that can be brute forced or just like obviously straight up Googled and followed.
+[1530.00 - 1551.00] I think really spiking in nuance, not confusing nuance, but like I can confidently say someone from an expert perspective can do this and then there's like a gradient that exists to cut off that, you know, some of the low expert level wouldn't be able to do and you just kind of take that and it seems to have worked so far.
+[1552.00 - 1568.00] And as you can imagine, since most of our checks are LLM based, there is non determinism and if we are testing the limits of the LLM's, these kind of questions are going to make them struggle.
+[1568.00 - 1577.00] So sometimes the reasoning, whether to the task is easier hard can be off.
+[1577.00 - 1590.00] But having perhaps more explicit explanation of what makes a model fail or what we do as a valid failure is definitely something that we can add to the instructions.
+[1590.00 - 1600.00] Yeah, yeah, I think so, but like you said, it's non deterministic and you kind of there's like a feel to it, you know, almost like a taste, I think.
+[1600.00 - 1611.00] But I'm sure I'm going to like come up with the task that I thought that was really clever or whatever and it's just like, oh, I didn't know they were that capable. OK, it got it pretty quick.
+[1612.00 - 1629.00] There, I will say there are some and I completely understand it from an infrastructure standpoint that I wish some tasks I wish we could do, but just require a lot of computational power. I mean, like a lot of biological data is big, you know, gigabytes of terabytes.
+[1629.00 - 1642.00] Obviously, I would never expect you guys to like put in a ton of compute her task, but it would be funny. I'm trying to just try to brainstorm like, OK, how can I down sample in a way that still keeps the data modality that I want to test it on.
+[1642.00 - 1646.00] That while not requiring a ton of compute, but.
+[1646.00 - 1650.00] There's also the day of the future.
+[1650.00 - 1658.00] We can have we also have sorry my internet is a, a beach of a click.
+[1658.00 - 1668.00] There's also the data limitation because we cannot include bars that are longer, larger than 100 megabytes.
+[1668.00 - 1674.00] And we cannot have the full data set be downloaded as the task begin.
+[1674.00 - 1679.00] Of course, so that also limits the scope of things that we can do.
+[1679.00 - 1692.00] Yeah, at the same time, there are some methods or some open answers in the field where perhaps if you use a different method or a different model, you will get an answer.
+[1692.00 - 1714.00] And we go back to what you mentioned before about perhaps being two different answers are different approaches. One is because of the established domain knowledge, most tab more confirm, let's say, but that is not always the case for for every particular distance.
+[1714.00 - 1732.00] That is, it should professional should not be able to come up with a paper in the following week that would produce an alternate version that would dispute our previous world every question in science is an open question to some degree.
+[1732.00 - 1740.00] But there has to be a certain degree of robustness to yes, while we are setting up as a task so that it can remain in time.
+[1740.00 - 1743.00] Yes, I completely agree, I completely agree.
+[1743.00 - 1754.00] Yep, yep, yep. And I've been playing around with like what data modalities can be reliably downsampled, but still maintain its rigor for the task.
+[1754.00 - 1763.00] And what are some that's like, okay, like, you know, this probably isn't actually a very reliable task because most of it is just like spinning up ways to analyze it.
+[1763.00 - 1767.00] Because it's so big, you know, efficient efficiency.
+[1767.00 - 1779.00] And regarding that, what's your approach to data? Are you using a fully synthetic data? Are you using data from your research, a mixer of both? How do you create the corpus of your task?
+[1779.00 - 1788.00] Yeah, I've been using purely synthetic data, but but synthetic data inspired by well known patterns and biology.
+[1788.00 - 1802.00] For example, if you take like sequencing data from a blood that's been done, you know, tens of thousands of times, I don't need to to down sample that I can spin up a synthetic data set that represents that very reliably pretty quickly.
+[1802.00 - 1806.00] So that's kind of what I've been going towards.
+[1806.00 - 1815.00] There are some examples that like pretty small public data sets that have had the data, the model go and download like, hey, pull this is going to take, you know, 15 seconds to download.
+[1815.00 - 1819.00] I played around that with that data personally.
+[1819.00 - 1829.00] And you can just, you know, set the task up from there. So it kind of depends on how I'm setting up sometimes because of, you know, well known, super reliable, pretty small data sets.
+[1829.00 - 1838.00] I'm like, hey, let's start with this approach. Other times I'm like, I, you know, the there is public data, but it's pretty big.
+[1838.00 - 1850.00] Let's just like down sample and start from there or sorry spin up a synthetic version of that that smaller is actually probably the better way to frame it.
+[1850.00 - 1858.00] Makes sense. Thank you. That's all the questions I have on my and I don't know if sister has any.
+[1858.00 - 1872.00] No, I'm good. Maybe a final questions at the you, well, a final question. Do you have any piece of advice or any.
+[1872.00 - 1880.00] Yeah, well, basically a piece of advice that you can give to other fellows for completing tasks, especially in biology.
+[1880.00 - 1904.00] I think and and this is actually comes from why I got involved in computational biology in the first place is I was exposed to a data set that represented a piece of biology I was very interested in and that's where years ago I was inspired and motivated to learn computational approaches to analyze these data.
+[1904.00 - 1918.00] And I think for fellows in biology, pick aspects of the field that you don't just know at a very high level, but like really care about and pair how they're solved.
+[1918.00 - 1933.00] And I think if you approach it with that mentality, then you're probably one going to have the required expert knowledge to to spin up challenging tasks into I think you're going to.
+[1933.00 - 1952.00] See how many levels of nuances there are that will inspire future tasks for yourself. So like, you know, if you're in the neuroscience field, stick in neuroscience, you know, it's fine. Don't don't feel the need to go out and go do physiology or immunology or something like that.
+[1952.00 - 1976.00] Just know that, you know, as a biologist, there's plenty of open questions and any person in the biology field knows of problems that exist in it. So just, you know, take sources of information from your own experience and draw on that. And I think that's that's probably the avenue I found the most success.
+[1977.00 - 1985.00] Great. Well, thank you very much for answering these questions and for helping other fellows be successful in this project.
+[1986.00 - 1989.00] It's been an outstanding presentation.

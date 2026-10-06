@@ -1,0 +1,82 @@
+{
+  "source": "/Users/john.bang/Downloads/biology.mp4",
+  "source_duration": 1990.122667,
+  "clips": [
+    {
+      "name": "01-task-inspiration-and-instructions",
+      "title": "Task inspiration and clear instructions",
+      "ranges": [
+        [
+          7.68,
+          307.04
+        ],
+        [
+          309.16,
+          529.96
+        ]
+      ],
+      "expected_duration": 520.16
+    },
+    {
+      "name": "02-model-weaknesses-and-iteration",
+      "title": "Model weaknesses and iteration",
+      "ranges": [
+        [
+          533.6,
+          735.76
+        ],
+        [
+          737.48,
+          895.0
+        ],
+        [
+          897.6,
+          1047.2
+        ],
+        [
+          1048.8,
+          1078.4
+        ]
+      ],
+      "expected_duration": 538.88
+    },
+    {
+      "name": "03-fair-grading-and-biological-nuance",
+      "title": "Fair grading and biological nuance",
+      "ranges": [
+        [
+          1079.92,
+          1394.0
+        ]
+      ],
+      "expected_duration": 314.08
+    },
+    {
+      "name": "04-data-design-and-closing-advice",
+      "title": "Project guidance, data design, and closing advice",
+      "ranges": [
+        [
+          1400.12,
+          1548.68
+        ],
+        [
+          1550.36,
+          1644.44
+        ],
+        [
+          1657.68,
+          1848.72
+        ],
+        [
+          1862.88,
+          1869.2
+        ],
+        [
+          1871.24,
+          1974.76
+        ]
+      ],
+      "expected_duration": 543.52
+    }
+  ]
+}

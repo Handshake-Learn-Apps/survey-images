@@ -1,0 +1,50 @@
+[
+  {
+    "name": "01-task-inspiration-and-instructions",
+    "duration": 520.16,
+    "size": 29680505,
+    "decoded_checkpoints": [
+      0,
+      517.16,
+      298.36
+    ],
+    "status": "passed"
+  },
+  {
+    "name": "02-model-weaknesses-and-iteration",
+    "duration": 538.88,
+    "size": 31454399,
+    "decoded_checkpoints": [
+      0,
+      535.88,
+      201.15999999999997,
+      358.67999999999995,
+      508.28
+    ],
+    "status": "passed"
+  },
+  {
+    "name": "03-fair-grading-and-biological-nuance",
+    "duration": 314.08,
+    "size": 19560009,
+    "decoded_checkpoints": [
+      0,
+      311.08
+    ],
+    "status": "passed"
+  },
+  {
+    "name": "04-data-design-and-closing-advice",
+    "duration": 543.52,
+    "size": 24342435,
+    "decoded_checkpoints": [
+      0,
+      540.52,
+      147.56000000000017,
+      241.64000000000033,
+      432.6800000000003,
+      439.0000000000002
+    ],
+    "status": "passed"
+  }
+]

@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:20,880
+Another question more from for us and for the fellows, but when you started the project, did you find the instructions to be clear enough, did you struggle to understand some parts of the project or what was the most challenging part for starting this project for you?
+
+2
+00:00:20,880 --> 00:00:36,880
+Yeah, I think the things that were most helpful are actually the analysis, it drew of like, hey, in undergrad with like unlimited resources and unlimited amounts of time should still not be able to solve this problem.
+
+3
+00:00:36,880 --> 00:00:48,880
+And you know, as a as a graduate student, I mentor a lot of undergrads and I kind of see their capabilities. So I was like, oh, okay, like I know an example of something like that might work, how that might work.
+
+4
+00:00:48,880 --> 00:00:57,880
+So I think that was very helpful. I think some of the, I think about things that that we're confusing.
+
+5
+00:00:57,880 --> 00:01:09,880
+A lot of them have kind of been able to solve just by like wrapping this all up into into skills, so like more from like a technical perspective, how you guys want things formatted, etc.
+
+6
+00:01:09,880 --> 00:01:27,880
+I think some of the expectations on what determines a pass or like sorry, the model's ability to pass or like solve can be in, we're a little unclear and I just needed to revisit that.
+
+7
+00:01:28,880 --> 00:01:37,880
+Yeah, I think I think some of like the success and failure criteria might have been slightly ambiguous.
+
+8
+00:01:37,880 --> 00:01:50,880
+At first, and I'm still like trying to to walk that line of I, you know, I set out hoping I think this is going to work, you know, it kind of works from the human perspective as it I've seen human humans fail at this.
+
+9
+00:01:51,880 --> 00:01:59,880
+But I, I think I've just kind of gotten lucky that like I've done it this way and I haven't run into too many issues.
+
+10
+00:01:59,880 --> 00:02:08,880
+I definitely try to shy away from things that can be brute forced or just like obviously straight up Googled and followed.
+
+11
+00:02:09,880 --> 00:02:29,200
+I think really spiking in nuance, not confusing nuance, but like I can confidently say someone from an expert perspective can do this and then there's like a gradient that exists to cut off that, you know, some of the low expert level wouldn't be able to do and you just kind of take that and it seems to have worked so far.
+
+12
+00:02:30,200 --> 00:02:46,200
+And as you can imagine, since most of our checks are LLM based, there is non determinism and if we are testing the limits of the LLM's, these kind of questions are going to make them struggle.
+
+13
+00:02:46,200 --> 00:02:55,200
+So sometimes the reasoning, whether to the task is easier hard can be off.
+
+14
+00:02:55,200 --> 00:03:08,200
+But having perhaps more explicit explanation of what makes a model fail or what we do as a valid failure is definitely something that we can add to the instructions.
+
+15
+00:03:08,200 --> 00:03:18,200
+Yeah, yeah, I think so, but like you said, it's non deterministic and you kind of there's like a feel to it, you know, almost like a taste, I think.
+
+16
+00:03:18,200 --> 00:03:29,200
+But I'm sure I'm going to like come up with the task that I thought that was really clever or whatever and it's just like, oh, I didn't know they were that capable. OK, it got it pretty quick.
+
+17
+00:03:30,200 --> 00:03:47,200
+There, I will say there are some and I completely understand it from an infrastructure standpoint that I wish some tasks I wish we could do, but just require a lot of computational power. I mean, like a lot of biological data is big, you know, gigabytes of terabytes.
+
+18
+00:03:47,200 --> 00:04:00,200
+Obviously, I would never expect you guys to like put in a ton of compute her task, but it would be funny. I'm trying to just try to brainstorm like, OK, how can I down sample in a way that still keeps the data modality that I want to test it on.
+
+19
+00:04:00,200 --> 00:04:02,400
+That while not requiring a ton of compute.
+
+20
+00:04:02,920 --> 00:04:12,960
+There's also the data limitation because we cannot include files that are longer, larger than 100 megabytes.
+
+21
+00:04:12,960 --> 00:04:18,960
+And we cannot have the full data set be downloaded as the task begin.
+
+22
+00:04:18,960 --> 00:04:23,960
+Of course, so that also limits the scope of things that we can do.
+
+23
+00:04:23,960 --> 00:04:36,960
+Yeah, at the same time, there are some methods or some open answers in the field where perhaps if you use a different method or a different model, you will get an answer.
+
+24
+00:04:36,960 --> 00:04:58,960
+And we go back to what you mentioned before about perhaps being two different answers are different approaches. One is because of the established domain knowledge, most tab more confirm, let's say, but that is not always the case for for every particular distance.
+
+25
+00:04:58,960 --> 00:05:16,960
+That is, it should professional should not be able to come up with a paper in the following week that would produce an alternate version that would dispute our previous world every question in science is an open question to some degree.
+
+26
+00:05:16,960 --> 00:05:24,960
+But there has to be a certain degree of robustness to yes, while we are setting up as a task so that it can remain in time.
+
+27
+00:05:24,960 --> 00:05:27,960
+Yes, I completely agree, I completely agree.
+
+28
+00:05:27,960 --> 00:05:38,960
+Yep, yep, yep. And I've been playing around with like what data modalities can be reliably downsampled, but still maintain its rigor for the task.
+
+29
+00:05:38,960 --> 00:05:47,960
+And what are some that's like, okay, like, you know, this probably isn't actually a very reliable task because most of it is just like spinning up ways to analyze it.
+
+30
+00:05:47,960 --> 00:05:51,960
+Because it's so big, you know, efficient efficiency.
+
+31
+00:05:51,960 --> 00:06:03,960
+And regarding that, what's your approach to data? Are you using a fully synthetic data? Are you using data from your research, a mixer of both? How do you create the corpus of your task?
+
+32
+00:06:03,960 --> 00:06:12,960
+Yeah, I've been using purely synthetic data, but but synthetic data inspired by well known patterns and biology.
+
+33
+00:06:12,960 --> 00:06:26,960
+For example, if you take like sequencing data from a blood that's been done, you know, tens of thousands of times, I don't need to to down sample that I can spin up a synthetic data set that represents that very reliably pretty quickly.
+
+34
+00:06:26,960 --> 00:06:30,960
+So that's kind of what I've been going towards.
+
+35
+00:06:30,960 --> 00:06:39,960
+There are some examples that like pretty small public data sets that have had the data, the model go and download like, hey, pull this is going to take, you know, 15 seconds to download.
+
+36
+00:06:39,960 --> 00:06:43,960
+I played around that with that data personally.
+
+37
+00:06:43,960 --> 00:06:53,960
+And you can just, you know, set the task up from there. So it kind of depends on how I'm setting up sometimes because of, you know, well known, super reliable, pretty small data sets.
+
+38
+00:06:53,960 --> 00:07:02,960
+I'm like, hey, let's start with this approach. Other times I'm like, I, you know, the there is public data, but it's pretty big.
+
+39
+00:07:02,960 --> 00:07:13,680
+Let's just like down sample and start from there or sorry spin up a synthetic version of that that smaller is actually probably the better way to frame it.
+
+40
+00:07:13,880 --> 00:07:20,760
+Well, a final question. Do you have any piece of advice or any?
+
+41
+00:07:20,760 --> 00:07:28,760
+Yeah, well, basically a piece of advice that you can give to other fellows for completing tasks, especially in biology.
+
+42
+00:07:28,760 --> 00:07:52,760
+I think and and this is actually comes from why I got involved in computational biology in the first place is I was exposed to a data set that represented a piece of biology I was very interested in and that's where years ago I was inspired and motivated to learn computational approaches to analyze these data.
+
+43
+00:07:52,760 --> 00:08:06,760
+And I think for fellows in biology, pick aspects of the field that you don't just know at a very high level, but like really care about and pair how they're solved.
+
+44
+00:08:06,760 --> 00:08:21,760
+And I think if you approach it with that mentality, then you're probably one going to have the required expert knowledge to to spin up challenging tasks into I think you're going to.
+
+45
+00:08:21,760 --> 00:08:40,760
+See how many levels of nuances there are that will inspire future tasks for yourself. So like, you know, if you're in the neuroscience field, stick in neuroscience, you know, it's fine. Don't don't feel the need to go out and go do physiology or immunology or something like that.
+
+46
+00:08:40,760 --> 00:09:03,520
+Just know that, you know, as a biologist, there's plenty of open questions and any person in the biology field knows of problems that exist in it. So just, you know, take sources of information from your own experience and draw on that. And I think that's that's probably the avenue I found the most success.

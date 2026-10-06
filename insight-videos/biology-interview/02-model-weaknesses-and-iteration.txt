@@ -1,0 +1,59 @@
+Model weaknesses and iteration
+Paired video: 02-model-weaknesses-and-iteration.mp4
+Duration: 00:08:58.880
+All timestamps are relative to the edited clip.
+Source ranges in biology.mp4: 00:08:53.600–00:12:15.760, 00:12:17.480–00:14:55.000, 00:14:57.600–00:17:27.200, 00:17:28.800–00:17:58.400.
+Automatic transcript adapted from supplied bio.txt; selected edit boundaries checked with local word-timed transcription. Recognition errors remain.
+
+[00:00:00.220 – 00:00:03.400] Yes, regarding the stump mechanism.
+[00:00:03.400 – 00:00:08.400] Do you think first of the task of the general problem.
+[00:00:08.400 – 00:00:13.400] Without consideration of what may cause the models to trip.
+[00:00:13.400 – 00:00:22.400] Or do you think of the mechanism that is going to make them fail and design a task around or some other approach that you.
+[00:00:22.400 – 00:00:31.400] I almost think it happens concurrently where I think about problems that I've had right and and kind of that exists in.
+[00:00:31.400 – 00:00:46.400] Okay, this was a project that already existed. I had these issues like let's start spinning it up and see if it trips it up and then I kind of as I start building it out like new ideas for traps that aren't like engineering problems and things come into play right like like.
+[00:00:46.400 – 00:00:51.400] I mean, I'm not going to have to go through the road blocks that require.
+[00:00:51.400 – 00:00:56.400] Wearing multiple hot hats and like drawing from multiple sort.
+[00:00:56.400 – 00:01:03.400] Sources of expertise come in that I'm very lucky that like in biology like there's so many different examples of this.
+[00:01:03.400 – 00:01:08.400] But I feel like I kind of just start with hey, I've had this issue before.
+[00:01:08.400 – 00:01:14.400] Like you know, I'm asked undergrad now in graduate school, like I see these issues.
+[00:01:14.400 – 00:01:22.400] I've seen you know people recently graduated in this field struggle with these issues, but there is a cut off that I know like hey past this point.
+[00:01:22.400 – 00:01:29.400] A human expert shouldn't be struggling with this issues these issues, but every single person along the way like has it well and I'm part of that.
+[00:01:29.400 – 00:01:33.400] So I'm just like pulling out of that bit and being like, oh, this is a good one.
+[00:01:33.400 – 00:01:38.400] So I really say it just comes from experience which might not be a good, you know, good.
+[00:01:38.400 – 00:01:46.400] Very helpful for other people, but I'm kind of lucky I've been exposed to many different data modalities and projects and things like that.
+[00:01:46.400 – 00:01:57.400] So in your experience working in this project, have you noticed any pattern or any knowledge gap or reasoning gap in the models that you think you can exploit it?
+[00:01:57.400 – 00:02:26.400] Yes. And it really comes back to I think my book my most effective trip ups or like traps or things and it kind of aligns with with human experience as well as is circumstances that like I said earlier, the model has to be an expert in two fields simultaneously and understand why you might not optimize for one over the other for example.
+[00:02:27.400 – 00:02:45.400] And I mentioned that like biological data is very messy. There are robust statistical methods to analyze biological data, but these data have artifacts themselves right they might be sampled in a certain way that leaves certain noise in there that that just by experience.
+[00:02:45.400 – 00:02:54.400] And I think that's a combination of biologists going to pick up but might not be well reported, let's say in the literature. So it's something that might not be picked up in training data.
+[00:02:54.400 – 00:03:09.400] And you kind of have to lean more towards on hey, I know the biological ground truth, but if I follow like the statistical or like computational route like in the purest form, it's actually going to lead you to the wrong biological answer.
+[00:03:09.400 – 00:03:22.680] So it's kind of like that bifurcation that exists, I say, hey, yeah, from a statistical perspective might you know might want to go this way, but because of how the data structured in like the characteristics of it, the biology is actually leading us this way.
+[00:03:22.680 – 00:03:25.680] Yeah, that makes perfect sense. Thank you.
+[00:03:25.680 – 00:03:36.680] And once you have an idea for a task and you work on it and you submit it to the platform to the give up PR and pass the checks.
+[00:03:36.680 – 00:03:45.680] I'm sure this has happened to you because I think it happens to every fellow working on this project that they reach pass at two and the model is able to solve the problem.
+[00:03:45.680 – 00:03:50.680] And you thought you had a really difficult problem, but it turns out that it was not difficult on that.
+[00:03:50.680 – 00:03:51.680] That's right.
+[00:03:51.680 – 00:03:54.680] And he can consult it at that point.
+[00:03:54.680 – 00:04:04.680] What did you do? Do you improve your current task or you start from scratch and try in a different task, maybe more difficult?
+[00:04:04.680 – 00:04:10.680] Yeah, if you improve it, how do you improve it? How do you make sure that it is actually more difficult?
+[00:04:10.680 – 00:04:15.680] So I'll be entirely honest, I only actually recently hit this problem.
+[00:04:15.680 – 00:04:26.680] Like a few days ago, and it was actually because I wanted to try a task that was pretty far outside of my personal domain knowledge within computation biology.
+[00:04:26.680 – 00:04:38.680] It was able to like both of them solve it very quickly, but actually any time I pulled from personal experience, I've never had an issue with I think with even one agent solving the task.
+[00:04:38.680 – 00:04:51.680] But I think it was because I wasn't quite familiar enough with how I was setting up the problem in a way that makes it difficult for the agent to weigh like I was saying before, like two domain knowledge is simultaneously.
+[00:04:51.680 – 00:04:56.680] And it ended up just being an engineering task for the agent and it was able to do it very quickly.
+[00:04:56.680 – 00:05:19.680] So it was I think at least I mean, I even end up one here, but I've from what I gathered and I ended up actually abandoning a task and redoing with another idea is like I'd mentioned these things are very capable of encoding and engineering and you know they can set up things very robustly.
+[00:05:19.680 – 00:05:28.680] And if you weigh too much on that as it's not going to be able to do it, it's probably going to be able to do it or it's just going to time out.
+[00:05:28.680 – 00:05:46.680] And but it's when you force it to be constrained to rely on like two sources of high level knowledge and actually make a decision that has consequence on degraded, then that's where it starts to fail.
+[00:05:46.680 – 00:06:00.080] But if you're just like, hey, spin this up like, you know, in a in a very well established library like to analyze this one thing you're using default parameters, the answer relies on that, and it's like it can do it very easy.
+[00:06:00.080 – 00:06:03.080] That's very helpful.
+[00:06:03.080 – 00:06:21.080] At some degree I envy you because there are some fields where the procedures and the methodologies are well established and it's kind of difficult to have this interface, perhaps of two different domains that are in conflict and that can leverage those those issues.
+[00:06:21.080 – 00:06:36.080] I think that you have pointed out something that is very important, which is that one should aim at a field or a discipline or let's say a task that requires a decision on the human that is not to solve the different data.
+[00:06:36.080 – 00:06:39.080] Yes, exactly.
+[00:06:39.080 – 00:07:07.080] So I think the biggest thing and this has saved me a ton of time and kind of allows me just to focus specifically on the task like like difficulty and materials and
+[00:07:07.080 – 00:07:26.080] brainstorming is when I was going through all of the instructions, you know, talking about how every, you know, just the whole structure of the system right how to add us in the PRs and how the quality quality controls are going to happen.
+[00:07:26.080 – 00:07:37.080] I wrote notes down that were very explicit in terms of what's expected from like a quality standpoint and I ended up turning that into a skill for my coding agent.
+[00:07:37.080 – 00:07:49.080] So that means anytime I'm writing up the basics of here's exactly the task I wanted to do and perform and here the outcomes and here's my scoring my grading rubric.
+[00:07:49.080 – 00:08:03.080] I can then give it to the LLM and say, hey, based off what I put, does it hit all those quality checks and sometimes it doesn't and it's like, hey, you're missing this. Let me just go spin this up very quickly.
+[00:08:03.080 – 00:08:29.480] Also, this is also helpful for me too, like I included in the skill pieces that have to be human drive, for example, like the instruction stock and things like that. So I can work on that at a high, I'm like a high quality while the agent can, you know, figure out all the correct formatting that needs to go on for the submission.
+[00:08:29.480 – 00:08:43.480] That makes sense. Yeah, it does. Thank you. Yeah. So I think like having in it, it took me a little bit to realize, wait a minute, I can just put this, I can have it a skill, I can take care of all of my, you know, little nitty-gritty things that might take a while to debug.
+[00:08:43.480 – 00:08:54.480] It just, you know, formats it, but it's not perfect, but you know, the best I can. They're obviously little artificiality things that tend to pop up, but it's like, you know, for the most part is pretty good.
+[00:08:54.480 – 00:08:58.880] And I can focus on the stuff that like really should be challenging the in the task.

@@ -1,0 +1,96 @@
+Task inspiration and clear instructions
+Paired video: 01-task-inspiration-and-instructions.mp4
+Duration: 00:08:40.160
+All timestamps are relative to the edited clip.
+Source ranges in biology.mp4: 00:00:07.680–00:05:07.040, 00:05:09.160–00:08:49.960.
+Automatic transcript adapted from supplied bio.txt; selected edit boundaries checked with local word-timed transcription. Recognition errors remain.
+
+[00:00:00.000 – 00:00:03.320] What's your process for creating task is,
+[00:00:03.320 – 00:00:05.320] How did you manage to stump models,
+[00:00:05.320 – 00:00:08.320] and if you have some general techniques or
+[00:00:08.320 – 00:00:11.320] advice that you can give to other fellows?
+[00:00:11.320 – 00:00:13.320] Yeah, yeah, absolutely.
+[00:00:13.320 – 00:00:15.320] Kind of for context,
+[00:00:15.320 – 00:00:18.320] you'll see that all of my,
+[00:00:18.320 – 00:00:20.320] my tasks come from a computational biology background.
+[00:00:20.320 – 00:00:24.320] And this is really at the intersection of data science and biology.
+[00:00:24.320 – 00:00:26.320] So so large scale data,
+[00:00:26.320 – 00:00:30.320] but using biological data.
+[00:00:30.320 – 00:00:36.320] And these these data are have a very low signal to noise ratio.
+[00:00:36.320 – 00:00:39.320] So it's very noisy data.
+[00:00:39.320 – 00:00:43.320] And I've noticed just throughout my my career,
+[00:00:43.320 – 00:00:46.320] there's a lot of nuances in,
+[00:00:46.320 – 00:00:50.320] how to appropriately go about analyzing these data.
+[00:00:50.320 – 00:00:56.320] So when I was reading the the background for for tasks and kind of what it,
+[00:00:56.320 – 00:01:00.320] what is look for expected.
+[00:01:00.320 – 00:01:02.320] For successful tasks,
+[00:01:02.320 – 00:01:06.320] I started to realize a really resonated with how I failed early on.
+[00:01:06.320 – 00:01:10.320] In my career when I was learning how to analyze these complicated data sets.
+[00:01:10.320 – 00:01:15.320] So the the first few tasks I did were really inspired by.
+[00:01:15.320 – 00:01:20.320] Examples where I had messed up where I might have known,
+[00:01:20.320 – 00:01:24.320] let's say the biology underpinning the analysis pipelines,
+[00:01:24.320 – 00:01:28.320] but I didn't understand the technical engineering or statistical aspects.
+[00:01:28.320 – 00:01:30.320] And then sometimes there was vice versa.
+[00:01:30.320 – 00:01:33.320] And I realized the most successful tasks and honestly,
+[00:01:33.320 – 00:01:34.320] the ones that I'm,
+[00:01:34.320 – 00:01:43.320] that I'm able to spin up quickly are ones in which they challenge the model.
+[00:01:43.320 – 00:01:47.320] From a interdisciplinary perspective.
+[00:01:47.320 – 00:01:51.320] So we're kind of at the point now where models are very apt at,
+[00:01:51.320 – 00:01:56.320] you know, the engineering in the coding.
+[00:01:56.320 – 00:02:01.320] And they might have raw knowledge in, you know,
+[00:02:01.320 – 00:02:02.320] in this case biology,
+[00:02:02.320 – 00:02:06.320] but it's the connection in the intersection of those two.
+[00:02:06.320 – 00:02:10.320] Where you might not be using a default parameter for an analysis pipeline,
+[00:02:10.320 – 00:02:15.320] or there's some underpinning biology that exists that might be driving.
+[00:02:15.320 – 00:02:19.320] And analyses in a certain direction that seem to really stump the model.
+[00:02:19.320 – 00:02:23.320] So it's perfectly capable of, you know, writing the code.
+[00:02:23.320 – 00:02:25.320] That is surface level correct,
+[00:02:25.320 – 00:02:32.320] but it's really missing that nuanced understanding of.
+[00:02:32.320 – 00:02:34.320] What the data represents, right?
+[00:02:34.320 – 00:02:38.320] So it's almost like the interpretation that it really seems to get stumped on.
+[00:02:38.320 – 00:02:42.320] You know, it's like I said, it's great at building the pipeline.
+[00:02:42.320 – 00:02:47.320] But when it comes to, hey, there's this little leap we have to make to the next step.
+[00:02:47.320 – 00:02:52.320] Of building out a pipeline that requires this interdisciplinary interpretation of where,
+[00:02:52.320 – 00:02:57.320] where we're at so far that it really seems to break down quite quickly.
+[00:02:57.320 – 00:02:59.320] So it's kind of fun for me to see because I,
+[00:02:59.320 – 00:03:01.320] as the earlier on my career, you know,
+[00:03:01.320 – 00:03:04.320] I, I actually kind of was at that stage.
+[00:03:04.320 – 00:03:06.320] And the models are kind of there right now.
+[00:03:06.320 – 00:03:10.320] And since I progress, I've kind of, you know, added a lot more expertise.
+[00:03:10.320 – 00:03:22.320] But it, it really seems to be at that just like couple year post-grad level of understanding and aptitude.
+[00:03:22.320 – 00:03:24.320] Great. Thank you very much.
+[00:03:24.320 – 00:03:28.320] Yeah, that's very insightful and very useful.
+[00:03:28.320 – 00:03:30.320] I follow up question about that.
+[00:03:30.320 – 00:03:33.320] When you're writing tasks.
+[00:03:33.320 – 00:03:38.320] What is your initial source of inspiration?
+[00:03:38.320 – 00:03:43.320] Do you just draw from your own professional work or from your own experience?
+[00:03:43.320 – 00:03:52.320] Or do you get inspiration from other sources like published papers or go workers work or something like that?
+[00:03:52.320 – 00:03:55.320] Yeah, I guess so I'm an academic.
+[00:03:55.320 – 00:04:01.320] So kind of my, my direct work or at least part of my responsibility is reading papers, right?
+[00:04:01.320 – 00:04:11.320] And kind of even though a paper might not directly relate to what I'm doing today today, it's still, you know, at least tangentially relevant to what I'm doing.
+[00:04:11.320 – 00:04:18.320] So I've noticed the inspiration or at least the easiest task and I've been able to spin up.
+[00:04:18.320 – 00:04:22.320] Operate in or under data modalities that I'm most familiar with.
+[00:04:22.320 – 00:04:30.320] And then I've tried to kind of branch outside of that and I've struggled personally because it just takes more time reading and understanding the caveats and the nuances of it.
+[00:04:30.320 – 00:04:59.320] So in, I do want to preface I feel like I've only done like seven or so tasks and they they've all mostly occupied different types of biological data that I personally dealt with and have like struggled in certain aspects of so those tasks or I guess my proposal for those tasks are primarily inspired by my own experiences.
+[00:04:59.360 – 00:05:02.200] Gotcha, thank you very much.
+[00:05:02.200 – 00:05:13.200] And while we're working in the project like with all the QC checks that we have in place, a github PR and all that stuff, what's them?
+[00:05:13.200 – 00:05:19.200] QC check that you think it's more difficult to actually pass.
+[00:05:19.200 – 00:05:26.200] And what's information you find more valuable from those checks to improve your task.
+[00:05:26.200 – 00:05:41.200] Yeah, I think and this is this is kind of where I've struggled and I'm going to get the naming wrong for exactly what task it is, but it's it's where you don't want to expose the right answer to the model and forget exactly what step this is.
+[00:05:41.200 – 00:05:56.200] And that's kind of been difficult for me because I want to provide sufficient information for the model and the task to go and execute it, but not too much context for it to just kind of one shot it.
+[00:05:56.200 – 00:06:09.200] And that's also something I've almost struggled with from the instruction standpoint of how do I make sure it has the appropriate amount of information to understand the problem and know what it has to set up.
+[00:06:09.200 – 00:06:18.200] Without just giving away the answers and I've actually felt that a number of times where it's like, oh, that the answer is actually already exposed in your instruction.
+[00:06:18.200 – 00:06:30.200] So I'm actually forgetting what what exact stage that is, but that's I would say that's that's something I've struggled with where I like, you know, accidentally or inadvertently given away the easy answer.
+[00:06:30.200 – 00:06:36.200] Yeah, sorry, it's a combination of artificiality and deep review.
+[00:06:36.200 – 00:06:54.200] If you could and this is actually something that we struggle with as well, could you provide some guidelines regarding where to draw that line because if you overspecify the instructions, there is no challenge for the agents, but if you do not give enough information, the problem is not well determined.
+[00:06:54.200 – 00:07:00.200] It's not what determined that you're not challenging it on the actual like field that you want it to be challenged on.
+[00:07:00.200 – 00:07:18.200] So I have approached it and this might not be right again, like I said, I've failed most of my submissions actually kind of fail on that and I just kind of have to tweak them and hope it gets by, but the balance I try to take is background, right.
+[00:07:18.200 – 00:07:25.200] So set up the problem like a researcher would have it and you know, let's say data is generated.
+[00:07:25.200 – 00:07:32.200] There's some sort of hypothesis that's going on, but that hypothesis has to go out and be validated, right.
+[00:07:32.200 – 00:07:41.200] So and of course within those those research validation standpoint, there are going to be nuances where all my traps exist.
+[00:07:41.200 – 00:07:52.200] But it's like, hey, if you set up set up with this goal in mind to analyze these data with like certain, you know, experimental design conditions, whatever it is.
+[00:07:52.200 – 00:08:02.200] Just like a researcher like a computational biologist would be given these, just go out and do that and execute and kind of fill in the gaps where you need.
+[00:08:02.200 – 00:08:12.200] But once I start explaining, okay, like first step do this, that step, ABC, then it kind of starts to get obvious about where is going to.
+[00:08:12.200 – 00:08:26.200] What it needs to do. So I kind of try to propose it in a form that is like how a researcher would would be dishing out a certain project proposal.
+[00:08:26.200 – 00:08:31.200] But again, I mean, it's not it's not perfect right and there is certainly a balance that exists there.
+[00:08:31.200 – 00:08:40.160] I don't think there's especially in like terminal bench for right it there's so capable that it's like how do you actually weigh these things.

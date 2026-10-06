@@ -1,0 +1,33 @@
+Fair grading and biological nuance
+Paired video: 03-fair-grading-and-biological-nuance.mp4
+Duration: 00:05:14.080
+All timestamps are relative to the edited clip.
+Source ranges in biology.mp4: 00:17:59.920–00:23:14.000.
+Automatic transcript adapted from supplied bio.txt; selected edit boundaries checked with local word-timed transcription. Recognition errors remain.
+
+[00:00:00.000 – 00:00:05.080] A stage that some people struggle with is the calibration of tolerances.
+[00:00:05.080 – 00:00:15.080] That's definitely something that I struggle with. And in many cases, we have to make a decision about what is a fair value or not.
+[00:00:15.080 – 00:00:29.080] Yeah. In that regard, if the cracks is conceptual, you might say, okay, there is a vacation at this decision that will lead to two different outcomes, and you can perhaps set up the difference.
+[00:00:29.080 – 00:00:36.080] But at the same time, there are other factors that interplay, such as the numerical precision, some of the modeling.
+[00:00:36.080 – 00:00:50.080] How do you work on getting the right numbers or the right thresholds for a task where perhaps the distinction between having the right answer or not is simply numerical.
+[00:00:50.080 – 00:00:53.080] Yeah.
+[00:00:53.080 – 00:01:03.080] I really try to avoid that type of outcome. And that was actually the one task I abandoned is because I relied on that.
+[00:01:03.080 – 00:01:29.080] And it was ultimately it should be, you know, my my successor ones that were one reason for me to do an hypothesize and also easy to implement in the past pretty quickly were ones that yes, it needed like numerical and needed to derive numerical input to determine direction, but ultimately like it was in a range.
+[00:01:29.080 – 00:01:40.080] And if you're like, you know, got that proceeded in the next step, it's still going to lead to the right answer and I made that pretty easy for it and it still did it wrong.
+[00:01:40.080 – 00:01:58.080] And that was because the answer is not numerical. It can't just be brute force. It's because it needed another domain knowledge expertise to weigh on on hey, you know, you have certain cell types here and in here's the data to support, you know, for example, these cell types and like a more descriptive structure.
+[00:01:58.080 – 00:02:12.080] Study is kind of that approach that I've noticed have worked best, but I kind of learned very quickly that if I rely on hey, just give me this answer within a range of numbers, it's probably going to be able to do it actually pretty quick.
+[00:02:12.080 – 00:02:23.080] But it's like luckily for better for us like biology, it's not just so much subjective, but it's also, you know, more qualitative sometimes and quantitative.
+[00:02:24.080 – 00:02:39.080] And you're dealing with, you know, a very complex system. And you can always represent that system as a field of numbers. Sometimes it truly does have to be in a system that we don't know yet, but I say and quantify, but you still have to report on that.
+[00:02:39.080 – 00:02:52.080] You actually mentioned something very important, especially with biology, that some questions may be kind of subjective and then it like some degree of
+[00:02:52.080 – 00:03:04.080] or they have some degree of ambiguity in the statement. So how do you make sure that the task is actually fair for the agents that it's failing for for valid systems.
+[00:03:04.080 – 00:03:09.080] The question is some views are because there is multiple possible answers or something.
+[00:03:09.080 – 00:03:24.080] Yes, yes. So I do have to rely on the fact that there are multiple possible answers, but there are indeed answers that are more correct than others, given the context of where it should be.
+[00:03:24.080 – 00:03:42.080] And that means, you know, you can have data that suggests two different things, but one can be more likely the biological answer based off either additional context or like because you did certain processing steps, you're more likely to see this biological outcome.
+[00:03:42.080 – 00:03:47.080] That's what I try to rely on a little bit is you have these nuances.
+[00:03:47.080 – 00:04:03.080] They're subjective from an outsider's point of view, but like as a field, you've kind of accepted it as, hey, we know these things are kind of ground truth, but they might not be able to be quantified, but they are known from a biological perspective.
+[00:04:03.080 – 00:04:10.080] And therefore it should lead you to this outcome if you follow what we know to be biological ground truth.
+[00:04:10.080 – 00:04:23.080] So there's subjectivity almost from the quantitative standpoint, but like I said, if you rely on it to just like hand you a number at the end is probably going to do a good job. But if that number kind of represents something a little bit more.
+[00:04:23.080 – 00:04:39.080] I don't want to say ambiguous, but like, like nuanced from a biological perspective, then it's all of a sudden like, wait, what do I do? I'm just going to like take the more, you know, statistically meaningful route.
+[00:04:39.080 – 00:04:49.080] But you know, abandoned some of the biology, but ultimately the reason for generating biological data is to understand biology, not just, you know, the statistical associated with it.
+[00:04:49.080 – 00:05:04.080] Not saying I'm having it make wrong or you know, right statistical decisions are wrong biology or vice versa, but there is, you know, a very strong nuance associated with how we represent biological data.
+[00:05:04.080 – 00:05:14.080] And it's in part just due to the inability to ask a certain things. So you have to, you know, take from other examples of biology to do so.
