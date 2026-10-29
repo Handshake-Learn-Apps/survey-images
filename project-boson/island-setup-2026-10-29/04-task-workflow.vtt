@@ -1,160 +1,130 @@
 WEBVTT
 
-00:00:00.240 --> 00:00:03.900
-Okay, one more. I haven't claimed a task yet, but I'd like to know how it works.
-
-00:00:04.560 --> 00:00:10.140
-Do we need to start? Do we need to? So, the tasks start to finish at a
-
-00:00:10.140 --> 00:00:10.660
-stretch.
-
-00:00:11.400 --> 00:00:16.700
-Sorry, I don't understand the question. I haven't claimed a task, but I'd like to know
-
-00:00:16.700 --> 00:00:18.440
-how it works. Oh, how it works.
-
-00:00:19.820 --> 00:00:23.660
-So, yeah, I would reference the lovable again.
-
-00:00:26.520 --> 00:00:30.780
-Maybe we can include like a video walking through the task. I can add this later.
-
-00:00:31.580 --> 00:00:32.400
-I think it could be helpful.
-
-00:00:34.000 --> 00:00:35.740
-I can just screen share it.
-
-00:00:36.160 --> 00:00:37.000
-Okay. So,
-
-00:00:38.560 --> 00:00:40.680
+00:00:00.160 --> 00:00:02.280
 this task workflow,
 
-00:00:41.240 --> 00:00:47.080
+00:00:02.840 --> 00:00:08.680
 I think showbit actually already has a video here. So, this could be useful to watch the
 
-00:00:47.080 --> 00:00:47.840
+00:00:08.680 --> 00:00:09.440
 whole task end
 
-00:00:47.840 --> 00:00:48.540
+00:00:09.440 --> 00:00:10.140
 to end.
 
-00:00:50.440 --> 00:00:55.420
+00:00:12.040 --> 00:00:17.020
 But you claim a task on Handshake. You install the CLI tool that we provide to you.
 
-00:00:56.480 --> 00:01:02.460
+00:00:18.080 --> 00:00:24.060
 So, this should help you through the task. You, once you install the CLI tool,
 
-00:01:06.200 --> 00:01:10.780
+00:00:27.800 --> 00:00:32.380
 you set up the task. So, you'll read the task. You
 
-00:01:10.780 --> 00:01:15.860
+00:00:32.380 --> 00:00:37.460
 will... Sorry, I'm just moving zoom.
 
-00:01:17.300 --> 00:01:19.460
+00:00:38.900 --> 00:00:41.060
 You read the task. You'll set up your environment.
 
-00:01:20.800 --> 00:01:24.320
+00:00:42.400 --> 00:00:45.920
 And your environment is basically like your Docker
 
-00:01:24.320 --> 00:01:24.580
+00:00:45.920 --> 00:00:46.180
 file.
 
-00:01:27.180 --> 00:01:32.000
+00:00:48.780 --> 00:00:53.600
 Obviously, you make sure that you set up your assistant AI before in Opencode.
 
-00:01:33.480 --> 00:01:38.860
+00:00:55.080 --> 00:01:00.460
 So, then you'll run arm A. You'll run arm A.
 
-00:01:39.200 --> 00:01:42.340
+00:01:00.800 --> 00:01:03.940
 And you will, when you run arm A, the first thing that
 
-00:01:42.340 --> 00:01:47.640
+00:01:03.940 --> 00:01:09.240
 you do is you annotate arm A. So, you run arm A. I think we can clarify this in the instructions as
 
-00:01:47.640 --> 00:01:52.760
+00:01:09.240 --> 00:01:14.360
 well. So, you don't run arm A and arm B. What you'll do is, this is actually super important,
 
-00:01:52.760 --> 00:01:58.280
+00:01:14.360 --> 00:01:19.880
 is you'll run arm A. So, you kick off that run. Then
 
-00:01:58.280 --> 00:02:02.660
+00:01:19.880 --> 00:01:24.260
 you will go and you'll submit it. You'll
 
-00:02:02.660 --> 00:02:08.500
+00:01:24.260 --> 00:01:30.100
 basically open a PR. And you will have an automated quality check
 
-00:02:08.500 --> 00:02:10.220
+00:01:30.100 --> 00:01:31.820
 that will automatically check your
 
-00:02:10.220 --> 00:02:16.140
+00:01:31.820 --> 00:01:37.740
 first run. Once that's approved, you then fill out your ratings.json
 
-00:02:16.140 --> 00:02:19.160
+00:01:37.740 --> 00:01:40.760
 file for arm A. And you also
 
-00:02:19.160 --> 00:02:24.920
+00:01:40.760 --> 00:01:46.520
 fill out your behavioral
 
-00:02:24.920 --> 00:02:30.640
+00:01:46.520 --> 00:01:52.240
 issues.json file for arm A. Then you submit that. Then another quality check
 
-00:02:30.640 --> 00:02:35.800
+00:01:52.240 --> 00:01:57.400
 will... So, you basically push to the PR. Then another quality check will trigger. After that,
 
-00:02:35.800 --> 00:02:41.260
+00:01:57.400 --> 00:02:02.860
 you do the same thing for arm B. So, you run arm B. You run the model through arm B.
 
-00:02:42.000 --> 00:02:42.260
+00:02:03.600 --> 00:02:03.860
 You
 
-00:02:42.260 --> 00:02:43.080
+00:02:03.860 --> 00:02:04.680
 submit it.
 
-00:02:44.520 --> 00:02:50.160
+00:02:06.120 --> 00:02:11.760
 Quality check runs. You do your ratings.json file and your behavioral issues.json
 
-00:02:50.160 --> 00:02:50.640
+00:02:11.760 --> 00:02:12.240
 file
 
-00:02:50.640 --> 00:02:56.460
+00:02:12.240 --> 00:02:18.060
 for arm B. Submit. Quality check runs. And then you do one final
 
-00:02:56.460 --> 00:02:59.860
+00:02:18.060 --> 00:02:21.460
 comparison.json file.
 
-00:03:00.840 --> 00:03:06.720
+00:02:22.440 --> 00:02:28.320
 And then you submit that. So, you'll open the PR. And then you'll have four more pushes,
 
-00:03:06.720 --> 00:03:11.160
+00:02:28.320 --> 00:02:32.760
 basically, after that. And you'll have quality check that runs in between each of those.
 
-00:03:11.160 --> 00:03:15.820
+00:02:32.760 --> 00:02:37.420
 So, I would wait till the quality check passes before you move to the next step. This should
 
-00:03:15.820 --> 00:03:20.540
+00:02:37.420 --> 00:02:42.140
 make it easier for you so you don't do all the work at once. And then the quality check runs.
 
-00:03:21.160 --> 00:03:24.140
+00:02:42.760 --> 00:02:45.740
 And then it says that you did something wrong at the beginning. And then you have to start all
 
-00:03:24.140 --> 00:03:28.340
+00:02:45.740 --> 00:02:49.940
 again. So, if you do it sequentially, it should make things a lot easier for you. So,
 
-00:03:28.360 --> 00:03:32.040
+00:02:49.960 --> 00:02:53.640
 you don't have to do a bunch of work again that you messed up at the beginning.
 
-00:03:34.500 --> 00:03:38.560
+00:02:56.100 --> 00:03:00.160
 So, I think we can clarify all these things in the instructions that should already be in here.
 
-00:03:39.120 --> 00:03:40.640
+00:03:00.720 --> 00:03:02.240
 These automated checks.
 
-00:03:43.800 --> 00:03:48.040
+00:03:05.400 --> 00:03:09.640
 So, all these else should be in here. So, if you have any questions,
 
-00:03:49.480 --> 00:03:51.080
+00:03:11.080 --> 00:03:12.680
 we can go over that now.

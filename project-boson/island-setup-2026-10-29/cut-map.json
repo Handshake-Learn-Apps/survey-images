@@ -83,17 +83,13 @@
       "title": "Task workflow and quality checks",
       "ranges": [
         [
-          958.8,
-          994.7
-        ],
-        [
-          1005.2,
+          1007.7,
           1200.65
         ]
       ],
       "description": "Follow the task setup, separate runs and annotations, and quality checks between submissions.",
-      "duration": 231.421016,
-      "bytes": 20417457
+      "duration": 192.96,
+      "bytes": 14520983
     },
     {
       "slug": "05-hs-cli-updates",
@@ -171,9 +167,19 @@
       "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
     },
     {
+      "start": 958.8,
+      "end": 994.7,
+      "reason": "User requested starting workflow video at this task workflow."
+    },
+    {
       "start": 994.7,
       "end": 1005.2,
       "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 1005.2,
+      "end": 1007.7,
+      "reason": "Trim lead-in before this task workflow."
     },
     {
       "start": 1200.65,
