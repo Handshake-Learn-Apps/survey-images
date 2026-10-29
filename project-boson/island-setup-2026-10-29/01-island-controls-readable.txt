@@ -1,0 +1,23 @@
+Island controls and supported systems
+Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
+Source ranges (seconds): 0.000-157.200, 179.500-233.000, 343.600-368.950, 727.500-755.800
+
+So basically, if you go into system preferences and then go to login items, there will be three Island named entries here. And basically, you should be able to turn them off and on whenever you want. This one in particular, when you turn it off, it will ask for your password, like your laptop password, your administration password, and then all turn off. So when it is off, you'll be able to do whatever you want. And it won't be tracked.
+
+So basically, you can open Chrome, you can open Safari, you can go to Claude, and log in and do whatever you need to. However, the second I turn the desktop on, it's going to block all of these things. It's also going to block my screen sharing to this particular zoom. So at any point, I think this will stop sharing. So basically, I'm going to turn it on.
+
+So it takes a second. I don't know when it'll actually turn off. So Island desktop is running, and then instantly, all of those things were shut down. And now desktop is running. So you should be asking only when these three things are running.
+
+And when these three things are running, the CLI client in the terminal will also check when you start it up that it is actually running itself. I'm a little surprised I still can screen share, but basically, to turn it off again, basically, you're just going to toggle those three things. And the Island tray icon, the desktop, Island desktop tray icon should disappear as well. And then you should be able to go back into Safari and Claude again. Any questions with that?
+
+One question that popped up in the chat was how do I do this on Windows? I can find on off toggle that. Yeah, so we're going to provide a video for Mac. We're just about to pick up a Windows machine, and we'll record a video for Windows. And you should be able to do it in Windows as well.
+
+It's through the services management console, and you can start and stop the Island entry there. But if you want an actual video and like a screenshot of what exactly you can turn on and off, we'll provide that shortly. Join Windows is like the task manager, right? So it's not the task manager. If you go into Windows and you run services .msc, that brings up the services control panel.
+
+And in there is where you should be able to stop and start desktop. And we can provide a video of that as well. So everything that we're going through now, we'll provide a video in the lovable, we'll post it in the Slack channel, I will make sure you guys have the resources you need. So on the on the on the computer where you're doing the task, right, the AI should be off, right. And okay.
+
+And you can turn on afterwards. Because I think I missed that part. Just if you can repeat the part about Claude, you say you can open Claude after right or at which issue? Yeah. So, go ahead, same.
+
+Yes, when desktop isn't running, you should have full access to Claude and like everything you need that's like if desktop wasn't installed at all. Also, circling back to the Linux question for desktop. Yes, David G. At the moment, Island desktop is only available on Windows and macOS. We don't have desktop support for Linux.
+
+Yeah, we'll find out like an ETA from Island. But at the moment, we don't have a solution for this.

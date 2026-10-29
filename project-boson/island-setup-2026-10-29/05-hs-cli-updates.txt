@@ -1,0 +1,69 @@
+What changed in the hs CLI
+Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
+Source ranges (seconds): 1202.100-1476.773
+Timestamps are relative to this video.
+
+[00:00:00.260 - 00:00:04.060] So, I had one quick one. I know Shobit, thank you Shobit for posting the video,
+[00:00:04.080 - 00:00:10.000] but that has the Boson claims and Boson CLA commands. And now we are supporting hs.
+[00:00:10.620 - 00:00:16.620] And that we do anything that's changed besides the Boson to hs or the video actually holds true
+[00:00:16.620 - 00:00:20.860] for everything just besides this one. It's a good question, actually. I think there are some
+[00:00:20.860 - 00:00:25.580] small changes. Shobit, do you just want to quickly cover some of the small changes in the CLI tool?
+[00:00:28.470 - 00:00:34.010] Yeah. So, basically hs is the new version. We have a
+[00:00:34.010 - 00:00:36.650] downgraded Boson. We also have,
+[00:00:37.170 - 00:00:39.750] David, you were sharing that, right? There was one more thing. Can you share the screen
+[00:00:39.750 - 00:00:40.910] again if possible?
+[00:00:42.350 - 00:00:46.130] And their behavioral issues were also mentioned. So, one thing which we have
+[00:00:46.130 - 00:00:50.090] also added is that you can just go to grade both arms.
+[00:00:52.310 - 00:00:54.970] Yeah, go down a little bit. Yeah.
+[00:00:56.890 - 00:01:01.710] Behavioral issues. Yeah. So, one thing which was there earlier was that behavioral issues,
+[00:01:02.330 - 00:01:07.590] because this is a two and a half hour session, each arm run, approximately two hours, let's say.
+[00:01:07.590 - 00:01:12.910] So, in those two hours, there'll be a few behavioral issues that might come. So, a
+[00:01:12.910 - 00:01:15.190] lot of QCs were
+[00:01:15.190 - 00:01:19.650] failing because fellows were not adding behavioral issues. And there was a problem that behavioral
+[00:01:19.650 - 00:01:25.410] issues you can log whenever, as in when you get them. So, this is one more thing which we have
+[00:01:25.410 - 00:01:30.750] added at just issue arm A. So, let's say when you get any issue in army, you can just
+[00:01:30.750 - 00:01:32.010] in a new
+[00:01:32.010 - 00:01:37.690] terminal tab, you can run this and it will auto-ask you what sort of issues you've faced,
+[00:01:37.790 - 00:01:43.550] and then you can just push your details. The details are mentioned in this document very
+[00:01:43.550 - 00:01:43.890] nicely,
+[00:01:43.930 - 00:01:46.670] so you can take a look at it, but this command helps you, which was not earlier.
+[00:01:47.290 - 00:01:53.290] Secondly, now we have a flow. So, earlier, in Boson, what used to happen was after claiming,
+[00:01:54.750 - 00:02:00.350] basically, you would run army and then you would run the rating,
+[00:02:00.670 - 00:02:01.050] basically,
+[00:02:01.050 - 00:02:06.710] the comparison data. After that, you will submit it, and then the QC will run
+[00:02:06.710 - 00:02:07.630] in one go.
+[00:02:08.870 - 00:02:13.990] We found that it was not a good experience, so we have added QCs after every step,
+[00:02:14.130 - 00:02:18.410] as David was mentioning. You first make your run for army, then you do the annotations.
+[00:02:19.370 - 00:02:23.150] So, between each step, you are pushing to GitHub, and all pushes to GitHub are
+[00:02:23.150 - 00:02:29.110] actually attached to a QC happening. So, first is you push your arm run. You
+[00:02:29.110 - 00:02:29.650] will check whether
+[00:02:29.650 - 00:02:35.330] all the environments are correct or not, whether there was,
+[00:02:35.430 - 00:02:38.230] let's say, some issue for
+[00:02:38.230 - 00:02:43.210] reward hacking or something which was missed while
+[00:02:43.210 - 00:02:45.870] creating the Dockerfile. So, those are
+[00:02:45.870 - 00:02:49.790] things we'll check. If everything is fine, you can go ahead and do the annotation,
+[00:02:50.110 - 00:02:53.650] then you can go ahead and do the army, then you can go ahead and do army's annotation.
+[00:02:53.930 - 00:02:57.030] So, all of these are staggered, which was not the case earlier.
+[00:02:57.590 - 00:03:02.570] Third thing is we have changed the commands, actually. There were some different commands,
+[00:03:02.750 - 00:03:06.390] which were actually keywords for software engineering things, like Maven and Gradle,
+[00:03:06.490 - 00:03:12.270] and all those things which we have removed. We have made it easier, actually. Things are
+[00:03:12.270 - 00:03:17.770] much smoother right now. But Boson, eventually, and the most important thing was, Boson does
+[00:03:17.770 - 00:03:22.970] not have any auto-update, which hs has. Boson was very staggered. hs has auto-update. So,
+[00:03:22.970 - 00:03:28.950] whenever there's a new version pushed, you can update it better. But apart
+[00:03:28.950 - 00:03:29.390] from that,
+[00:03:29.650 - 00:03:35.510] I would say video, actually, one more important thing was, earlier, there was grading
+[00:03:35.510 - 00:03:35.970] as well.
+[00:03:36.210 - 00:03:40.810] In the video, you might see grading, which was actually everything.
+[00:03:42.670 - 00:03:43.710] So, there are two things.
+[00:03:43.810 - 00:03:49.790] First is grading. Second was the comparison and your behavior issues. So, grading was earlier,
+[00:03:49.790 - 00:03:54.150] it is deprecated now. We don't want grading. So, in that video, I've covered grading a lot,
+[00:03:54.590 - 00:03:57.870] which you don't need to worry about, because that is not there. So, grading means that there would
+[00:03:57.870 - 00:04:02.670] be some success checklists, which would come on the fly, and you need to check in your code base
+[00:04:02.670 - 00:04:04.990] and in your trajectory whether those things have happened or not.
+[00:04:09.330 - 00:04:12.110] So, I would say either
+[00:04:12.110 - 00:04:18.070] we'll push a new video, but meanwhile, until the video can be pushed, you can just
+[00:04:18.070 - 00:04:19.210] take a
+[00:04:19.210 - 00:04:24.530] look at the text documents right now. Video can probably just help you with,
+[00:04:24.530 - 00:04:27.030] like, how you fill
+[00:04:27.030 - 00:04:31.110] your ratings and other things. But, I mean, right now, I would advise to not look at the video.
+[00:04:31.230 - 00:04:34.430] It was pretty old. We'll create a new video, actually. That's the better.

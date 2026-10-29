@@ -1,0 +1,210 @@
+[   0.00 -    4.80] So basically, if you go into system preferences and then go to login items,
+[   6.24 -   14.88] there will be three island named entries here. And basically, you should be able to turn them off
+[  14.88 -   21.84] and on whenever you want. This one in particular, when you turn it off, it will ask for your
+[  22.72 -   27.44] password, like your laptop password, your administration password, and then it will turn off.
+[  27.44 -   34.08] So when it is off, you'll be able to do whatever you want. And it won't be
+[  35.28 -   42.64] tracked. So basically, you can open Chrome, you can open Safari, you can go to Claude,
+[  44.40 -   50.24] and login and do whatever you need to. However, the second I turn the desktop on,
+[  50.72 -   56.16] it's going to block all of these things. It's also going to block my screen sharing to this
+[  56.16 -   67.60] particular zoom. So at any point, I think this will stop sharing. So basically, I'm going to
+[  67.60 -   77.04] turn it on. So it takes a second. I don't know when it'll actually turn off. So island desktop
+[  77.04 -   83.76] is running. And then instantly, all of those things were shut down. And now desktop is running.
+[  83.76 -   89.60] So you should be asking only when these three things are running. And when these three things
+[  89.60 -   98.00] are running, the CLI client in the terminal will also check when you start it up that it is actually
+[  98.00 -  104.16] running itself. I'm a little surprised I still can screenshot, but like basically to turn it off
+[ 104.16 -  109.60] again, basically, you're just going to toggle those three things. And the island tray icon,
+[ 110.56 -  115.76] island desktop tray icon should disappear as well. And then you should be able to go back into
+[ 116.72 -  126.00] Safari and Claude again. Any questions with that? One question that popped up in the chat was,
+[ 126.00 -  132.08] how do I do this on Windows? I can find on off toggle there. Yeah, so we're going to provide a video
+[ 132.08 -  138.16] for Mac. We're just about to pick up a Windows machine and we'll record a video for Windows.
+[ 139.12 -  144.40] And you should be able to do it in Windows as well. It's through the services management console.
+[ 145.28 -  151.44] You can start and stop the island entry there. But if you want an actual video and like a screenshot
+[ 151.44 -  157.12] of what exactly you can turn on and off, we'll provide that shortly.
+[ 158.08 -  171.52] Great. Okay. Does anyone have any questions about how to turn on and off the island desktop?
+[ 178.08 -  182.32] Cool. So, um, you know, Windows is like the task manager, right?
+[ 183.28 -  193.52] Or... So, it's not the task manager. If you go into Windows and you run services.msse,
+[ 194.00 -  200.88] that brings up the services console panel. And in there is where you should be able to stop and start
+[ 201.60 -  206.08] desktop. Yes, so far. I want to walk out. Okay. Thank you.
+[ 206.08 -  210.32] Great. I mean, you can provide a video of that as well. So, like, everything that we're going through
+[ 210.32 -  214.80] now will provide a video and the lovable. We'll post it in the Slack channel. I will make sure
+[ 214.80 -  221.44] you guys have the resources you need. So, on the on the on the computer where you do the task,
+[ 221.44 -  230.96] right? The AI should be off, right? And, uh, okay. And you can turn it on afterwards.
+[ 230.96 -  232.96] The presenting army is dead part, but yeah.
+[ 235.28 -  235.76] Cool. Yeah.
+[ 238.00 -  242.72] Um, I see a question. Can you please post the island desktop and store the link?
+[ 243.28 -  248.08] You should check your email. You should check your spam. And if you didn't get the email, it means
+[ 248.08 -  256.08] that, um, there are only 96 tasks in this batch. And, um, there are, therefore, only 96 people on
+[ 256.08 -  263.68] this project who can work on these tasks. And those 96 people either go on email, um, in their
+[ 263.68 -  269.52] spam or it should just be in their primary inbox. There you go. Paying on, if you got, if you have a
+[ 269.52 -  278.40] task, you'll receive an email. Okay. Um, does anyone else have any questions about island?
+[ 278.64 -  279.12] Yeah.
+[ 293.20 -  298.48] Island does not work on Linux. David, have you tried, have you tried it? Did you try to install
+[ 298.48 -  302.32] island? David, yeah.
+[ 319.68 -  324.96] David, there's Island does not work on Linux. Just want to make sure. Have you, like, you
+[ 324.96 -  335.12] received the invite and you tried to download it? Okay. Not seeing a response. Um, does anyone have
+[ 335.12 -  340.48] any other questions about island? Like happy to cover anything? Go through, um, any questions that
+[ 340.48 -  348.16] you guys have? Just if you can repeat the part about cloud, you say you can open cloud after
+[ 348.24 -  355.12] right? Okay. It's wish issue. Yeah. So, um, go ahead, Zang.
+[ 356.88 -  362.72] Yes. When desktop isn't running, you should have full access to cloud and like,
+[ 363.84 -  371.68] everything you need that's like, if desktop wasn't installed at all, um, we also provided, like,
+[ 371.68 -  375.60] an assistant key. David, do you want to walk through the assistant key and how they can use up?
+[ 378.40 -  386.00] Yeah. Happy to. Um, okay. Basically, so in this task, let me just pull up the loveable.
+[ 393.36 -  394.08] One moment.
+[ 394.08 -  409.68] Okay. So basically, for this task, you'll receive two keys. So the first key that you guys receive
+[ 409.68 -  420.24] will be a claw key. You'll use it in the CLI. Basically, you'll use this task key to generate
+[ 420.32 -  424.96] on B and on A directory. So, okay, like really quick, I'll screenshot.
+[ 427.28 -  432.32] Walk through it very clearly. One moment, and just pull up the instructions.
+[ 441.44 -  449.76] Okay. Um, so first things first is you'll install the island desktop.
+[ 450.40 -  454.80] And, uh, this was like already covered. If we have any other questions,
+[ 454.80 -  458.80] like, happy to go through it. Once again, we'll post like all these videos and resources
+[ 459.44 -  461.52] in this loveable following the call.
+[ 464.56 -  469.92] Once you do this, you claim a task on high. Um, so you'll go to the handshake platform,
+[ 469.92 -  476.64] you'll claim a task, you'll receive two keys. Uh, one will be a key for tasking. So you'll run
+[ 476.64 -  483.52] your agent trajectories with this key. The other key is basically to help you through the task.
+[ 483.52 -  490.56] It's, it's the assistant agent key. So the whole reason why we are implementing island is to
+[ 490.56 -  500.32] basically, um, we want to ensure the client wants to ensure that any human judgment, like in the
+[ 500.32 -  509.20] task comes from a person and not from an LLAM. So, um, island is basically ensuring that
+[ 510.40 -  517.12] any work that is done is from, um, a fellow instead of like an LLAM. That's all it's being
+[ 517.12 -  522.80] useful. The client's like high-percentive around this. So the assistant key, um, basically you
+[ 522.80 -  528.88] would use, uh, later on in the task. But the first thing you'll do is you'll install the CLI,
+[ 529.76 -  540.64] um, you will basically set up task. So you'll get each task comes with a prompt, um, and you will use
+[ 540.64 -  549.44] the starting prompt for arm A and Rmb. So you'll basically, um, you'll run arm A and Rmb with this
+[ 549.44 -  556.32] tasking key. You then have an assistant key, as I mentioned. Um, so you'll basically use this with
+[ 556.32 -  562.96] an open code to launch, uh, your, like, agentech assistant. What you should use the task
+[ 562.96 -  567.44] and key for is basically like, running arm A and Rmb, VTRAJACTERIES and it will create the change
+[ 567.44 -  574.96] patches for you. And then for the assistant key, you can use this assistant to collect any
+[ 574.96 -  581.44] information about the trajectories or the change patch. Uh, so for example, like, you can use
+[ 581.60 -  589.20] this assistant key to explain the upstream repo, um, to basically like figure out what files were
+[ 589.20 -  594.88] changed. You can use it to write different, like, verification tests. Uh, you cannot use this
+[ 594.88 -  606.08] assistant key to basically ask the model, like, um, any questions about how, uh, good the implementation
+[ 606.40 -  611.28] was, like, how correct it was, if like, where the failures were exactly, you can't ask it any
+[ 611.28 -  617.04] questions about judgment, like, how severe was this failure? Um, that all must come from you as a
+[ 617.04 -  624.56] human. So we will basically check the, um, requests that are sent to the assistant key through our
+[ 624.56 -  630.00] quality checks suite, which is run through GitHub actions and we'll basically make sure that, um,
+[ 630.80 -  634.80] like, we'll basically make sure that all the questions that were asked to the assistant,
+[ 635.36 -  637.84] were actually, um, let me just find it.
+[ 642.56 -  647.60] We're like appropriate. So, um, this is a, uh, past that was submitted.
+[ 651.84 -  655.60] We'll be right at this one. I think this is a dog food description.
+[ 656.64 -  662.88] Uh, it's maybe not this. Um, I can go find an example after this, but like, basically, like,
+[ 662.88 -  666.80] you just want to make sure that you're not asking the assistant any questions about judgment,
+[ 666.80 -  670.64] and you're just, you're just asking it questions about, like, what actually happened in the wrong.
+[ 670.64 -  675.04] So we include some, like, examples here of how you should use this assistant key in open code,
+[ 675.04 -  680.88] and like, what you cannot ask the assistant to do. Does that generally make sense to people?
+[ 681.36 -  682.88] Okay.
+[ 691.52 -  691.84] Okay.
+[ 695.44 -  702.80] Great. So that seems to resonate. Um, and yeah, Muhammad is basically saying, please install
+[ 702.80 -  708.24] open code CLI before island desktop. Otherwise, you'll be blocked from using the AI assistant.
+[ 708.80 -  715.36] So if you want access to this assistant to help you, um, please follow Muhammad's instruction.
+[ 715.36 -  720.80] We'll like clarify that in the loveable, but use this assistant only for information gathering.
+[ 720.80 -  725.52] Don't ask it any questions about like, which model did better at XYZ? Basically.
+[ 727.68 -  736.08] Also, circling back to the Linux question for desktop. Uh, yes, David G, uh, at the moment,
+[ 736.16 -  739.92] island desktop is only available on Windows and macOS.
+[ 740.56 -  749.04] Um, we don't have desktop support for Linux. Uh, yeah, we'll find out like an ETA from from
+[ 749.04 -  755.36] island, uh, but at the moment, uh, we don't, um, have a solution for this.
+[ 756.08 -  767.36] Yeah. Um, we'll circle back on that. But yeah, that makes sense.
+[ 771.84 -  778.80] Yes. Okay. What other questions you guys have, if not about island, um, do you guys have
+[ 778.80 -  784.56] questions about the general task? Do you have questions about the instructions? Um,
+[ 787.20 -  790.96] any concerns about island that we haven't already discussed?
+[ 792.48 -  797.60] This is a total open forum. So like any legitimate question, happy to answer.
+[ 798.08 -  798.88] Yeah.
+[ 805.04 -  809.60] Did any of you guys like who were able to claim a task on hat shake? Um,
+[ 810.88 -  813.76] we did anyone not receive an island invite?
+[ 822.72 -  823.04] Okay.
+[ 823.20 -  824.72] Yeah.
+[ 826.72 -  829.92] Uh, any concerns about using island that we can address?
+[ 838.32 -  846.24] All right. Um, okay. So I think we can post these videos and loveable for you guys to
+[ 846.24 -  852.00] access, like happy to sit on the Zoom. If you guys have any questions, I can hang back.
+[ 853.68 -  858.32] Uh, sounds like J. R. Okay. Let's see. It's got a bunch of questions.
+[ 859.20 -  866.96] Oh, H is for people. Office hours, I have zero, so not relevant. Yeah, J, um, really like,
+[ 868.48 -  873.20] it's still hopefully helpful to you. But yeah, like if you don't have a task yet, like you
+[ 873.20 -  878.96] should have one soon, probably within the next like couple of weeks. Um, we're going to wrap
+[ 879.04 -  885.20] up this project over the next few weeks. What was the average time expected?
+[ 887.92 -  896.40] Required to complete a task. Um, I think probably expected time should be about five hours.
+[ 898.00 -  901.84] But please let us know if it's taken you significantly longer and we can address that.
+[ 904.00 -  907.76] David, there are multiple people saying they're not going to invite, but in call,
+[ 907.76 -  914.40] it seems some people who didn't get an invite as possible, like we didn't send it to them.
+[ 914.40 -  917.68] It's also possible if you didn't get an invite that it's in your spam folder.
+[ 918.48 -  923.28] It's also possible that we have a different email on file for you. So we're following up with all
+[ 923.28 -  929.36] 96 people directly to make sure that you all got the invite. Um, and if you didn't, then we can
+[ 929.36 -  935.12] handle it from there. Samuel says, Hey, I didn't receive the island invite. I don't have any task
+[ 935.12 -  941.60] currently. Should I set tight? Yes, Samuel. Appreciate your patience. Um, we're expecting to wrap
+[ 941.60 -  946.24] up on the project over the next couple of weeks. But for now, we just have a hundred tasks about
+[ 946.24 -  959.12] insurculation. So you probably didn't get an island invite. Any other questions? I haven't, uh,
+[ 959.12 -  964.56] okay. One more. I haven't claimed a task yet that I'd like to know how it works. Do we need to start?
+[ 964.56 -  972.64] Do we need to so the tasks start to finish at a stretch? We need, sorry, I don't understand the
+[ 972.64 -  979.36] question. I haven't claimed a task but I like to know how it works. Oh, how it works. Um, so yeah,
+[ 979.36 -  988.00] I would reference the logable again. Um, maybe we can include like a video walking through the
+[ 988.00 -  994.40] task. I can add this later. I think it could be helpful. Um, I can just screen share it.
+[ 999.20 - 1001.60] Right, so bonus. We'll go over the bonus in a minute.
+[1005.20 - 1014.08] Okay, so um, this task workflow, I think show it actually already has a video here. So this could
+[1014.56 - 1022.72] be useful to watch the whole task end to end. Um, but you claim a task on handshake, you install
+[1022.72 - 1029.92] the CLI tool that we provide to you. Um, so this should help you through the task. You, once you
+[1029.92 - 1041.28] install the CLI tool, you set up the task, um, so you'll read the task, you will, um,
+[1042.24 - 1050.16] I'm sorry, I just think, zoom. Uh, you read the task, you'll set up your environment, um, and
+[1051.36 - 1057.60] your environment is like basically like your Docker file. Obviously, you make sure that you set
+[1057.60 - 1069.76] up your assistant AI before in Opencode. Build on your run, arm A, your run, arm A, um, and you will,
+[1069.76 - 1074.80] when you run arm A, the first thing that you do is you annotate arm A. So you run arm A,
+[1074.80 - 1080.40] then we can clarify this in the instructions as well. So you don't run arm A and arm B. What you'll
+[1080.40 - 1085.92] do is this is actually super important is your run arm A true, um, so you kick off that run.
+[1087.12 - 1095.04] Then you will go and you'll, um, submit it. You'll basically open a PR and you, um,
+[1095.92 - 1100.00] will have an automated quality check that will automatically check your first run.
+[1100.80 - 1110.40] Once that's approved, you then fill out your ratings.json file for arm A and you also fill out your, um,
+[1111.84 - 1119.60] your, uh, behavioral issues.json file for arm A. Then you submit that, then another quality
+[1119.60 - 1123.44] check will see you basically push to the PR, then another quality check will trigger.
+[1124.40 - 1130.40] After that, you do the same thing for arm B. So you, uh, run arm B, you run the mobile through arm B,
+[1131.28 - 1140.00] you submit it, quality check runs, you do your ratings.json file and your behavioral issues.json file
+[1140.00 - 1150.40] for arm B, submit quality check runs and then you do one final, um, comparison.json file and then you
+[1150.48 - 1157.68] submit that. So you're open to PR and then you'll have four more pushers basically after that.
+[1157.68 - 1161.68] And you'll have a quality check that runs in between each of those. So I would wait till the
+[1161.68 - 1166.32] quality check passes before you move to the next step. This should make it like easier for you,
+[1166.32 - 1171.36] so you don't do all the work at once and then the quality check runs and then it says that you did
+[1171.36 - 1175.52] something wrong at the beginning and then you have to start all again. So if you do it sequentially,
+[1175.52 - 1180.08] it should make things a lot easier for you. So you don't have to like do a bunch of work again
+[1180.08 - 1186.64] that you messed up at the beginning. So I think we can by clarify all these things in the instructions
+[1186.64 - 1195.20] that should already be in here. These automated checks. So all the details should be in here.
+[1195.20 - 1204.24] So if you have any questions, we can go over that now. So I had one quick one. I know
+[1204.72 - 1210.32] thank you for posting the video, but that has the Boson claims and Boson CLA comments.
+[1210.32 - 1216.80] And now we are supposing Hs and that we do anything has changed besides the Boson 2HS or
+[1216.80 - 1222.24] the video actually holds true for everything just besides this one. It's a good question actually.
+[1222.24 - 1226.32] I think there are some small changes. Should I do you just want to quickly cover some of the small
+[1226.32 - 1237.28] changes in the CLA tool? Yeah. So basically Hs is the new version. We have downgraded Boson.
+[1237.92 - 1241.60] We also have David, you were sharing that right? There was one more thing. Can you share this
+[1241.60 - 1248.08] screen again if possible? And their behavior issues were also mentioned. So one thing which we
+[1248.16 - 1257.04] have also added is that you can just go to grade both Hs. Yeah, go down a little bit. Yeah.
+[1258.56 - 1263.76] Behavior issues. Yeah. So one thing which was there earlier was that behavioral issues,
+[1264.40 - 1270.56] because this is a 2.5 hour session each arm run approximately two hours let's say. So in those
+[1270.56 - 1277.44] two hours, there will be a few behavioral issues that might come. So a lot of QCs were failing
+[1277.44 - 1282.64] because fellows were not adding behavioral issues and there was a problem that behavioral issues.
+[1282.64 - 1288.16] You can log whenever as and when you get them. So this is one more thing which we have added Hs
+[1288.16 - 1296.24] issue arm A. So let's say when you get any issue in army, you can like just in a new terminal tab.
+[1296.24 - 1300.48] You can run this and it will auto ask you what sort of issues you faced and then you can just
+[1302.08 - 1306.88] push your details. The details are mentioned in this document very nicely. So you can take a look at
+[1306.88 - 1312.08] it, but this command helps you which was not earlier. Secondly, now we have a flow. So earlier,
+[1312.08 - 1318.88] it was like in Boson, what used to happen was after claiming you and basically you would run
+[1318.88 - 1326.16] army and then you would run the rating. So basically like the comparison data. After that,
+[1326.16 - 1333.12] you will submit it and then the QC will run in one go. We found that it was not a good experience.
+[1333.12 - 1338.96] So we have added like QCs after every step as David was mentioning like you first make your run
+[1338.96 - 1344.08] for army, then you do the annotations. So between each step you are pushing to GitHub and all
+[1344.08 - 1350.56] pushes to GitHub are actually attached to a QC happening. So first is like you push your arm
+[1350.56 - 1357.20] run. You will check whether all the environments are correct or not. Whether like, whether there was
+[1358.24 - 1364.16] let's say some issue for reward hacking or something which was which was missed in
+[1365.84 - 1370.08] while creating the Docker file. So those are all things we'll check. If everything is finally,
+[1370.16 - 1374.32] you can go ahead and do the annotation, then you can go ahead and do the ambi, then you can go
+[1374.32 - 1379.04] ahead and do ambi's annotation. So all of these are staggered which was not the case earlier.
+[1379.68 - 1384.88] Third thing is we have changed the commands actually. There was some different commands which
+[1384.88 - 1389.84] were actually keywords for software engineering things like Mewan and Gradle and all those things which
+[1389.84 - 1396.88] we have removed. We have made it easier actually. Things are much smoother right now. But Boson
+[1396.88 - 1401.84] eventually and the most important thing was Boson did not have any auto update which HS has.
+[1401.84 - 1407.36] Boson was very staggered. HS has auto update. So whenever there is a new version, push like
+[1408.00 - 1416.08] you can update it better. So but apart from that, I would say video also actually one more
+[1416.08 - 1420.16] important thing was earlier there was grading as well. In the video you might see grading which was
+[1420.16 - 1428.56] actually everything. So there are two things. First is grading. Second was like they are
+[1428.56 - 1432.16] comparison and your rating and your behavior ratio. So grading was earlier. It is
+[1432.16 - 1437.04] deprecated now. We don't want grading. So in that video, I have covered grading a lot which you
+[1437.04 - 1440.56] don't need to worry about because that is not the so grading means that there would be some success
+[1440.56 - 1445.20] checklists which would come on the fly and you need to check in your code base and in your
+[1445.20 - 1454.96] trajectory whether those things have happened or not. Yeah. So I would say either we'll push a new
+[1454.96 - 1461.92] video but meanwhile until the video is being it can be pushed. You can just use take a look at the
+[1461.92 - 1469.84] text documents right now. Video can probably just help you with like how you fill your ratings
+[1469.84 - 1473.76] and other things but I mean right now I would I would advise to not look at the video it was pretty
+[1473.76 - 1482.64] we'll create a new video actually that's a better

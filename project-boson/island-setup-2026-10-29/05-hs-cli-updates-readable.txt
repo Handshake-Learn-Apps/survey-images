@@ -1,0 +1,27 @@
+What changed in the hs CLI
+Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
+Source ranges (seconds): 1202.100-1476.773
+
+So, I had one quick one. I know Shobit, thank you Shobit for posting the video, but that has the Boson claims and Boson CLA commands. And now we are supporting hs. And that we do anything that's changed besides the Boson to hs or the video actually holds true for everything just besides this one. It's a good question, actually.
+
+I think there are some small changes. Shobit, do you just want to quickly cover some of the small changes in the CLI tool? Yeah. So, basically hs is the new version. We have a downgraded Boson.
+
+We also have, David, you were sharing that, right? There was one more thing. Can you share the screen again if possible? And their behavioral issues were also mentioned. So, one thing which we have also added is that you can just go to grade both arms.
+
+Yeah, go down a little bit. Yeah. Behavioral issues. Yeah. So, one thing which was there earlier was that behavioral issues, because this is a two and a half hour session, each arm run, approximately two hours, let's say.
+
+So, in those two hours, there'll be a few behavioral issues that might come. So, a lot of QCs were failing because fellows were not adding behavioral issues. And there was a problem that behavioral issues you can log whenever, as in when you get them. So, this is one more thing which we have added at just issue arm A. So, let's say when you get any issue in army, you can just in a new terminal tab, you can run this and it will auto-ask you what sort of issues you've faced, and then you can just push your details.
+
+The details are mentioned in this document very nicely, so you can take a look at it, but this command helps you, which was not earlier. Secondly, now we have a flow. So, earlier, in Boson, what used to happen was after claiming, basically, you would run army and then you would run the rating, basically, the comparison data. After that, you will submit it, and then the QC will run in one go. We found that it was not a good experience, so we have added QCs after every step, as David was mentioning.
+
+You first make your run for army, then you do the annotations. So, between each step, you are pushing to GitHub, and all pushes to GitHub are actually attached to a QC happening. So, first is you push your arm run. You will check whether all the environments are correct or not, whether there was, let's say, some issue for reward hacking or something which was missed while creating the Dockerfile. So, those are things we'll check.
+
+If everything is fine, you can go ahead and do the annotation, then you can go ahead and do the army, then you can go ahead and do army's annotation. So, all of these are staggered, which was not the case earlier. Third thing is we have changed the commands, actually. There were some different commands, which were actually keywords for software engineering things, like Maven and Gradle, and all those things which we have removed. We have made it easier, actually.
+
+Things are much smoother right now. But Boson, eventually, and the most important thing was, Boson does not have any auto-update, which hs has. Boson was very staggered. hs has auto-update. So, whenever there's a new version pushed, you can update it better.
+
+But apart from that, I would say video, actually, one more important thing was, earlier, there was grading as well. In the video, you might see grading, which was actually everything. So, there are two things. First is grading. Second was the comparison and your behavior issues.
+
+So, grading was earlier, it is deprecated now. We don't want grading. So, in that video, I've covered grading a lot, which you don't need to worry about, because that is not there. So, grading means that there would be some success checklists, which would come on the fly, and you need to check in your code base and in your trajectory whether those things have happened or not. So, I would say either we'll push a new video, but meanwhile, until the video can be pushed, you can just take a look at the text documents right now.
+
+Video can probably just help you with, like, how you fill your ratings and other things. But, I mean, right now, I would advise to not look at the video. It was pretty old. We'll create a new video, actually. That's the better.

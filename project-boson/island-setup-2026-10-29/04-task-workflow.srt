@@ -1,0 +1,211 @@
+1
+00:00:00,240 --> 00:00:03,900
+Okay, one more. I haven't claimed a task yet, but I'd like to know how it works.
+
+2
+00:00:04,560 --> 00:00:10,140
+Do we need to start? Do we need to? So, the tasks start to finish at a
+
+3
+00:00:10,140 --> 00:00:10,660
+stretch.
+
+4
+00:00:11,400 --> 00:00:16,700
+Sorry, I don't understand the question. I haven't claimed a task, but I'd like to know
+
+5
+00:00:16,700 --> 00:00:18,440
+how it works. Oh, how it works.
+
+6
+00:00:19,820 --> 00:00:23,660
+So, yeah, I would reference the lovable again.
+
+7
+00:00:26,520 --> 00:00:30,780
+Maybe we can include like a video walking through the task. I can add this later.
+
+8
+00:00:31,580 --> 00:00:32,400
+I think it could be helpful.
+
+9
+00:00:34,000 --> 00:00:35,740
+I can just screen share it.
+
+10
+00:00:36,160 --> 00:00:37,000
+Okay. So,
+
+11
+00:00:38,560 --> 00:00:40,680
+this task workflow,
+
+12
+00:00:41,240 --> 00:00:47,080
+I think showbit actually already has a video here. So, this could be useful to watch the
+
+13
+00:00:47,080 --> 00:00:47,840
+whole task end
+
+14
+00:00:47,840 --> 00:00:48,540
+to end.
+
+15
+00:00:50,440 --> 00:00:55,420
+But you claim a task on Handshake. You install the CLI tool that we provide to you.
+
+16
+00:00:56,480 --> 00:01:02,460
+So, this should help you through the task. You, once you install the CLI tool,
+
+17
+00:01:06,200 --> 00:01:10,780
+you set up the task. So, you'll read the task. You
+
+18
+00:01:10,780 --> 00:01:15,860
+will... Sorry, I'm just moving zoom.
+
+19
+00:01:17,300 --> 00:01:19,460
+You read the task. You'll set up your environment.
+
+20
+00:01:20,800 --> 00:01:24,320
+And your environment is basically like your Docker
+
+21
+00:01:24,320 --> 00:01:24,580
+file.
+
+22
+00:01:27,180 --> 00:01:32,000
+Obviously, you make sure that you set up your assistant AI before in Opencode.
+
+23
+00:01:33,480 --> 00:01:38,860
+So, then you'll run arm A. You'll run arm A.
+
+24
+00:01:39,200 --> 00:01:42,340
+And you will, when you run arm A, the first thing that
+
+25
+00:01:42,340 --> 00:01:47,640
+you do is you annotate arm A. So, you run arm A. I think we can clarify this in the instructions as
+
+26
+00:01:47,640 --> 00:01:52,760
+well. So, you don't run arm A and arm B. What you'll do is, this is actually super important,
+
+27
+00:01:52,760 --> 00:01:58,280
+is you'll run arm A. So, you kick off that run. Then
+
+28
+00:01:58,280 --> 00:02:02,660
+you will go and you'll submit it. You'll
+
+29
+00:02:02,660 --> 00:02:08,500
+basically open a PR. And you will have an automated quality check
+
+30
+00:02:08,500 --> 00:02:10,220
+that will automatically check your
+
+31
+00:02:10,220 --> 00:02:16,140
+first run. Once that's approved, you then fill out your ratings.json
+
+32
+00:02:16,140 --> 00:02:19,160
+file for arm A. And you also
+
+33
+00:02:19,160 --> 00:02:24,920
+fill out your behavioral
+
+34
+00:02:24,920 --> 00:02:30,640
+issues.json file for arm A. Then you submit that. Then another quality check
+
+35
+00:02:30,640 --> 00:02:35,800
+will... So, you basically push to the PR. Then another quality check will trigger. After that,
+
+36
+00:02:35,800 --> 00:02:41,260
+you do the same thing for arm B. So, you run arm B. You run the model through arm B.
+
+37
+00:02:42,000 --> 00:02:42,260
+You
+
+38
+00:02:42,260 --> 00:02:43,080
+submit it.
+
+39
+00:02:44,520 --> 00:02:50,160
+Quality check runs. You do your ratings.json file and your behavioral issues.json
+
+40
+00:02:50,160 --> 00:02:50,640
+file
+
+41
+00:02:50,640 --> 00:02:56,460
+for arm B. Submit. Quality check runs. And then you do one final
+
+42
+00:02:56,460 --> 00:02:59,860
+comparison.json file.
+
+43
+00:03:00,840 --> 00:03:06,720
+And then you submit that. So, you'll open the PR. And then you'll have four more pushes,
+
+44
+00:03:06,720 --> 00:03:11,160
+basically, after that. And you'll have quality check that runs in between each of those.
+
+45
+00:03:11,160 --> 00:03:15,820
+So, I would wait till the quality check passes before you move to the next step. This should
+
+46
+00:03:15,820 --> 00:03:20,540
+make it easier for you so you don't do all the work at once. And then the quality check runs.
+
+47
+00:03:21,160 --> 00:03:24,140
+And then it says that you did something wrong at the beginning. And then you have to start all
+
+48
+00:03:24,140 --> 00:03:28,340
+again. So, if you do it sequentially, it should make things a lot easier for you. So,
+
+49
+00:03:28,360 --> 00:03:32,040
+you don't have to do a bunch of work again that you messed up at the beginning.
+
+50
+00:03:34,500 --> 00:03:38,560
+So, I think we can clarify all these things in the instructions that should already be in here.
+
+51
+00:03:39,120 --> 00:03:40,640
+These automated checks.
+
+52
+00:03:43,800 --> 00:03:48,040
+So, all these else should be in here. So, if you have any questions,
+
+53
+00:03:49,480 --> 00:03:51,080
+we can go over that now.

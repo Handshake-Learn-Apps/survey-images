@@ -1,0 +1,949 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.860
+So basically, if you go into system preferences and then go to login items,
+
+00:00:06.120 --> 00:00:10.460
+there will be three Island named entries here.
+
+00:00:11.820 --> 00:00:14.500
+And basically, you should be able to turn them
+
+00:00:14.500 --> 00:00:20.260
+off and on whenever you want. This one in particular, when you turn it off,
+
+00:00:20.400 --> 00:00:20.800
+it will
+
+00:00:20.800 --> 00:00:25.940
+ask for your password, like your laptop password, your administration password,
+
+00:00:25.940 --> 00:00:31.140
+and then all turn off. So when it is off, you'll be able to do whatever you want.
+
+00:00:32.400 --> 00:00:34.360
+And it won't be
+
+00:00:35.000 --> 00:00:39.780
+tracked. So basically, you can open Chrome, you can open Safari,
+
+00:00:40.600 --> 00:00:42.640
+you can go to Claude,
+
+00:00:44.140 --> 00:00:49.820
+and log in and do whatever you need to. However, the second I turn the desktop
+
+00:00:49.820 --> 00:00:50.340
+on,
+
+00:00:50.340 --> 00:00:56.220
+it's going to block all of these things. It's also going to block my screen sharing to this
+
+00:00:56.220 --> 00:00:56.740
+particular
+
+00:00:56.740 --> 00:01:02.260
+zoom. So at any point, I think this will
+
+00:01:02.260 --> 00:01:04.320
+stop sharing.
+
+00:01:05.720 --> 00:01:08.260
+So basically, I'm going to turn it on.
+
+00:01:09.440 --> 00:01:13.240
+So it takes a second. I don't know when it'll actually
+
+00:01:13.240 --> 00:01:17.460
+turn off. So Island desktop is running,
+
+00:01:17.460 --> 00:01:23.420
+and then instantly, all of those things were shut down. And now desktop is
+
+00:01:23.420 --> 00:01:24.180
+running. So you
+
+00:01:24.180 --> 00:01:30.180
+should be asking only when these three things are running. And when these three things are running,
+
+00:01:30.640 --> 00:01:36.540
+the CLI client in the terminal will also check when you start
+
+00:01:36.540 --> 00:01:38.320
+it up that it is actually running
+
+00:01:38.320 --> 00:01:38.780
+itself.
+
+00:01:40.520 --> 00:01:44.540
+I'm a little surprised I still can screen share, but basically, to turn it off again,
+
+00:01:45.260 --> 00:01:49.320
+basically, you're just going to toggle those three things. And the Island tray icon,
+
+00:01:49.660 --> 00:01:54.580
+the desktop, Island desktop tray icon should disappear as well. And then you should be able
+
+00:01:54.580 --> 00:01:58.180
+to go back into Safari and Claude again.
+
+00:02:02.170 --> 00:02:03.210
+Any questions with that?
+
+00:02:03.890 --> 00:02:07.430
+One question that popped up in the chat was how do I do this on Windows?
+
+00:02:08.190 --> 00:02:09.770
+I can find on off toggle that.
+
+00:02:10.290 --> 00:02:15.890
+Yeah, so we're going to provide a video for Mac. We're just about to pick up a Windows machine,
+
+00:02:15.890 --> 00:02:21.610
+and we'll record a video for Windows. And you should be able to do it in Windows as well.
+
+00:02:21.750 --> 00:02:21.970
+It's
+
+00:02:21.970 --> 00:02:27.830
+through the services management console, and you can start and stop the Island entry
+
+00:02:27.830 --> 00:02:29.010
+there. But if
+
+00:02:29.010 --> 00:02:34.990
+you want an actual video and like a screenshot of what exactly you can turn on and off, we'll
+
+00:02:34.990 --> 00:02:35.270
+provide
+
+00:02:35.270 --> 00:02:36.970
+that shortly.
+
+00:02:45.930 --> 00:02:51.470
+Does anyone have any questions about how to turn on and off the Island desktop?
+
+00:02:58.030 --> 00:02:58.370
+Cool.
+
+00:02:59.750 --> 00:03:02.370
+Join Windows is like the task manager, right?
+
+00:03:06.130 --> 00:03:11.410
+So it's not the task manager. If you go into Windows and you run services
+
+00:03:11.410 --> 00:03:13.650
+.msc,
+
+00:03:14.090 --> 00:03:20.030
+that brings up the services control panel. And in there is where you should be
+
+00:03:20.030 --> 00:03:21.350
+able to stop and start
+
+00:03:21.350 --> 00:03:22.050
+desktop.
+
+00:03:25.410 --> 00:03:30.610
+And we can provide a video of that as well. So everything that we're going through now,
+
+00:03:30.610 --> 00:03:34.110
+we'll provide a video in the lovable, we'll post it in the Slack channel,
+
+00:03:34.410 --> 00:03:36.690
+I will make sure you guys have the resources you need.
+
+00:03:37.310 --> 00:03:43.230
+So on the on the on the computer where you're doing the task, right, the AI should
+
+00:03:43.230 --> 00:03:44.390
+be off,
+
+00:03:44.390 --> 00:03:50.270
+right. And okay. And you can turn on
+
+00:03:50.270 --> 00:03:52.550
+afterwards. Because I think I missed that part.
+
+00:03:58.110 --> 00:04:02.730
+I see a question. Can you please post the Island desktop and saw the link?
+
+00:04:03.350 --> 00:04:08.670
+You should check your email, you check your spam. And if you didn't get the email, it means that
+
+00:04:09.270 --> 00:04:15.130
+there are only 96 tasks in this batch. And there are therefore only
+
+00:04:15.130 --> 00:04:16.270
+96 people on this
+
+00:04:16.270 --> 00:04:22.070
+project who can work on these tasks. And those 96 people either got an email
+
+00:04:23.070 --> 00:04:25.950
+in their spam, or it should just be in their primary inbox.
+
+00:04:27.890 --> 00:04:30.630
+They got pain on if you got if you have a task, you'll receive an email.
+
+00:04:33.880 --> 00:04:34.360
+Okay.
+
+00:04:35.940 --> 00:04:38.400
+Does anyone else have any questions about Island?
+
+00:04:53.090 --> 00:04:58.830
+Island does not work on Linux. David, have you you have you tried it? Did you try to install Island?
+
+00:05:01.580 --> 00:05:02.240
+David G.
+
+00:05:19.710 --> 00:05:25.330
+David, does Island does not work on Linux? Just want to make sure have you like you received
+
+00:05:25.330 --> 00:05:27.190
+the invite and you tried to download it?
+
+00:05:31.920 --> 00:05:35.500
+Not seeing a response. Does anyone have any other
+
+00:05:35.500 --> 00:05:41.170
+questions about Island like happy to cover anything go through any questions that you guys have?
+
+00:05:43.840 --> 00:05:47.980
+Just if you can repeat the part about Claude, you say you can open Claude after
+
+00:05:47.980 --> 00:05:51.180
+right or at which issue? Yeah.
+
+00:05:53.660 --> 00:05:55.100
+So, go ahead, same.
+
+00:05:57.060 --> 00:06:02.800
+Yes, when desktop isn't running, you should have full access to Claude and like
+
+00:06:02.800 --> 00:06:04.960
+everything you need
+
+00:06:04.960 --> 00:06:10.240
+that's like if desktop wasn't installed at all. We also
+
+00:06:10.240 --> 00:06:12.920
+provided like an assistant key. David,
+
+00:06:12.920 --> 00:06:15.660
+do you want to walk through the assistant key and how they can use that?
+
+00:06:18.770 --> 00:06:19.450
+Yeah, happy to.
+
+00:06:22.010 --> 00:06:27.010
+Okay, basically, so in this task, let me just pull up the lovable one
+
+00:06:33.700 --> 00:06:34.020
+moment.
+
+00:06:42.540 --> 00:06:48.520
+Okay, so basically, for this task, you'll receive two keys. So the first key
+
+00:06:48.520 --> 00:06:49.600
+that you guys receive
+
+00:06:49.600 --> 00:06:54.140
+will be Claude key, you'll use it in the CLI.
+
+00:06:57.420 --> 00:06:59.700
+Basically, you'll use this tasking key to
+
+00:06:59.700 --> 00:07:05.040
+generate on B and on A directory. So, okay, like really quick, I'll screen share.
+
+00:07:07.160 --> 00:07:11.760
+Walk through it very clearly. One moment, and just pull up the instructions.
+
+00:07:11.760 --> 00:07:11.820
+Okay.
+
+00:07:25.940 --> 00:07:31.000
+So, first things first is you'll install the Island desktop. And
+
+00:07:31.000 --> 00:07:33.380
+this was like already
+
+00:07:33.380 --> 00:07:36.940
+covered. If we have any other questions, like happy to go through it. Once again, we'll post
+
+00:07:36.940 --> 00:07:41.520
+like all these videos and resources in this lovable following the call.
+
+00:07:44.650 --> 00:07:45.330
+Once you do this,
+
+00:07:45.670 --> 00:07:51.010
+you claim a task on HAI. So, you'll go to the handshake platform, you'll claim a task,
+
+00:07:51.010 --> 00:07:56.910
+you'll receive two keys. One will be a key for tasking. So, you'll run your
+
+00:07:56.910 --> 00:07:57.950
+agent trajectories
+
+00:07:57.950 --> 00:08:03.530
+with this key. The other key is basically to help you through the task.
+
+00:08:03.730 --> 00:08:04.770
+It's the assistant
+
+00:08:04.770 --> 00:08:10.570
+agent key. So, the whole reason why we are implementing Island is to
+
+00:08:10.570 --> 00:08:11.170
+basically,
+
+00:08:11.710 --> 00:08:16.790
+we want to ensure, the client wants to ensure that
+
+00:08:16.790 --> 00:08:21.050
+any human judgment like in the task comes
+
+00:08:21.050 --> 00:08:27.010
+from a person and not from an LLM. So, Island
+
+00:08:27.010 --> 00:08:31.170
+is basically ensuring that any work
+
+00:08:31.170 --> 00:08:37.130
+that is done is from a fellow instead of like an LLM. That's all it's being
+
+00:08:37.130 --> 00:08:37.590
+used for.
+
+00:08:37.590 --> 00:08:43.070
+The client's like hypersensitive around this. So, the assistant key, basically you would
+
+00:08:43.070 --> 00:08:43.630
+use
+
+00:08:44.420 --> 00:08:48.830
+later on the task. But the first thing you'll do is you'll install the CLI.
+
+00:08:51.590 --> 00:08:57.290
+You will basically set up task. So, you'll get each task comes with
+
+00:08:57.290 --> 00:09:00.730
+a prompt. And you will use
+
+00:09:00.730 --> 00:09:04.450
+the starting prompt for ARM A and ARM B. So, you'll basically,
+
+00:09:05.010 --> 00:09:08.270
+you'll run ARM A and ARM B
+
+00:09:08.270 --> 00:09:13.570
+with this tasking key. You then have an assistant key as I mentioned.
+
+00:09:14.890 --> 00:09:16.190
+So, you'll basically use this
+
+00:09:16.190 --> 00:09:22.070
+with an Opencode to launch your agentic assistant. What you
+
+00:09:22.070 --> 00:09:23.170
+should use the tasking
+
+00:09:23.170 --> 00:09:27.430
+key for is basically like running ARM A and ARM B trajectories and it will create the change
+
+00:09:27.430 --> 00:09:33.030
+patches for you. And then for the assistant key, you can use this assistant
+
+00:09:33.030 --> 00:09:34.810
+to collect any
+
+00:09:34.810 --> 00:09:37.590
+information about the trajectories or the change patch.
+
+00:09:39.530 --> 00:09:41.710
+So, for example, like you can use this
+
+00:09:41.710 --> 00:09:47.510
+assistant key to explain the upstream repo to basically like
+
+00:09:47.510 --> 00:09:49.750
+figure out what files were changed.
+
+00:09:50.150 --> 00:09:55.730
+You can use it to write different like verification tests. You cannot use this assistant key
+
+00:09:55.730 --> 00:09:56.190
+to
+
+00:09:57.470 --> 00:10:03.250
+basically ask the model like any questions about how
+
+00:10:03.250 --> 00:10:07.230
+good the implementation was, like how correct
+
+00:10:07.230 --> 00:10:12.370
+it was, if like where the failures were exactly. You can't ask it any questions about judgment,
+
+00:10:12.610 --> 00:10:18.490
+like how severe was this failure. That all must come from you as a human. So, we
+
+00:10:18.490 --> 00:10:19.090
+will basically
+
+00:10:19.090 --> 00:10:24.950
+check the requests that are sent to the assistant key through our quality
+
+00:10:24.950 --> 00:10:25.530
+check suite,
+
+00:10:25.530 --> 00:10:29.710
+which is run through GitHub actions. And we'll basically make sure that
+
+00:10:31.170 --> 00:10:34.830
+like we'll basically make sure that all the questions that were asked to the assistant
+
+00:10:35.370 --> 00:10:38.130
+were actually, let me just find it,
+
+00:10:42.830 --> 00:10:47.630
+were like appropriate. So, this is a task that was submitted.
+
+00:10:51.950 --> 00:10:55.070
+You can probably look at this one. I think this is a dog feeding tab.
+
+00:10:56.990 --> 00:10:58.030
+Maybe not this.
+
+00:10:58.030 --> 00:11:03.930
+I can go find an example after this, but like basically like you just want to make sure that
+
+00:11:03.930 --> 00:11:08.590
+you're not asking the assistant any questions about judgment. And you're just asking it questions
+
+00:11:08.590 --> 00:11:12.990
+about like what actually happened in the ROM. So, we include some like examples here of how you
+
+00:11:12.990 --> 00:11:17.490
+should use this assistant key in Opencode and like what you cannot ask the assistant to do.
+
+00:11:18.350 --> 00:11:20.910
+Does that generally make sense to people?
+
+00:11:36.070 --> 00:11:37.430
+So, that seems to resonate.
+
+00:11:39.130 --> 00:11:44.790
+And yeah, Mohammed is basically saying, please install Opencode CLI before Island
+
+00:11:44.790 --> 00:11:45.270
+desktop.
+
+00:11:45.770 --> 00:11:50.690
+Otherwise, you will be blocked from using the AI assistant. So, if you want access to this
+
+00:11:50.690 --> 00:11:56.650
+assistant to help you, please follow Mohammed's instruction. We'll like clarify that in
+
+00:11:56.650 --> 00:11:56.750
+the
+
+00:11:56.750 --> 00:12:01.970
+lovable. But use this assistant only for information gathering. Don't ask it any questions
+
+00:12:01.970 --> 00:12:05.390
+about like which model did better at XYZ, basically.
+
+00:12:07.770 --> 00:12:09.810
+Also, circling back to the Linux
+
+00:12:09.810 --> 00:12:12.150
+question for desktop.
+
+00:12:13.550 --> 00:12:18.070
+Yes, David G. At the moment, Island desktop is only available
+
+00:12:18.070 --> 00:12:23.690
+on Windows and macOS. We don't have desktop support for
+
+00:12:23.690 --> 00:12:24.110
+Linux.
+
+00:12:25.750 --> 00:12:26.970
+Yeah, we'll find out like
+
+00:12:26.970 --> 00:12:32.130
+an ETA from Island. But at the moment, we
+
+00:12:32.130 --> 00:12:35.550
+don't have a solution for this.
+
+00:12:42.410 --> 00:12:42.430
+Yeah.
+
+00:12:43.750 --> 00:12:47.450
+We'll circle back on that. But yeah, that makes sense.
+
+00:12:52.990 --> 00:12:53.010
+Okay.
+
+00:12:54.570 --> 00:12:59.290
+What other questions do you guys have, if not about Island? Do you guys have questions
+
+00:12:59.290 --> 00:13:03.350
+about the general task? Do you have questions about the instructions?
+
+00:13:06.730 --> 00:13:10.850
+Any concerns about Island that we haven't already discussed?
+
+00:13:12.730 --> 00:13:13.990
+This is total open forum.
+
+00:13:14.550 --> 00:13:17.530
+So, like any legitimate question, happy to answer.
+
+00:13:25.120 --> 00:13:27.520
+Did any of you guys like who are able to claim
+
+00:13:27.520 --> 00:13:28.600
+a task on handshake?
+
+00:13:30.980 --> 00:13:33.720
+Did anyone not receive an Island invite?
+
+00:13:47.390 --> 00:13:48.450
+Any concerns about
+
+00:13:48.450 --> 00:13:49.970
+using Island that we can address?
+
+00:14:01.660 --> 00:14:05.900
+Okay. So, I think we can post these videos in lovable for
+
+00:14:05.900 --> 00:14:11.680
+you guys to access. Like happy to sit on the Zoom. If you guys have any questions, I can hang
+
+00:14:11.680 --> 00:14:12.120
+back.
+
+00:14:14.760 --> 00:14:18.340
+Sounds like Jay asked. Okay. Let's see. I just got a bunch of questions.
+
+00:14:19.200 --> 00:14:25.160
+OH is for people. Office hours. I have zero, so not relevant. Yeah,
+
+00:14:25.340 --> 00:14:27.080
+Jay. Really, like
+
+00:14:28.300 --> 00:14:32.840
+it's still hopefully helpful to you. But yeah, if you don't have a task yet,
+
+00:14:33.180 --> 00:14:36.120
+you should have one soon, probably within the next couple of weeks.
+
+00:14:38.340 --> 00:14:42.940
+We're going to wrap up this project over the next few weeks. What is the average time
+
+00:14:47.360 --> 00:14:49.980
+expected required to complete a task?
+
+00:14:51.880 --> 00:14:56.520
+I think probably expected time should be about five hours.
+
+00:14:57.800 --> 00:15:01.940
+But please let us know if it's taking you significantly longer and we can address that.
+
+00:15:04.310 --> 00:15:08.690
+David, there are multiple people saying they'd not get an invite, but in call it seems.
+
+00:15:10.110 --> 00:15:10.250
+So,
+
+00:15:10.310 --> 00:15:14.050
+the people who didn't get an invite, it's possible like we didn't send it to them.
+
+00:15:14.410 --> 00:15:17.770
+It's also possible if you didn't get an invite that it's in your spam folder.
+
+00:15:18.650 --> 00:15:22.010
+It's also possible that we have a different email on file for you. So,
+
+00:15:22.030 --> 00:15:26.610
+we're following up with all 96 people directly to make sure that you all got the invite.
+
+00:15:28.490 --> 00:15:30.330
+And if you didn't, then we can handle it from there.
+
+00:15:31.550 --> 00:15:35.590
+Samuel says, Hey, I didn't receive the Island invite. Plus, I don't have any tasks currently.
+
+00:15:35.790 --> 00:15:39.050
+Should I sit tight? Yes, Samuel. I appreciate your patience.
+
+00:15:40.530 --> 00:15:41.930
+We're expecting to wrap up on
+
+00:15:41.930 --> 00:15:45.690
+the project over the next couple of weeks. But for now, we just have a hundred tasks
+
+00:15:45.690 --> 00:15:50.110
+about in circulation. So, you probably didn't get an Island invite.
+
+00:15:57.140 --> 00:15:57.900
+Any other questions?
+
+00:15:59.040 --> 00:16:02.700
+Okay, one more. I haven't claimed a task yet, but I'd like to know how it works.
+
+00:16:03.360 --> 00:16:08.940
+Do we need to start? Do we need to? So, the tasks start to finish at a
+
+00:16:08.940 --> 00:16:09.460
+stretch.
+
+00:16:10.200 --> 00:16:15.500
+Sorry, I don't understand the question. I haven't claimed a task, but I'd like to know
+
+00:16:15.500 --> 00:16:17.240
+how it works. Oh, how it works.
+
+00:16:18.620 --> 00:16:22.460
+So, yeah, I would reference the lovable again.
+
+00:16:25.320 --> 00:16:29.580
+Maybe we can include like a video walking through the task. I can add this later.
+
+00:16:30.380 --> 00:16:31.200
+I think it could be helpful.
+
+00:16:32.800 --> 00:16:34.540
+I can just screen share it.
+
+00:16:39.180 --> 00:16:41.680
+Right. So, bonus. We'll go over the bonus in a minute.
+
+00:16:45.460 --> 00:16:46.300
+Okay. So,
+
+00:16:47.860 --> 00:16:49.980
+this task workflow,
+
+00:16:50.540 --> 00:16:56.380
+I think showbit actually already has a video here. So, this could be useful to watch the
+
+00:16:56.380 --> 00:16:57.140
+whole task end
+
+00:16:57.140 --> 00:16:57.840
+to end.
+
+00:16:59.740 --> 00:17:04.720
+But you claim a task on Handshake. You install the CLI tool that we provide to you.
+
+00:17:05.780 --> 00:17:11.760
+So, this should help you through the task. You, once you install the CLI tool,
+
+00:17:15.500 --> 00:17:20.080
+you set up the task. So, you'll read the task. You
+
+00:17:20.080 --> 00:17:25.160
+will... Sorry, I'm just moving zoom.
+
+00:17:26.600 --> 00:17:28.760
+You read the task. You'll set up your environment.
+
+00:17:30.100 --> 00:17:33.620
+And your environment is basically like your Docker
+
+00:17:33.620 --> 00:17:33.880
+file.
+
+00:17:36.480 --> 00:17:41.300
+Obviously, you make sure that you set up your assistant AI before in Opencode.
+
+00:17:42.780 --> 00:17:48.160
+So, then you'll run arm A. You'll run arm A.
+
+00:17:48.500 --> 00:17:51.640
+And you will, when you run arm A, the first thing that
+
+00:17:51.640 --> 00:17:56.940
+you do is you annotate arm A. So, you run arm A. I think we can clarify this in the instructions as
+
+00:17:56.940 --> 00:18:02.060
+well. So, you don't run arm A and arm B. What you'll do is, this is actually super important,
+
+00:18:02.060 --> 00:18:07.580
+is you'll run arm A. So, you kick off that run. Then
+
+00:18:07.580 --> 00:18:11.960
+you will go and you'll submit it. You'll
+
+00:18:11.960 --> 00:18:17.800
+basically open a PR. And you will have an automated quality check
+
+00:18:17.800 --> 00:18:19.520
+that will automatically check your
+
+00:18:19.520 --> 00:18:25.440
+first run. Once that's approved, you then fill out your ratings.json
+
+00:18:25.440 --> 00:18:28.460
+file for arm A. And you also
+
+00:18:28.460 --> 00:18:34.220
+fill out your behavioral
+
+00:18:34.220 --> 00:18:39.940
+issues.json file for arm A. Then you submit that. Then another quality check
+
+00:18:39.940 --> 00:18:45.100
+will... So, you basically push to the PR. Then another quality check will trigger. After that,
+
+00:18:45.100 --> 00:18:50.560
+you do the same thing for arm B. So, you run arm B. You run the model through arm B.
+
+00:18:51.300 --> 00:18:51.560
+You
+
+00:18:51.560 --> 00:18:52.380
+submit it.
+
+00:18:53.820 --> 00:18:59.460
+Quality check runs. You do your ratings.json file and your behavioral issues.json
+
+00:18:59.460 --> 00:18:59.940
+file
+
+00:18:59.940 --> 00:19:05.760
+for arm B. Submit. Quality check runs. And then you do one final
+
+00:19:05.760 --> 00:19:09.160
+comparison.json file.
+
+00:19:10.140 --> 00:19:16.020
+And then you submit that. So, you'll open the PR. And then you'll have four more pushes,
+
+00:19:16.020 --> 00:19:20.460
+basically, after that. And you'll have quality check that runs in between each of those.
+
+00:19:20.460 --> 00:19:25.120
+So, I would wait till the quality check passes before you move to the next step. This should
+
+00:19:25.120 --> 00:19:29.840
+make it easier for you so you don't do all the work at once. And then the quality check runs.
+
+00:19:30.460 --> 00:19:33.440
+And then it says that you did something wrong at the beginning. And then you have to start all
+
+00:19:33.440 --> 00:19:37.640
+again. So, if you do it sequentially, it should make things a lot easier for you. So,
+
+00:19:37.660 --> 00:19:41.340
+you don't have to do a bunch of work again that you messed up at the beginning.
+
+00:19:43.800 --> 00:19:47.860
+So, I think we can clarify all these things in the instructions that should already be in here.
+
+00:19:48.420 --> 00:19:49.940
+These automated checks.
+
+00:19:53.100 --> 00:19:57.340
+So, all these else should be in here. So, if you have any questions,
+
+00:19:58.780 --> 00:20:00.380
+we can go over that now.
+
+00:20:02.360 --> 00:20:06.160
+So, I had one quick one. I know Shobit, thank you Shobit for posting the video,
+
+00:20:06.180 --> 00:20:12.100
+but that has the Boson claims and Boson CLA commands. And now we are supporting hs.
+
+00:20:12.720 --> 00:20:18.720
+And that we do anything that's changed besides the Boson to hs or the video actually holds true
+
+00:20:18.720 --> 00:20:22.960
+for everything just besides this one. It's a good question, actually. I think there are some
+
+00:20:22.960 --> 00:20:27.680
+small changes. Shobit, do you just want to quickly cover some of the small changes in the CLI tool?
+
+00:20:30.570 --> 00:20:36.110
+Yeah. So, basically hs is the new version. We have a
+
+00:20:36.110 --> 00:20:38.750
+downgraded Boson. We also have,
+
+00:20:39.270 --> 00:20:41.850
+David, you were sharing that, right? There was one more thing. Can you share the screen
+
+00:20:41.850 --> 00:20:43.010
+again if possible?
+
+00:20:44.450 --> 00:20:48.230
+And their behavioral issues were also mentioned. So, one thing which we have
+
+00:20:48.230 --> 00:20:52.190
+also added is that you can just go to grade both arms.
+
+00:20:54.410 --> 00:20:57.070
+Yeah, go down a little bit. Yeah.
+
+00:20:58.990 --> 00:21:03.810
+Behavioral issues. Yeah. So, one thing which was there earlier was that behavioral issues,
+
+00:21:04.430 --> 00:21:09.690
+because this is a two and a half hour session, each arm run, approximately two hours, let's say.
+
+00:21:09.690 --> 00:21:15.010
+So, in those two hours, there'll be a few behavioral issues that might come. So, a
+
+00:21:15.010 --> 00:21:17.290
+lot of QCs were
+
+00:21:17.290 --> 00:21:21.750
+failing because fellows were not adding behavioral issues. And there was a problem that behavioral
+
+00:21:21.750 --> 00:21:27.510
+issues you can log whenever, as in when you get them. So, this is one more thing which we have
+
+00:21:27.510 --> 00:21:32.850
+added at just issue arm A. So, let's say when you get any issue in army, you can just
+
+00:21:32.850 --> 00:21:34.110
+in a new
+
+00:21:34.110 --> 00:21:39.790
+terminal tab, you can run this and it will auto-ask you what sort of issues you've faced,
+
+00:21:39.890 --> 00:21:45.650
+and then you can just push your details. The details are mentioned in this document very
+
+00:21:45.650 --> 00:21:45.990
+nicely,
+
+00:21:46.030 --> 00:21:48.770
+so you can take a look at it, but this command helps you, which was not earlier.
+
+00:21:49.390 --> 00:21:55.390
+Secondly, now we have a flow. So, earlier, in Boson, what used to happen was after claiming,
+
+00:21:56.850 --> 00:22:02.450
+basically, you would run army and then you would run the rating,
+
+00:22:02.770 --> 00:22:03.150
+basically,
+
+00:22:03.150 --> 00:22:08.810
+the comparison data. After that, you will submit it, and then the QC will run
+
+00:22:08.810 --> 00:22:09.730
+in one go.
+
+00:22:10.970 --> 00:22:16.090
+We found that it was not a good experience, so we have added QCs after every step,
+
+00:22:16.230 --> 00:22:20.510
+as David was mentioning. You first make your run for army, then you do the annotations.
+
+00:22:21.470 --> 00:22:25.250
+So, between each step, you are pushing to GitHub, and all pushes to GitHub are
+
+00:22:25.250 --> 00:22:31.210
+actually attached to a QC happening. So, first is you push your arm run. You
+
+00:22:31.210 --> 00:22:31.750
+will check whether
+
+00:22:31.750 --> 00:22:37.430
+all the environments are correct or not, whether there was,
+
+00:22:37.530 --> 00:22:40.330
+let's say, some issue for
+
+00:22:40.330 --> 00:22:45.310
+reward hacking or something which was missed while
+
+00:22:45.310 --> 00:22:47.970
+creating the Dockerfile. So, those are
+
+00:22:47.970 --> 00:22:51.890
+things we'll check. If everything is fine, you can go ahead and do the annotation,
+
+00:22:52.210 --> 00:22:55.750
+then you can go ahead and do the army, then you can go ahead and do army's annotation.
+
+00:22:56.030 --> 00:22:59.130
+So, all of these are staggered, which was not the case earlier.
+
+00:22:59.690 --> 00:23:04.670
+Third thing is we have changed the commands, actually. There were some different commands,
+
+00:23:04.850 --> 00:23:08.490
+which were actually keywords for software engineering things, like Maven and Gradle,
+
+00:23:08.590 --> 00:23:14.370
+and all those things which we have removed. We have made it easier, actually. Things are
+
+00:23:14.370 --> 00:23:19.870
+much smoother right now. But Boson, eventually, and the most important thing was, Boson does
+
+00:23:19.870 --> 00:23:25.070
+not have any auto-update, which hs has. Boson was very staggered. hs has auto-update. So,
+
+00:23:25.070 --> 00:23:31.050
+whenever there's a new version pushed, you can update it better. But apart
+
+00:23:31.050 --> 00:23:31.490
+from that,
+
+00:23:31.750 --> 00:23:37.610
+I would say video, actually, one more important thing was, earlier, there was grading
+
+00:23:37.610 --> 00:23:38.070
+as well.
+
+00:23:38.310 --> 00:23:42.910
+In the video, you might see grading, which was actually everything.
+
+00:23:44.770 --> 00:23:45.810
+So, there are two things.
+
+00:23:45.910 --> 00:23:51.890
+First is grading. Second was the comparison and your behavior issues. So, grading was earlier,
+
+00:23:51.890 --> 00:23:56.250
+it is deprecated now. We don't want grading. So, in that video, I've covered grading a lot,
+
+00:23:56.690 --> 00:23:59.970
+which you don't need to worry about, because that is not there. So, grading means that there would
+
+00:23:59.970 --> 00:24:04.770
+be some success checklists, which would come on the fly, and you need to check in your code base
+
+00:24:04.770 --> 00:24:07.090
+and in your trajectory whether those things have happened or not.
+
+00:24:11.430 --> 00:24:14.210
+So, I would say either
+
+00:24:14.210 --> 00:24:20.170
+we'll push a new video, but meanwhile, until the video can be pushed, you can just
+
+00:24:20.170 --> 00:24:21.310
+take a
+
+00:24:21.310 --> 00:24:26.630
+look at the text documents right now. Video can probably just help you with,
+
+00:24:26.630 --> 00:24:29.130
+like, how you fill
+
+00:24:29.130 --> 00:24:33.210
+your ratings and other things. But, I mean, right now, I would advise to not look at the video.
+
+00:24:33.330 --> 00:24:36.530
+It was pretty old. We'll create a new video, actually. That's the better.

@@ -1,0 +1,267 @@
+1
+00:00:00,000 --> 00:00:04,860
+So basically, if you go into system preferences and then go to login items,
+
+2
+00:00:06,120 --> 00:00:10,460
+there will be three Island named entries here.
+
+3
+00:00:11,820 --> 00:00:14,500
+And basically, you should be able to turn them
+
+4
+00:00:14,500 --> 00:00:20,260
+off and on whenever you want. This one in particular, when you turn it off,
+
+5
+00:00:20,400 --> 00:00:20,800
+it will
+
+6
+00:00:20,800 --> 00:00:25,940
+ask for your password, like your laptop password, your administration password,
+
+7
+00:00:25,940 --> 00:00:31,140
+and then all turn off. So when it is off, you'll be able to do whatever you want.
+
+8
+00:00:32,400 --> 00:00:34,360
+And it won't be
+
+9
+00:00:35,000 --> 00:00:39,780
+tracked. So basically, you can open Chrome, you can open Safari,
+
+10
+00:00:40,600 --> 00:00:42,640
+you can go to Claude,
+
+11
+00:00:44,140 --> 00:00:49,820
+and log in and do whatever you need to. However, the second I turn the desktop
+
+12
+00:00:49,820 --> 00:00:50,340
+on,
+
+13
+00:00:50,340 --> 00:00:56,220
+it's going to block all of these things. It's also going to block my screen sharing to this
+
+14
+00:00:56,220 --> 00:00:56,740
+particular
+
+15
+00:00:56,740 --> 00:01:02,260
+zoom. So at any point, I think this will
+
+16
+00:01:02,260 --> 00:01:04,320
+stop sharing.
+
+17
+00:01:05,720 --> 00:01:08,260
+So basically, I'm going to turn it on.
+
+18
+00:01:09,440 --> 00:01:13,240
+So it takes a second. I don't know when it'll actually
+
+19
+00:01:13,240 --> 00:01:17,460
+turn off. So Island desktop is running,
+
+20
+00:01:17,460 --> 00:01:23,420
+and then instantly, all of those things were shut down. And now desktop is
+
+21
+00:01:23,420 --> 00:01:24,180
+running. So you
+
+22
+00:01:24,180 --> 00:01:30,180
+should be asking only when these three things are running. And when these three things are running,
+
+23
+00:01:30,640 --> 00:01:36,540
+the CLI client in the terminal will also check when you start
+
+24
+00:01:36,540 --> 00:01:38,320
+it up that it is actually running
+
+25
+00:01:38,320 --> 00:01:38,780
+itself.
+
+26
+00:01:40,520 --> 00:01:44,540
+I'm a little surprised I still can screen share, but basically, to turn it off again,
+
+27
+00:01:45,260 --> 00:01:49,320
+basically, you're just going to toggle those three things. And the Island tray icon,
+
+28
+00:01:49,660 --> 00:01:54,580
+the desktop, Island desktop tray icon should disappear as well. And then you should be able
+
+29
+00:01:54,580 --> 00:01:58,180
+to go back into Safari and Claude again.
+
+30
+00:02:02,170 --> 00:02:03,210
+Any questions with that?
+
+31
+00:02:03,890 --> 00:02:07,430
+One question that popped up in the chat was how do I do this on Windows?
+
+32
+00:02:08,190 --> 00:02:09,770
+I can find on off toggle that.
+
+33
+00:02:10,290 --> 00:02:15,890
+Yeah, so we're going to provide a video for Mac. We're just about to pick up a Windows machine,
+
+34
+00:02:15,890 --> 00:02:21,610
+and we'll record a video for Windows. And you should be able to do it in Windows as well.
+
+35
+00:02:21,750 --> 00:02:21,970
+It's
+
+36
+00:02:21,970 --> 00:02:27,830
+through the services management console, and you can start and stop the Island entry
+
+37
+00:02:27,830 --> 00:02:29,010
+there. But if
+
+38
+00:02:29,010 --> 00:02:34,990
+you want an actual video and like a screenshot of what exactly you can turn on and off, we'll
+
+39
+00:02:34,990 --> 00:02:35,270
+provide
+
+40
+00:02:35,270 --> 00:02:36,970
+that shortly.
+
+41
+00:02:37,450 --> 00:02:40,070
+Join Windows is like the task manager, right?
+
+42
+00:02:43,830 --> 00:02:49,110
+So it's not the task manager. If you go into Windows and you run services
+
+43
+00:02:49,110 --> 00:02:51,350
+.msc,
+
+44
+00:02:51,790 --> 00:02:57,730
+that brings up the services control panel. And in there is where you should be
+
+45
+00:02:57,730 --> 00:02:59,050
+able to stop and start
+
+46
+00:02:59,050 --> 00:02:59,750
+desktop.
+
+47
+00:03:03,110 --> 00:03:08,310
+And we can provide a video of that as well. So everything that we're going through now,
+
+48
+00:03:08,310 --> 00:03:11,810
+we'll provide a video in the lovable, we'll post it in the Slack channel,
+
+49
+00:03:12,110 --> 00:03:14,390
+I will make sure you guys have the resources you need.
+
+50
+00:03:15,010 --> 00:03:20,930
+So on the on the on the computer where you're doing the task, right, the AI should
+
+51
+00:03:20,930 --> 00:03:22,090
+be off,
+
+52
+00:03:22,090 --> 00:03:27,970
+right. And okay. And you can turn on
+
+53
+00:03:27,970 --> 00:03:30,250
+afterwards. Because I think I missed that part.
+
+54
+00:03:30,940 --> 00:03:35,080
+Just if you can repeat the part about Claude, you say you can open Claude after
+
+55
+00:03:35,080 --> 00:03:38,280
+right or at which issue? Yeah.
+
+56
+00:03:40,760 --> 00:03:42,200
+So, go ahead, same.
+
+57
+00:03:44,160 --> 00:03:49,900
+Yes, when desktop isn't running, you should have full access to Claude and like
+
+58
+00:03:49,900 --> 00:03:52,060
+everything you need
+
+59
+00:03:52,060 --> 00:03:55,880
+that's like if desktop wasn't installed at all.
+
+60
+00:03:56,320 --> 00:03:58,360
+Also, circling back to the Linux
+
+61
+00:03:58,360 --> 00:04:00,700
+question for desktop.
+
+62
+00:04:02,100 --> 00:04:06,620
+Yes, David G. At the moment, Island desktop is only available
+
+63
+00:04:06,620 --> 00:04:12,240
+on Windows and macOS. We don't have desktop support for
+
+64
+00:04:12,240 --> 00:04:12,660
+Linux.
+
+65
+00:04:14,300 --> 00:04:15,520
+Yeah, we'll find out like
+
+66
+00:04:15,520 --> 00:04:20,680
+an ETA from Island. But at the moment, we
+
+67
+00:04:20,680 --> 00:04:24,100
+don't have a solution for this.

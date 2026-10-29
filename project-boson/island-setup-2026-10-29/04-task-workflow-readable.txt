@@ -1,0 +1,31 @@
+Task workflow and quality checks
+Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
+Source ranges (seconds): 958.800-994.700, 1005.200-1200.650
+
+Okay, one more. I haven't claimed a task yet, but I'd like to know how it works. Do we need to start? Do we need to? So, the tasks start to finish at a stretch.
+
+Sorry, I don't understand the question. I haven't claimed a task, but I'd like to know how it works. Oh, how it works. So, yeah, I would reference the lovable again. Maybe we can include like a video walking through the task.
+
+I can add this later. I think it could be helpful. I can just screen share it. Okay. So, this task workflow, I think showbit actually already has a video here.
+
+So, this could be useful to watch the whole task end to end. But you claim a task on Handshake. You install the CLI tool that we provide to you. So, this should help you through the task. You, once you install the CLI tool, you set up the task.
+
+So, you'll read the task. You will... Sorry, I'm just moving zoom. You read the task. You'll set up your environment.
+
+And your environment is basically like your Docker file. Obviously, you make sure that you set up your assistant AI before in Opencode. So, then you'll run arm A. You'll run arm A. And you will, when you run arm A, the first thing that you do is you annotate arm A.
+
+So, you run arm A. I think we can clarify this in the instructions as well. So, you don't run arm A and arm B. What you'll do is, this is actually super important, is you'll run arm A. So, you kick off that run.
+
+Then you will go and you'll submit it. You'll basically open a PR. And you will have an automated quality check that will automatically check your first run. Once that's approved, you then fill out your ratings.json file for arm A. And you also fill out your behavioral issues.json file for arm A.
+
+Then you submit that. Then another quality check will... So, you basically push to the PR. Then another quality check will trigger. After that, you do the same thing for arm B.
+
+So, you run arm B. You run the model through arm B. You submit it. Quality check runs. You do your ratings.json file and your behavioral issues.json file for arm B.
+
+Submit. Quality check runs. And then you do one final comparison.json file. And then you submit that. So, you'll open the PR.
+
+And then you'll have four more pushes, basically, after that. And you'll have quality check that runs in between each of those. So, I would wait till the quality check passes before you move to the next step. This should make it easier for you so you don't do all the work at once. And then the quality check runs.
+
+And then it says that you did something wrong at the beginning. And then you have to start all again. So, if you do it sequentially, it should make things a lot easier for you. So, you don't have to do a bunch of work again that you messed up at the beginning. So, I think we can clarify all these things in the instructions that should already be in here.
+
+These automated checks. So, all these else should be in here. So, if you have any questions, we can go over that now.

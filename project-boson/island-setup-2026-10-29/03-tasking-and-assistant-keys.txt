@@ -1,0 +1,66 @@
+Tasking and assistant keys
+Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
+Source ranges (seconds): 369.000-375.900, 445.700-635.100, 642.600-643.800, 661.550-677.800, 698.900-725.650
+Timestamps are relative to this video.
+
+[00:00:00.060 - 00:00:03.920] We also provided like an assistant key. David,
+[00:00:03.920 - 00:00:06.660] do you want to walk through the assistant key and how they can use that?
+[00:00:07.140 - 00:00:12.200] So, first things first is you'll install the Island desktop. And
+[00:00:12.200 - 00:00:14.580] this was like already
+[00:00:14.580 - 00:00:18.140] covered. If we have any other questions, like happy to go through it. Once again, we'll post
+[00:00:18.140 - 00:00:22.720] like all these videos and resources in this lovable following the call.
+[00:00:25.850 - 00:00:26.530] Once you do this,
+[00:00:26.870 - 00:00:32.210] you claim a task on HAI. So, you'll go to the handshake platform, you'll claim a task,
+[00:00:32.210 - 00:00:38.110] you'll receive two keys. One will be a key for tasking. So, you'll run your
+[00:00:38.110 - 00:00:39.150] agent trajectories
+[00:00:39.150 - 00:00:44.730] with this key. The other key is basically to help you through the task.
+[00:00:44.930 - 00:00:45.970] It's the assistant
+[00:00:45.970 - 00:00:51.770] agent key. So, the whole reason why we are implementing Island is to
+[00:00:51.770 - 00:00:52.370] basically,
+[00:00:52.910 - 00:00:57.990] we want to ensure, the client wants to ensure that
+[00:00:57.990 - 00:01:02.250] any human judgment like in the task comes
+[00:01:02.250 - 00:01:08.210] from a person and not from an LLM. So, Island
+[00:01:08.210 - 00:01:12.370] is basically ensuring that any work
+[00:01:12.370 - 00:01:18.330] that is done is from a fellow instead of like an LLM. That's all it's being
+[00:01:18.330 - 00:01:18.790] used for.
+[00:01:18.790 - 00:01:24.270] The client's like hypersensitive around this. So, the assistant key, basically you would
+[00:01:24.270 - 00:01:24.830] use
+[00:01:25.620 - 00:01:30.030] later on the task. But the first thing you'll do is you'll install the CLI.
+[00:01:32.790 - 00:01:38.490] You will basically set up task. So, you'll get each task comes with
+[00:01:38.490 - 00:01:41.930] a prompt. And you will use
+[00:01:41.930 - 00:01:45.650] the starting prompt for ARM A and ARM B. So, you'll basically,
+[00:01:46.210 - 00:01:49.470] you'll run ARM A and ARM B
+[00:01:49.470 - 00:01:54.770] with this tasking key. You then have an assistant key as I mentioned.
+[00:01:56.090 - 00:01:57.390] So, you'll basically use this
+[00:01:57.390 - 00:02:03.270] with an Opencode to launch your agentic assistant. What you
+[00:02:03.270 - 00:02:04.370] should use the tasking
+[00:02:04.370 - 00:02:08.630] key for is basically like running ARM A and ARM B trajectories and it will create the change
+[00:02:08.630 - 00:02:14.230] patches for you. And then for the assistant key, you can use this assistant
+[00:02:14.230 - 00:02:16.010] to collect any
+[00:02:16.010 - 00:02:18.790] information about the trajectories or the change patch.
+[00:02:20.730 - 00:02:22.910] So, for example, like you can use this
+[00:02:22.910 - 00:02:28.710] assistant key to explain the upstream repo to basically like
+[00:02:28.710 - 00:02:30.950] figure out what files were changed.
+[00:02:31.350 - 00:02:36.930] You can use it to write different like verification tests. You cannot use this assistant key
+[00:02:36.930 - 00:02:37.390] to
+[00:02:38.670 - 00:02:44.450] basically ask the model like any questions about how
+[00:02:44.450 - 00:02:48.430] good the implementation was, like how correct
+[00:02:48.430 - 00:02:53.570] it was, if like where the failures were exactly. You can't ask it any questions about judgment,
+[00:02:53.810 - 00:02:59.690] like how severe was this failure. That all must come from you as a human. So, we
+[00:02:59.690 - 00:03:00.290] will basically
+[00:03:00.290 - 00:03:06.150] check the requests that are sent to the assistant key through our quality
+[00:03:06.150 - 00:03:06.730] check suite,
+[00:03:06.730 - 00:03:10.910] which is run through GitHub actions. And we'll basically make sure that
+[00:03:12.370 - 00:03:16.030] like we'll basically make sure that all the questions that were asked to the assistant
+[00:03:16.530 - 00:03:17.230] were like appropriate.
+[00:03:17.640 - 00:03:19.880] but like basically like you just want to make sure that
+[00:03:19.880 - 00:03:24.540] you're not asking the assistant any questions about judgment. And you're just asking it questions
+[00:03:24.540 - 00:03:28.940] about like what actually happened in the ROM. So, we include some like examples here of how you
+[00:03:28.940 - 00:03:33.440] should use this assistant key in Opencode and like what you cannot ask the assistant to do.
+[00:03:33.980 - 00:03:39.640] And yeah, Mohammed is basically saying, please install Opencode CLI before Island
+[00:03:39.640 - 00:03:40.120] desktop.
+[00:03:40.620 - 00:03:45.540] Otherwise, you will be blocked from using the AI assistant. So, if you want access to this
+[00:03:45.540 - 00:03:51.500] assistant to help you, please follow Mohammed's instruction. We'll like clarify that in
+[00:03:51.500 - 00:03:51.600] the
+[00:03:51.600 - 00:03:56.820] lovable. But use this assistant only for information gathering. Don't ask it any questions
+[00:03:56.820 - 00:04:00.240] about like which model did better at XYZ, basically.

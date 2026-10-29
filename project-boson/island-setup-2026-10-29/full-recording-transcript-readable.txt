@@ -1,0 +1,123 @@
+Full recording transcript
+Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
+Source ranges (seconds): 0.000-1476.773
+
+So basically, if you go into system preferences and then go to login items, there will be three Island named entries here. And basically, you should be able to turn them off and on whenever you want. This one in particular, when you turn it off, it will ask for your password, like your laptop password, your administration password, and then all turn off. So when it is off, you'll be able to do whatever you want. And it won't be tracked.
+
+So basically, you can open Chrome, you can open Safari, you can go to Claude, and log in and do whatever you need to. However, the second I turn the desktop on, it's going to block all of these things. It's also going to block my screen sharing to this particular zoom. So at any point, I think this will stop sharing. So basically, I'm going to turn it on.
+
+So it takes a second. I don't know when it'll actually turn off. So Island desktop is running, and then instantly, all of those things were shut down. And now desktop is running. So you should be asking only when these three things are running.
+
+And when these three things are running, the CLI client in the terminal will also check when you start it up that it is actually running itself. I'm a little surprised I still can screen share, but basically, to turn it off again, basically, you're just going to toggle those three things. And the Island tray icon, the desktop, Island desktop tray icon should disappear as well. And then you should be able to go back into Safari and Claude again. Any questions with that?
+
+One question that popped up in the chat was how do I do this on Windows? I can find on off toggle that. Yeah, so we're going to provide a video for Mac. We're just about to pick up a Windows machine, and we'll record a video for Windows. And you should be able to do it in Windows as well.
+
+It's through the services management console, and you can start and stop the Island entry there. But if you want an actual video and like a screenshot of what exactly you can turn on and off, we'll provide that shortly. Does anyone have any questions about how to turn on and off the Island desktop? Cool. Join Windows is like the task manager, right?
+
+So it's not the task manager. If you go into Windows and you run services .msc, that brings up the services control panel. And in there is where you should be able to stop and start desktop. And we can provide a video of that as well. So everything that we're going through now, we'll provide a video in the lovable, we'll post it in the Slack channel, I will make sure you guys have the resources you need.
+
+So on the on the on the computer where you're doing the task, right, the AI should be off, right. And okay. And you can turn on afterwards. Because I think I missed that part. I see a question.
+
+Can you please post the Island desktop and saw the link? You should check your email, you check your spam. And if you didn't get the email, it means that there are only 96 tasks in this batch. And there are therefore only 96 people on this project who can work on these tasks. And those 96 people either got an email in their spam, or it should just be in their primary inbox.
+
+They got pain on if you got if you have a task, you'll receive an email. Okay. Does anyone else have any questions about Island? Island does not work on Linux. David, have you you have you tried it?
+
+Did you try to install Island? David G. David, does Island does not work on Linux? Just want to make sure have you like you received the invite and you tried to download it? Not seeing a response.
+
+Does anyone have any other questions about Island like happy to cover anything go through any questions that you guys have? Just if you can repeat the part about Claude, you say you can open Claude after right or at which issue? Yeah. So, go ahead, same. Yes, when desktop isn't running, you should have full access to Claude and like everything you need that's like if desktop wasn't installed at all.
+
+We also provided like an assistant key. David, do you want to walk through the assistant key and how they can use that? Yeah, happy to. Okay, basically, so in this task, let me just pull up the lovable one moment. Okay, so basically, for this task, you'll receive two keys.
+
+So the first key that you guys receive will be Claude key, you'll use it in the CLI. Basically, you'll use this tasking key to generate on B and on A directory. So, okay, like really quick, I'll screen share. Walk through it very clearly. One moment, and just pull up the instructions.
+
+Okay. So, first things first is you'll install the Island desktop. And this was like already covered. If we have any other questions, like happy to go through it. Once again, we'll post like all these videos and resources in this lovable following the call.
+
+Once you do this, you claim a task on HAI. So, you'll go to the handshake platform, you'll claim a task, you'll receive two keys. One will be a key for tasking. So, you'll run your agent trajectories with this key. The other key is basically to help you through the task.
+
+It's the assistant agent key. So, the whole reason why we are implementing Island is to basically, we want to ensure, the client wants to ensure that any human judgment like in the task comes from a person and not from an LLM. So, Island is basically ensuring that any work that is done is from a fellow instead of like an LLM. That's all it's being used for. The client's like hypersensitive around this.
+
+So, the assistant key, basically you would use later on the task. But the first thing you'll do is you'll install the CLI. You will basically set up task. So, you'll get each task comes with a prompt. And you will use the starting prompt for ARM A and ARM B.
+
+So, you'll basically, you'll run ARM A and ARM B with this tasking key. You then have an assistant key as I mentioned. So, you'll basically use this with an Opencode to launch your agentic assistant. What you should use the tasking key for is basically like running ARM A and ARM B trajectories and it will create the change patches for you. And then for the assistant key, you can use this assistant to collect any information about the trajectories or the change patch.
+
+So, for example, like you can use this assistant key to explain the upstream repo to basically like figure out what files were changed. You can use it to write different like verification tests. You cannot use this assistant key to basically ask the model like any questions about how good the implementation was, like how correct it was, if like where the failures were exactly. You can't ask it any questions about judgment, like how severe was this failure. That all must come from you as a human.
+
+So, we will basically check the requests that are sent to the assistant key through our quality check suite, which is run through GitHub actions. And we'll basically make sure that like we'll basically make sure that all the questions that were asked to the assistant were actually, let me just find it, were like appropriate. So, this is a task that was submitted. You can probably look at this one. I think this is a dog feeding tab.
+
+Maybe not this. I can go find an example after this, but like basically like you just want to make sure that you're not asking the assistant any questions about judgment. And you're just asking it questions about like what actually happened in the ROM. So, we include some like examples here of how you should use this assistant key in Opencode and like what you cannot ask the assistant to do. Does that generally make sense to people?
+
+So, that seems to resonate. And yeah, Mohammed is basically saying, please install Opencode CLI before Island desktop. Otherwise, you will be blocked from using the AI assistant. So, if you want access to this assistant to help you, please follow Mohammed's instruction. We'll like clarify that in the lovable.
+
+But use this assistant only for information gathering. Don't ask it any questions about like which model did better at XYZ, basically. Also, circling back to the Linux question for desktop. Yes, David G. At the moment, Island desktop is only available on Windows and macOS.
+
+We don't have desktop support for Linux. Yeah, we'll find out like an ETA from Island. But at the moment, we don't have a solution for this. Yeah. We'll circle back on that.
+
+But yeah, that makes sense. Okay. What other questions do you guys have, if not about Island? Do you guys have questions about the general task? Do you have questions about the instructions?
+
+Any concerns about Island that we haven't already discussed? This is total open forum. So, like any legitimate question, happy to answer. Did any of you guys like who are able to claim a task on handshake? Did anyone not receive an Island invite?
+
+Any concerns about using Island that we can address? Okay. So, I think we can post these videos in lovable for you guys to access. Like happy to sit on the Zoom. If you guys have any questions, I can hang back.
+
+Sounds like Jay asked. Okay. Let's see. I just got a bunch of questions. OH is for people.
+
+Office hours. I have zero, so not relevant. Yeah, Jay. Really, like it's still hopefully helpful to you. But yeah, if you don't have a task yet, you should have one soon, probably within the next couple of weeks.
+
+We're going to wrap up this project over the next few weeks. What is the average time expected required to complete a task? I think probably expected time should be about five hours. But please let us know if it's taking you significantly longer and we can address that. David, there are multiple people saying they'd not get an invite, but in call it seems.
+
+So, the people who didn't get an invite, it's possible like we didn't send it to them. It's also possible if you didn't get an invite that it's in your spam folder. It's also possible that we have a different email on file for you. So, we're following up with all 96 people directly to make sure that you all got the invite. And if you didn't, then we can handle it from there.
+
+Samuel says, Hey, I didn't receive the Island invite. Plus, I don't have any tasks currently. Should I sit tight? Yes, Samuel. I appreciate your patience.
+
+We're expecting to wrap up on the project over the next couple of weeks. But for now, we just have a hundred tasks about in circulation. So, you probably didn't get an Island invite. Any other questions? Okay, one more.
+
+I haven't claimed a task yet, but I'd like to know how it works. Do we need to start? Do we need to? So, the tasks start to finish at a stretch. Sorry, I don't understand the question.
+
+I haven't claimed a task, but I'd like to know how it works. Oh, how it works. So, yeah, I would reference the lovable again. Maybe we can include like a video walking through the task. I can add this later.
+
+I think it could be helpful. I can just screen share it. Right. So, bonus. We'll go over the bonus in a minute.
+
+Okay. So, this task workflow, I think showbit actually already has a video here. So, this could be useful to watch the whole task end to end. But you claim a task on Handshake. You install the CLI tool that we provide to you.
+
+So, this should help you through the task. You, once you install the CLI tool, you set up the task. So, you'll read the task. You will... Sorry, I'm just moving zoom.
+
+You read the task. You'll set up your environment. And your environment is basically like your Docker file. Obviously, you make sure that you set up your assistant AI before in Opencode. So, then you'll run arm A.
+
+You'll run arm A. And you will, when you run arm A, the first thing that you do is you annotate arm A. So, you run arm A. I think we can clarify this in the instructions as well. So, you don't run arm A and arm B.
+
+What you'll do is, this is actually super important, is you'll run arm A. So, you kick off that run. Then you will go and you'll submit it. You'll basically open a PR. And you will have an automated quality check that will automatically check your first run.
+
+Once that's approved, you then fill out your ratings.json file for arm A. And you also fill out your behavioral issues.json file for arm A. Then you submit that. Then another quality check will... So, you basically push to the PR.
+
+Then another quality check will trigger. After that, you do the same thing for arm B. So, you run arm B. You run the model through arm B. You submit it.
+
+Quality check runs. You do your ratings.json file and your behavioral issues.json file for arm B. Submit. Quality check runs. And then you do one final comparison.json file.
+
+And then you submit that. So, you'll open the PR. And then you'll have four more pushes, basically, after that. And you'll have quality check that runs in between each of those. So, I would wait till the quality check passes before you move to the next step.
+
+This should make it easier for you so you don't do all the work at once. And then the quality check runs. And then it says that you did something wrong at the beginning. And then you have to start all again. So, if you do it sequentially, it should make things a lot easier for you.
+
+So, you don't have to do a bunch of work again that you messed up at the beginning. So, I think we can clarify all these things in the instructions that should already be in here. These automated checks. So, all these else should be in here. So, if you have any questions, we can go over that now.
+
+So, I had one quick one. I know Shobit, thank you Shobit for posting the video, but that has the Boson claims and Boson CLA commands. And now we are supporting hs. And that we do anything that's changed besides the Boson to hs or the video actually holds true for everything just besides this one. It's a good question, actually.
+
+I think there are some small changes. Shobit, do you just want to quickly cover some of the small changes in the CLI tool? Yeah. So, basically hs is the new version. We have a downgraded Boson.
+
+We also have, David, you were sharing that, right? There was one more thing. Can you share the screen again if possible? And their behavioral issues were also mentioned. So, one thing which we have also added is that you can just go to grade both arms.
+
+Yeah, go down a little bit. Yeah. Behavioral issues. Yeah. So, one thing which was there earlier was that behavioral issues, because this is a two and a half hour session, each arm run, approximately two hours, let's say.
+
+So, in those two hours, there'll be a few behavioral issues that might come. So, a lot of QCs were failing because fellows were not adding behavioral issues. And there was a problem that behavioral issues you can log whenever, as in when you get them. So, this is one more thing which we have added at just issue arm A. So, let's say when you get any issue in army, you can just in a new terminal tab, you can run this and it will auto-ask you what sort of issues you've faced, and then you can just push your details.
+
+The details are mentioned in this document very nicely, so you can take a look at it, but this command helps you, which was not earlier. Secondly, now we have a flow. So, earlier, in Boson, what used to happen was after claiming, basically, you would run army and then you would run the rating, basically, the comparison data. After that, you will submit it, and then the QC will run in one go. We found that it was not a good experience, so we have added QCs after every step, as David was mentioning.
+
+You first make your run for army, then you do the annotations. So, between each step, you are pushing to GitHub, and all pushes to GitHub are actually attached to a QC happening. So, first is you push your arm run. You will check whether all the environments are correct or not, whether there was, let's say, some issue for reward hacking or something which was missed while creating the Dockerfile. So, those are things we'll check.
+
+If everything is fine, you can go ahead and do the annotation, then you can go ahead and do the army, then you can go ahead and do army's annotation. So, all of these are staggered, which was not the case earlier. Third thing is we have changed the commands, actually. There were some different commands, which were actually keywords for software engineering things, like Maven and Gradle, and all those things which we have removed. We have made it easier, actually.
+
+Things are much smoother right now. But Boson, eventually, and the most important thing was, Boson does not have any auto-update, which hs has. Boson was very staggered. hs has auto-update. So, whenever there's a new version pushed, you can update it better.
+
+But apart from that, I would say video, actually, one more important thing was, earlier, there was grading as well. In the video, you might see grading, which was actually everything. So, there are two things. First is grading. Second was the comparison and your behavior issues.
+
+So, grading was earlier, it is deprecated now. We don't want grading. So, in that video, I've covered grading a lot, which you don't need to worry about, because that is not there. So, grading means that there would be some success checklists, which would come on the fly, and you need to check in your code base and in your trajectory whether those things have happened or not. So, I would say either we'll push a new video, but meanwhile, until the video can be pushed, you can just take a look at the text documents right now.
+
+Video can probably just help you with, like, how you fill your ratings and other things. But, I mean, right now, I would advise to not look at the video. It was pretty old. We'll create a new video, actually. That's the better.

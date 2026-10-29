@@ -1,0 +1,184 @@
+{
+  "source": "/Users/john.bang/Documents/trim3.mp4",
+  "source_duration": 1476.772633,
+  "transcript_provenance": "Supplied trim3.txt reviewed alongside local small.en word alignment. Output transcripts are automatic and may contain recognition errors.",
+  "clips": [
+    {
+      "slug": "01-island-controls",
+      "title": "Island controls and supported systems",
+      "ranges": [
+        [
+          0,
+          157.2
+        ],
+        [
+          179.5,
+          233
+        ],
+        [
+          343.6,
+          368.95
+        ],
+        [
+          727.5,
+          755.8
+        ]
+      ],
+      "description": "Turn Island Desktop on and off on macOS, find Windows services, and hear the Linux support clarification.",
+      "duration": 264.421016,
+      "bytes": 22699393
+    },
+    {
+      "slug": "02-invitations-and-access",
+      "title": "Invitations and task access",
+      "ranges": [
+        [
+          238,
+          271
+        ],
+        [
+          859,
+          902.2
+        ],
+        [
+          904.1,
+          950.4
+        ]
+      ],
+      "description": "Find your invitation, check your email address, and hear the session\u2019s task availability and time estimates.",
+      "duration": 122.541016,
+      "bytes": 18023755
+    },
+    {
+      "slug": "03-tasking-and-assistant-keys",
+      "title": "Tasking and assistant keys",
+      "ranges": [
+        [
+          369,
+          375.9
+        ],
+        [
+          445.7,
+          635.1
+        ],
+        [
+          642.6,
+          643.8
+        ],
+        [
+          661.55,
+          677.8
+        ],
+        [
+          698.9,
+          725.65
+        ]
+      ],
+      "description": "Understand the two keys, permitted information gathering, human judgment, and when to install Opencode.",
+      "duration": 240.581016,
+      "bytes": 16975868
+    },
+    {
+      "slug": "04-task-workflow",
+      "title": "Task workflow and quality checks",
+      "ranges": [
+        [
+          958.8,
+          994.7
+        ],
+        [
+          1005.2,
+          1200.65
+        ]
+      ],
+      "description": "Follow the task setup, separate runs and annotations, and quality checks between submissions.",
+      "duration": 231.421016,
+      "bytes": 20417457
+    },
+    {
+      "slug": "05-hs-cli-updates",
+      "title": "What changed in the hs CLI",
+      "ranges": [
+        [
+          1202.1,
+          1476.772633
+        ]
+      ],
+      "description": "Learn about behavioral issue logging, staged checks, updated commands, automatic updates, and deprecated grading.",
+      "duration": 274.701016,
+      "bytes": 34433068
+    }
+  ],
+  "excluded": [
+    {
+      "start": 157.2,
+      "end": 179.5,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 233,
+      "end": 238,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 271,
+      "end": 343.6,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 368.95,
+      "end": 369,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 375.9,
+      "end": 445.7,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 635.1,
+      "end": 642.6,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 643.8,
+      "end": 661.55,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 677.8,
+      "end": 698.9,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 725.65,
+      "end": 727.5,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 755.8,
+      "end": 859,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 902.2,
+      "end": 904.1,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 950.4,
+      "end": 958.8,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 994.7,
+      "end": 1005.2,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 1200.65,
+      "end": 1202.1,
+      "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    }
+  ]
+}
