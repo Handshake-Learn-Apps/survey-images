@@ -101,12 +101,12 @@
       "ranges": [
         [
           1202.1,
-          1476.772633
+          1447.35
         ]
       ],
       "description": "Learn about behavioral issue logging, staged checks, updated commands, automatic updates, and deprecated grading.",
-      "duration": 274.701016,
-      "bytes": 34433068
+      "duration": 245.28,
+      "bytes": 29004527
     }
   ],
   "excluded": [
@@ -179,6 +179,11 @@
       "start": 1200.65,
       "end": 1202.1,
       "reason": "Waiting, repeated questions or setup/navigation chatter; repeated key introduction and unresolved Linux back-and-forth consolidated into the complete answers."
+    },
+    {
+      "start": 1447.35,
+      "end": 1476.772633,
+      "reason": "User requested ending video 5 after \u201cwhether those things have happened or not.\u201d"
     }
   ]
 }

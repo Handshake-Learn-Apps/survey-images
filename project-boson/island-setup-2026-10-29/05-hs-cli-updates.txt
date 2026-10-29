@@ -1,6 +1,6 @@
 What changed in the hs CLI
 Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
-Source ranges (seconds): 1202.100-1476.773
+Source ranges (seconds): 1202.100-1447.350
 Timestamps are relative to this video.
 
 [00:00:00.260 - 00:00:04.060] So, I had one quick one. I know Shobit, thank you Shobit for posting the video,
@@ -60,10 +60,3 @@ Timestamps are relative to this video.
 [00:03:54.590 - 00:03:57.870] which you don't need to worry about, because that is not there. So, grading means that there would
 [00:03:57.870 - 00:04:02.670] be some success checklists, which would come on the fly, and you need to check in your code base
 [00:04:02.670 - 00:04:04.990] and in your trajectory whether those things have happened or not.
-[00:04:09.330 - 00:04:12.110] So, I would say either
-[00:04:12.110 - 00:04:18.070] we'll push a new video, but meanwhile, until the video can be pushed, you can just
-[00:04:18.070 - 00:04:19.210] take a
-[00:04:19.210 - 00:04:24.530] look at the text documents right now. Video can probably just help you with,
-[00:04:24.530 - 00:04:27.030] like, how you fill
-[00:04:27.030 - 00:04:31.110] your ratings and other things. But, I mean, right now, I would advise to not look at the video.
-[00:04:31.230 - 00:04:34.430] It was pretty old. We'll create a new video, actually. That's the better.

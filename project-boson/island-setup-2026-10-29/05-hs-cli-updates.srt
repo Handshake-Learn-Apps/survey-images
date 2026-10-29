@@ -225,31 +225,3 @@ be some success checklists, which would come on the fly, and you need to check i
 57
 00:04:02,670 --> 00:04:04,990
 and in your trajectory whether those things have happened or not.
-
-58
-00:04:09,330 --> 00:04:12,110
-So, I would say either
-
-59
-00:04:12,110 --> 00:04:18,070
-we'll push a new video, but meanwhile, until the video can be pushed, you can just
-
-60
-00:04:18,070 --> 00:04:19,210
-take a
-
-61
-00:04:19,210 --> 00:04:24,530
-look at the text documents right now. Video can probably just help you with,
-
-62
-00:04:24,530 --> 00:04:27,030
-like, how you fill
-
-63
-00:04:27,030 --> 00:04:31,110
-your ratings and other things. But, I mean, right now, I would advise to not look at the video.
-
-64
-00:04:31,230 --> 00:04:34,430
-It was pretty old. We'll create a new video, actually. That's the better.

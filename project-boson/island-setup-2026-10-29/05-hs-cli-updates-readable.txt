@@ -1,6 +1,6 @@
 What changed in the hs CLI
 Automatic transcript, checked against the supplied transcript for topic coverage. Recognition errors may remain.
-Source ranges (seconds): 1202.100-1476.773
+Source ranges (seconds): 1202.100-1447.350
 
 So, I had one quick one. I know Shobit, thank you Shobit for posting the video, but that has the Boson claims and Boson CLA commands. And now we are supporting hs. And that we do anything that's changed besides the Boson to hs or the video actually holds true for everything just besides this one. It's a good question, actually.
 
@@ -22,6 +22,4 @@ Things are much smoother right now. But Boson, eventually, and the most importan
 
 But apart from that, I would say video, actually, one more important thing was, earlier, there was grading as well. In the video, you might see grading, which was actually everything. So, there are two things. First is grading. Second was the comparison and your behavior issues.
 
-So, grading was earlier, it is deprecated now. We don't want grading. So, in that video, I've covered grading a lot, which you don't need to worry about, because that is not there. So, grading means that there would be some success checklists, which would come on the fly, and you need to check in your code base and in your trajectory whether those things have happened or not. So, I would say either we'll push a new video, but meanwhile, until the video can be pushed, you can just take a look at the text documents right now.
-
-Video can probably just help you with, like, how you fill your ratings and other things. But, I mean, right now, I would advise to not look at the video. It was pretty old. We'll create a new video, actually. That's the better.
+So, grading was earlier, it is deprecated now. We don't want grading. So, in that video, I've covered grading a lot, which you don't need to worry about, because that is not there. So, grading means that there would be some success checklists, which would come on the fly, and you need to check in your code base and in your trajectory whether those things have happened or not.
