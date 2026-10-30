@@ -1,12 +1,12 @@
 # Windows Island setup
 
-Original, untrimmed recordings. No spoken narration. Descriptions summarize the visible actions.
+The install clip has a shortened version with installation waits removed. Enable and disable are original, untrimmed recordings. No spoken narration. Descriptions summarize the visible actions.
 
-## Install Island on Windows (4:14)
+## Install Island on Windows (1:39)
 
 Open the downloaded Island installer and wait for both Island Browser and Island Desktop to show “Installed successfully.” Select Done, then open Island Browser and sign in with your invited account.
 
-[Watch video](windows-install.mp4)
+[Watch shortened video](windows-install-short.mp4) · [Full recording](windows-install.mp4)
 
 ## Enable Island Desktop (0:56)
 

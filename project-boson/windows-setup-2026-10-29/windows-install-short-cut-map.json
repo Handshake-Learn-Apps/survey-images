@@ -1,0 +1,38 @@
+{
+  "source": "windows_install.mp4",
+  "source_duration": 254.220633,
+  "ranges": [
+    [
+      0,
+      12
+    ],
+    [
+      28,
+      40
+    ],
+    [
+      167,
+      190
+    ],
+    [
+      202,
+      254.220633
+    ]
+  ],
+  "removed": [
+    [
+      12,
+      28
+    ],
+    [
+      40,
+      167
+    ],
+    [
+      190,
+      202
+    ]
+  ],
+  "reason": "Installation progress and startup waiting; all retained portions play at original speed. No spoken narration.",
+  "duration": 99.286467
+}
