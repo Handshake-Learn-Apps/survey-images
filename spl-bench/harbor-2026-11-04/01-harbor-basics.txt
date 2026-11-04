@@ -1,0 +1,57 @@
+Harbor basics and the SSH task example
+Source ranges (seconds): [(36.24, 42.04), (50.32, 437.4)]
+Supplied automatic transcript; recognition errors remain. Clip-relative timestamps.
+
+[00:00:00.240 - 00:00:02.880] This is called Family Test, yeah, Newings.
+[00:00:03.860 - 00:00:05.540] This is supposed to be an introduction.
+[00:00:06.080 - 00:00:11.580] So you can think of Archer as kind of the Amazon agent exam for the agents.
+[00:00:12.480 - 00:00:19.480] Every exam needs an assignment, someone to complete it and it will be great to work.
+[00:00:19.480 - 00:00:23.480] So an agent evaluation has the same structure.
+[00:00:23.480 - 00:00:28.480] So it specifies the goal and agent uses tools to do it.
+[00:00:28.480 - 00:00:31.480] So it's very rare to check the result.
+[00:00:31.480 - 00:00:45.480] Archer is just the way and is a framework to coordinate the whole attempt of running agents.
+[00:00:45.480 - 00:00:46.480] Okay.
+[00:00:46.480 - 00:00:52.480] So there's quite a few bits to harbor, but first let's go over the components of agent evaluation.
+[00:00:52.480 - 00:00:59.480] You have tasks, models, agents, and boxes and skills.
+[00:00:59.480 - 00:01:06.480] Archer separates out those choices, so we can change one component without rebuilding that entire set.
+[00:01:06.480 - 00:01:13.480] So for example, you can run the same task with different agents or compare models with the same agent.
+[00:01:13.480 - 00:01:20.480] And then this rollout engine within harbor then starts the environments and coordinates the tests in parallel.
+[00:01:20.480 - 00:01:34.480] And then every attempt produces these kinds of records for different purposes, like trajectory analysis, evaluation, optimization, task, QA and our fix.
+[00:01:34.480 - 00:01:39.480] This lets us review the quality of the tasks themselves.
+[00:01:39.480 - 00:01:48.480] And a surprising result might review a problem in the instructions or the grading logic that we need to investigate.
+[00:01:51.480 - 00:01:57.480] Okay, so let's go over a super simple example of a task in harbor format.
+[00:01:57.480 - 00:02:08.480] So let's say that you have a task called generate SSH key pair and you want the agent to save it in the requested file locations.
+[00:02:08.480 - 00:02:18.480] So basically we want to ensure that the private key stays with its owner and the public key is used by another system to verify and dot voters identity.
+[00:02:19.480 - 00:02:26.480] In the harbor trial itself, the agent is going to save that key into specific files.
+[00:02:26.480 - 00:02:33.480] This instruction is really, really short, but completing in requires two things.
+[00:02:33.480 - 00:02:42.480] Val and keys that match and keys that occupy the correct locations.
+[00:02:42.480 - 00:02:47.480] On this task, a verifier needs to accept different solutions.
+[00:02:47.480 - 00:02:52.480] If you're familiar with SSH key generation, it produces a different parish time.
+[00:02:52.480 - 00:03:03.480] So you wouldn't compare this against one static reference the answer and a verifier also needs to check whether the keys are valid, whether they've long a matching pair.
+[00:03:03.480 - 00:03:11.480] And then also check whether the agents save them in the requested locations.
+[00:03:11.480 - 00:03:19.480] Does that make sense in terms of what the task is?
+[00:03:19.480 - 00:03:22.480] So the instruction is only one part of the harbor format.
+[00:03:22.480 - 00:03:32.480] So if you had some sort of SSH key tasks, there is going to be four required components instructions MD task.
+[00:03:32.480 - 00:03:41.480] The task folder, the environment folder, the test folder and the solution instructions is going to be the goal of the agent in task.
+[00:03:41.480 - 00:03:45.480] Tom will you are going to specify the runs settings of the agent.
+[00:03:45.480 - 00:03:52.480] And then the environment folder contains the environment definition and or a prebuilt image.
+[00:03:52.480 - 00:03:58.480] Sometimes a dog image and the test folder have the grading module.
+[00:03:58.480 - 00:04:09.480] The solution in the hour format is not technically required, but it's really common to your ship tasks with them in benchmarks like Tom branch.
+[00:04:09.480 - 00:04:15.480] Sure people are aware of this as you've been working with the harbor format.
+[00:04:15.480 - 00:04:19.480] Okay, so this is a diagram of inside of our trial.
+[00:04:19.480 - 00:04:25.480] First, you have a task, then the environment will be started inside harbor.
+[00:04:25.480 - 00:04:30.480] Inside the back end, there'll be an agent running in an environment.
+[00:04:30.480 - 00:04:35.480] And that agent is able to run terminal commands and get responses.
+[00:04:35.480 - 00:04:41.480] Once the agent does that in the environment, you know, we have a record of trajectories.
+[00:04:41.480 - 00:04:52.480] And we can also use that trajectory for supervised by and tuning and failure analysis or feedback back into the reinforcement learning stage and context optimization.
+[00:04:52.480 - 00:05:03.480] Separately a verifier test the final state of what the agent get in the environment and then it produces a reward signal, right, either a zero or one.
+[00:05:03.480 - 00:05:18.480] And we have that record we can agree that against multiple agent trials and use that for evaluation and also be that into reinforcement learning so that agent can learn more in terms of these tasks.
+[00:05:18.480 - 00:05:23.480] Yeah, we just specify the reward and the agent starts to learn.
+[00:05:23.480 - 00:05:34.480] Inside the analogy of the SSH pair trial. First, we have to start the sandbox and the harbor format is going to try to create a pair of keys.
+[00:05:34.480 - 00:05:45.480] The verifier is going to validate those keys and then it's either going to be pass or fail zero or one.
+[00:05:45.480 - 00:05:55.480] And then the agent trajectory inside that action law will be used for as I said, like supervised by tuning and or oral training.
+[00:05:55.480 - 00:06:08.480] And this is not exhaustive of how the entire coach training process works, but it's just one simple example of a hard task.
+[00:06:08.480 - 00:06:18.480] So it's not a good example of how counts as a correct answer to the verifier. So it would be a fail if the files have the right names, but contain no keys.
+[00:06:18.480 - 00:06:24.480] If the keys were unrelated, that would not be a pair. So that would be a fail in terms of the trial.
+[00:06:24.480 - 00:06:29.480] And then number three is that success case, right, that reward equals one.
+[00:06:28.660 - 00:06:32.560] The keys would form a valid pair and occupy the request and locations.

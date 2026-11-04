@@ -1,0 +1,26 @@
+Evaluation safeguards and current capabilities
+Source ranges (seconds): [(439.44, 634)]
+Supplied automatic transcript; recognition errors remain. Clip-relative timestamps.
+
+[00:00:00.260 - 00:00:09.560] So the verifier runs separately inside a harbor trial. So the agent does the work and the save files are checked against the verifier.
+[00:00:09.560 - 00:00:14.560] But I'd like to point out that this is actually a fairly news operation.
+[00:00:14.560 - 00:00:27.560] It was in a PR in the order, rebo in May and it emerged in the summer and TV reached with this specification of the separation.
+[00:00:27.560 - 00:00:40.560] Thus the difference between TV two and TV three and how hard has to change to like a California separation.
+[00:00:40.560 - 00:00:46.560] Yeah, I mean, if anyone wants to be here, feel free to, I know this actually if that you're more.
+[00:00:46.560 - 00:01:04.560] And then whoever is under active development, so the evaluation stacks still has flaws. So for example, there was an article recently by the startup call preference model and they actually bonded in the current 65 terminal bench for less.
+[00:01:04.560 - 00:01:16.560] And 41 of them on fan stated grading requirements and 44 of them allowed reward hacking. So no format is going to be immune from reward hacking right now.
+[00:01:16.560 - 00:01:20.560] And their safeguards don't replace task to review.
+[00:01:20.560 - 00:01:25.560] You know, we see that those of these have issues, but we'll talk more about it.
+[00:01:25.560 - 00:01:30.560] We have someone here as well, who's contributing actively right now to the hardware for that.
+[00:01:30.560 - 00:01:41.560] And it's also built in tools inside an chain to make harder kind of function better inside the roll outs. So we can talk about that.
+[00:01:41.560 - 00:01:49.560] So another team takeaway is live bench bars are software and software is going to have bugs, right.
+[00:01:49.560 - 00:01:58.560] So that the good reiteration for us with your working on projects and having fellows build tasks.
+[00:01:58.560 - 00:02:07.560] You're either building, you know, very durable software or software that's a little bit fragile, but they were pliers maintenance over time.
+[00:02:07.560 - 00:02:12.560] And this is just a good reminder to us just working on coding projects.
+[00:02:12.560 - 00:02:23.560] And additions to order. So live inspection. It's also called streaming. Let's us inspect the agents options and files while it works.
+[00:02:23.560 - 00:02:33.560] And then there are things that are in the works for accessible agents who have access to MCP.
+[00:02:33.560 - 00:02:37.560] And we use a poll grading that you can use.
+[00:02:37.560 - 00:02:44.560] The command is called like far more be grade, which applies data checks to save outputs.
+[00:02:44.560 - 00:02:59.560] And the semi new thing is hosted execution hardware, let's teams launch for both jobs and share their results.
+[00:02:59.560 - 00:03:08.560] I'll send this out later, but here are some things that you can do inside a hardware to mitigate or weren't happy.
+[00:03:08.540 - 00:03:14.220] I'm a little skeptical of this because it doesn't seem like everything works, but this is in their documentation.

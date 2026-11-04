@@ -1,0 +1,583 @@
+1
+00:00:00,000 --> 00:00:02,920
+Do we have any questions.
+
+2
+00:00:02,920 --> 00:00:04,920
+Yeah, actually John.
+
+3
+00:00:04,920 --> 00:00:11,920
+Yeah, I think question about testing. I don't know what test suites at all in our work as I just joined.
+
+4
+00:00:11,920 --> 00:00:21,920
+No, not yet. I would also like to ask you a question about that, but I asked your question and we also have Sherry on the call who might be able to answer if we.
+
+5
+00:00:21,920 --> 00:00:34,920
+Oh, yeah, sure. So me on we were doing some trials for the word acting and basically because me on what you have is the tests the way it is to unit tests.
+
+6
+00:00:34,920 --> 00:00:38,920
+So that's cold running. What we found out is.
+
+7
+00:00:38,920 --> 00:00:47,920
+The very fire even with a separate process is always very practical because you can run the solution that I've called like a very fire.
+
+8
+00:00:47,920 --> 00:00:53,920
+That was the last copy of answers from your search statements etc.
+
+9
+00:00:53,920 --> 00:00:57,920
+A prototype in test it is you just long answers to an answer sheet.
+
+10
+00:00:57,920 --> 00:01:02,920
+So it's a very far rating cold, which cold can do bad things.
+
+11
+00:01:02,920 --> 00:01:10,920
+You basically have very the very first only the very first passes and answer key from the solution to a separate process.
+
+12
+00:01:10,920 --> 00:01:13,920
+And you just great answer key like string string string.
+
+13
+00:01:13,920 --> 00:01:19,920
+I think this is how I like judge words or one of the benchmarks.
+
+14
+00:01:19,920 --> 00:01:22,920
+We found out when we were at the ball.
+
+15
+00:01:22,920 --> 00:01:31,920
+We actually find like see if this is capable or this me sense on the context of harder or have this thought about it.
+
+16
+00:01:31,920 --> 00:01:41,920
+I haven't got it but I'm curious to what you just said, but so even with separate orders for the verifier.
+
+17
+00:01:41,920 --> 00:01:46,920
+You have some arbitrary code inside that that you can write.
+
+18
+00:01:46,920 --> 00:01:50,920
+Then you have the possibility of a word back.
+
+19
+00:01:50,920 --> 00:01:52,920
+You can just describe that problem a little bit.
+
+20
+00:01:52,920 --> 00:01:55,920
+Yes, and this moment.
+
+21
+00:01:55,920 --> 00:01:57,920
+I will.
+
+22
+00:01:57,920 --> 00:01:59,920
+I have to.
+
+23
+00:01:59,920 --> 00:02:04,920
+We ran a lot of trials basically what the very buyer is doing for me on it.
+
+24
+00:02:04,920 --> 00:02:07,920
+It's it's a great unit tests.
+
+25
+00:02:07,920 --> 00:02:14,920
+And at that time you can basically find ways to cheat because you're waiting cold.
+
+26
+00:02:14,920 --> 00:02:22,920
+The code can say hey, very far being passed in this 11 you always delete all the tests blah blah blah.
+
+27
+00:02:22,920 --> 00:02:24,920
+But you cheat on unit tests.
+
+28
+00:02:24,920 --> 00:02:27,920
+But it's this.
+
+29
+00:02:27,920 --> 00:02:33,920
+Loophole in our tests where block really just rated an answer key like a message of Jason.
+
+30
+00:02:33,920 --> 00:02:45,920
+Of a text that also says theявout does equals and then does you do something, that'sGHTNistors you may refer to call it the evolution.
+
+31
+00:02:45,920 --> 00:02:47,920
+OK.
+
+32
+00:02:47,920 --> 00:02:54,920
+So this one needs just worms cannot be acted the same way.
+
+33
+00:02:54,920 --> 00:03:00,920
+I mean I think it's a good like inter award like dawn.
+
+34
+00:03:00,920 --> 00:03:04,720
+of people have gotten a snapshot testing. So you basically,
+
+35
+00:03:04,720 --> 00:03:09,580
+snapshot testing is every language has minus settings every
+
+36
+00:03:09,580 --> 00:03:12,920
+language has like a way to snapshot the result at test time.
+
+37
+00:03:12,920 --> 00:03:15,620
+And the result can be written in the JSON.
+
+38
+00:03:15,620 --> 00:03:18,620
+And basically you read the JSON as something that's locked
+
+39
+00:03:18,620 --> 00:03:19,620
+like a vault.
+
+40
+00:03:19,620 --> 00:03:22,420
+I see. Okay. So sort of like protecting.
+
+41
+00:03:22,420 --> 00:03:26,420
+Having a separate answer key kind of walking in a way.
+
+42
+00:03:26,420 --> 00:03:27,420
+Yes.
+
+43
+00:03:28,420 --> 00:03:30,420
+That helps the
+
+44
+00:03:32,420 --> 00:03:35,420
+verifier kind of be more robust.
+
+45
+00:03:35,420 --> 00:03:37,420
+Right. That is also about to say.
+
+46
+00:03:37,420 --> 00:03:41,420
+Yeah, we think this is true. We ran a lot of tests, but you want
+
+47
+00:03:41,420 --> 00:03:42,420
+to research a stake on it.
+
+48
+00:03:42,420 --> 00:03:43,420
+Yeah.
+
+49
+00:03:43,420 --> 00:03:44,420
+Yeah.
+
+50
+00:03:44,420 --> 00:03:48,420
+What is the patient have access to the test to begin with?
+
+51
+00:03:48,420 --> 00:03:52,420
+At reading time, the very fire has the test rate.
+
+52
+00:03:52,420 --> 00:03:55,420
+And basically, you can,
+
+53
+00:03:55,420 --> 00:04:00,420
+at that time, you can basically have sort of scripts or lines that
+
+54
+00:04:00,420 --> 00:04:04,420
+say it's just maybe pass.
+
+55
+00:04:04,420 --> 00:04:06,420
+How do we explain that?
+
+56
+00:04:06,420 --> 00:04:07,420
+No, we're just simplified.
+
+57
+00:04:07,420 --> 00:04:09,420
+Essentially.
+
+58
+00:04:09,420 --> 00:04:13,420
+The agent is editing the verified code.
+
+59
+00:04:13,420 --> 00:04:17,420
+So the agent solution is with the verifier, right?
+
+60
+00:04:17,420 --> 00:04:19,420
+The very fire has to run the solution.
+
+61
+00:04:19,420 --> 00:04:23,420
+But that's called the code can.
+
+62
+00:04:23,420 --> 00:04:25,420
+And that's the way we found out.
+
+63
+00:04:25,420 --> 00:04:26,420
+Yeah.
+
+64
+00:04:26,420 --> 00:04:29,420
+And we just did she trials and Daytona.
+
+65
+00:04:29,420 --> 00:04:31,420
+So we took me on test.
+
+66
+00:04:31,420 --> 00:04:33,420
+Like ourselves asked.
+
+67
+00:04:33,420 --> 00:04:36,420
+Daytona being basically gave soul like finally with the cheat.
+
+68
+00:04:36,420 --> 00:04:37,420
+Yeah.
+
+69
+00:04:37,420 --> 00:04:38,420
+And it felt like.
+
+70
+00:04:38,420 --> 00:04:40,420
+I tested it a lot of times all 11 times.
+
+71
+00:04:40,420 --> 00:04:41,420
+It was able to cheat.
+
+72
+00:04:41,420 --> 00:04:42,420
+Yeah.
+
+73
+00:04:42,420 --> 00:04:45,420
+It's not even the future, but pass all the unit tests and the.
+
+74
+00:04:45,420 --> 00:04:46,420
+Recurrency bet was.
+
+75
+00:04:46,420 --> 00:04:48,420
+Basically,
+
+76
+00:04:48,420 --> 00:04:49,420
+basically,
+
+77
+00:04:49,420 --> 00:04:52,420
+we're trying to.
+
+78
+00:04:52,420 --> 00:04:55,420
+We can't see that was.
+
+79
+00:04:55,420 --> 00:04:56,420
+Basically,
+
+80
+00:04:56,420 --> 00:04:59,420
+the change of code and reading time because it's called and not.
+
+81
+00:04:59,420 --> 00:05:01,420
+Yeah, it looks like a definitely more.
+
+82
+00:05:01,420 --> 00:05:04,420
+I mean, like, obviously, we're trying to fill in.
+
+83
+00:05:04,420 --> 00:05:09,420
+I mean, we're going to like sink a sink about like, you know,
+
+84
+00:05:09,420 --> 00:05:11,420
+where you're working on the content is.
+
+85
+00:05:11,420 --> 00:05:13,420
+Bench Jack is a paper on.
+
+86
+00:05:13,420 --> 00:05:15,420
+Yeah, they also found the same thing.
+
+87
+00:05:15,420 --> 00:05:17,420
+And I think I also have some more finishes.
+
+88
+00:05:17,420 --> 00:05:19,420
+So,
+
+89
+00:05:19,420 --> 00:05:20,420
+I think it's.
+
+90
+00:05:20,420 --> 00:05:21,420
+Yeah.
+
+91
+00:05:21,420 --> 00:05:22,420
+So is it,
+
+92
+00:05:22,420 --> 00:05:27,420
+is the issue that it's able to see the tests and.
+
+93
+00:05:27,420 --> 00:05:31,420
+Reverse engineer front of how they test service it or isn't that.
+
+94
+00:05:31,420 --> 00:05:33,420
+It's changing the tests.
+
+95
+00:05:33,420 --> 00:05:35,420
+I think it's changing the tests.
+
+96
+00:05:35,420 --> 00:05:36,420
+Um,
+
+97
+00:05:36,420 --> 00:05:37,420
+living could define my effect.
+
+98
+00:05:37,420 --> 00:05:39,420
+So I'll go through the few days.
+
+99
+00:05:39,420 --> 00:05:41,420
+Yeah, go ahead and like drop it in the chat.
+
+100
+00:05:41,420 --> 00:05:43,420
+Share your view of any.
+
+101
+00:05:43,420 --> 00:05:45,420
+Do you have any response to that?
+
+102
+00:05:45,420 --> 00:05:46,420
+Yeah, I do.
+
+103
+00:05:46,420 --> 00:05:48,420
+I mean, have you seen like similar.
+
+104
+00:05:48,420 --> 00:05:55,420
+War backing behaviors.
+
+105
+00:05:55,420 --> 00:06:00,420
+Um, you mean like the, um, the scenario, we just discussed here.
+
+106
+00:06:00,420 --> 00:06:01,420
+Um,
+
+107
+00:06:01,420 --> 00:06:05,420
+I guess the question I have is.
+
+108
+00:06:05,420 --> 00:06:11,420
+Um, cause that like the entry point is actually the test functions.
+
+109
+00:06:11,420 --> 00:06:12,420
+Right.
+
+110
+00:06:12,420 --> 00:06:19,420
+So the test functions actually runs whatever like functions produced by the agent.
+
+111
+00:06:19,420 --> 00:06:22,420
+Then in that case, how.
+
+112
+00:06:22,420 --> 00:06:25,420
+I guess I'm still trying to wrap my head around it.
+
+113
+00:06:25,420 --> 00:06:29,420
+How cool like the artifacts actually like.
+
+114
+00:06:29,420 --> 00:06:31,420
+Did they eat the test functions?
+
+115
+00:06:31,420 --> 00:06:35,420
+Oh, there's a look.
+
+116
+00:06:35,420 --> 00:06:38,420
+Um,
+
+117
+00:06:38,420 --> 00:06:47,420
+I think it is on.
+
+118
+00:06:47,420 --> 00:06:49,420
+Yeah, this is the.
+
+119
+00:06:49,420 --> 00:06:51,420
+Okay, we took.
+
+120
+00:06:51,420 --> 00:07:00,420
+Is it life that there's leakage for.
+
+121
+00:07:00,420 --> 00:07:02,420
+I'll actually put this in the thought.
+
+122
+00:07:02,420 --> 00:07:04,420
+Cause what was the core researcher?
+
+123
+00:07:04,420 --> 00:07:05,420
+I see.
+
+124
+00:07:05,420 --> 00:07:06,420
+Yeah.
+
+125
+00:07:06,420 --> 00:07:08,420
+Also like, you're maybe like a quick.
+
+126
+00:07:08,420 --> 00:07:18,420
+Um, and I'll hear is I think like there is also a difference between either like a function is tested or like a whole.
+
+127
+00:07:18,420 --> 00:07:23,420
+Um, like executable script is tested.
+
+128
+00:07:23,420 --> 00:07:25,420
+Um, because.
+
+129
+00:07:25,420 --> 00:07:32,420
+Yeah, I just like mentioned, I think the entry point is actually the test functions in the verify right.
+
+130
+00:07:32,420 --> 00:07:44,420
+And then a lot of times I think several are only execute like, for example, one word several functions produced by the agent, not like so, execute was script.
+
+131
+00:07:44,420 --> 00:07:52,420
+And then in that case, I think the chance for like, uh, real work hacking is lower because it's much harder.
+
+132
+00:07:52,420 --> 00:07:54,420
+So you see, it's a good.
+
+133
+00:07:54,420 --> 00:07:59,420
+Each function separately, the chance of your hacking is lower.
+
+134
+00:07:59,420 --> 00:08:02,420
+Yeah, because the.
+
+135
+00:08:02,420 --> 00:08:09,420
+Yeah, because the work gets executed is actually a simple function that has inputs and the.
+
+136
+00:08:09,420 --> 00:08:19,420
+Kind of like the verify or you know, compare it to our post against what is expected in startup, running like a whole executable file.
+
+137
+00:08:19,420 --> 00:08:28,420
+And as like that makes sense if you are basically because the output is like a string right it's like a source of truth that cannot be manipulated.
+
+138
+00:08:28,420 --> 00:08:32,420
+Um, yeah more like in percent outputs pairs.
+
+139
+00:08:32,420 --> 00:08:37,420
+Yeah, that's consistent with what we were worried about as well because we are running.
+
+140
+00:08:37,420 --> 00:08:45,420
+We are the very first like running unit tests right because it's a real gold features.
+
+141
+00:08:45,420 --> 00:08:47,420
+And this is super cheap.
+
+142
+00:08:47,420 --> 00:08:53,420
+I think one of my friends say we smell fire, but we'd like to research our two life.
+
+143
+00:08:53,420 --> 00:08:54,420
+That makes sense.
+
+144
+00:08:54,420 --> 00:08:57,420
+We should follow up and drop them on right?
+
+145
+00:08:57,420 --> 00:08:58,420
+Yeah, okay.
+
+146
+00:08:57,560 --> 00:09:00,220
+So we can talk to you about that.

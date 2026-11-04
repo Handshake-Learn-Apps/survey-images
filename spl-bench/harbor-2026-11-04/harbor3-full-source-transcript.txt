@@ -1,0 +1,306 @@
+[   0.00 -   20.00] Okay.
+[  20.00 -   21.00] Okay.
+[  21.00 -   26.00] This is recorded, so don't worry about any news for anything.
+[  26.00 -   31.00] Today we're just going to talk about our board a little bit,
+[  31.00 -   36.00] and also kind of talk about how a little bit of service.
+[  36.00 -   40.00] This is called Family Test, yeah, Newings.
+[  40.00 -   47.00] This is supposed to be an introduction.
+[  47.00 -   57.00] So you can think of Archer as kind of the Amazon agent exam for the agents.
+[  57.00 -   64.00] Every exam needs an assignment, someone to complete it and it will be great to work.
+[  64.00 -   68.00] So an agent evaluation has the same structure.
+[  68.00 -   73.00] So it specifies the goal and agent uses tools to do it.
+[  73.00 -   76.00] So it's very rare to check the result.
+[  76.00 -   90.00] Archer is just the way and is a framework to coordinate the whole attempt of running agents.
+[  90.00 -   91.00] Okay.
+[  91.00 -   97.00] So there's quite a few bits to harbor, but first let's go over the components of agent evaluation.
+[  97.00 -  104.00] You have tasks, models, agents, and boxes and skills.
+[ 104.00 -  111.00] Archer separates out those choices, so we can change one component without rebuilding that entire set.
+[ 111.00 -  118.00] So for example, you can run the same task with different agents or compare models with the same agent.
+[ 118.00 -  125.00] And then this rollout engine within harbor then starts the environments and coordinates the tests in parallel.
+[ 125.00 -  139.00] And then every attempt produces these kinds of records for different purposes, like trajectory analysis, evaluation, optimization, task, QA and our fix.
+[ 139.00 -  144.00] This lets us review the quality of the tasks themselves.
+[ 144.00 -  153.00] And a surprising result might review a problem in the instructions or the grading logic that we need to investigate.
+[ 156.00 -  162.00] Okay, so let's go over a super simple example of a task in harbor format.
+[ 162.00 -  173.00] So let's say that you have a task called generate SSH key pair and you want the agent to save it in the requested file locations.
+[ 173.00 -  183.00] So basically we want to ensure that the private key stays with its owner and the public key is used by another system to verify and dot voters identity.
+[ 184.00 -  191.00] In the harbor trial itself, the agent is going to save that key into specific files.
+[ 191.00 -  198.00] This instruction is really, really short, but completing in requires two things.
+[ 198.00 -  207.00] Val and keys that match and keys that occupy the correct locations.
+[ 207.00 -  212.00] On this task, a verifier needs to accept different solutions.
+[ 212.00 -  217.00] If you're familiar with SSH key generation, it produces a different parish time.
+[ 217.00 -  228.00] So you wouldn't compare this against one static reference the answer and a verifier also needs to check whether the keys are valid, whether they've long a matching pair.
+[ 228.00 -  236.00] And then also check whether the agents save them in the requested locations.
+[ 236.00 -  244.00] Does that make sense in terms of what the task is?
+[ 244.00 -  247.00] So the instruction is only one part of the harbor format.
+[ 247.00 -  257.00] So if you had some sort of SSH key tasks, there is going to be four required components instructions MD task.
+[ 257.00 -  266.00] The task folder, the environment folder, the test folder and the solution instructions is going to be the goal of the agent in task.
+[ 266.00 -  270.00] Tom will you are going to specify the runs settings of the agent.
+[ 270.00 -  277.00] And then the environment folder contains the environment definition and or a prebuilt image.
+[ 277.00 -  283.00] Sometimes a dog image and the test folder have the grading module.
+[ 283.00 -  294.00] The solution in the hour format is not technically required, but it's really common to your ship tasks with them in benchmarks like Tom branch.
+[ 294.00 -  300.00] Sure people are aware of this as you've been working with the harbor format.
+[ 300.00 -  304.00] Okay, so this is a diagram of inside of our trial.
+[ 304.00 -  310.00] First, you have a task, then the environment will be started inside harbor.
+[ 310.00 -  315.00] Inside the back end, there'll be an agent running in an environment.
+[ 315.00 -  320.00] And that agent is able to run terminal commands and get responses.
+[ 320.00 -  326.00] Once the agent does that in the environment, you know, we have a record of trajectories.
+[ 326.00 -  337.00] And we can also use that trajectory for supervised by and tuning and failure analysis or feedback back into the reinforcement learning stage and context optimization.
+[ 337.00 -  348.00] Separately a verifier test the final state of what the agent get in the environment and then it produces a reward signal, right, either a zero or one.
+[ 348.00 -  363.00] And we have that record we can agree that against multiple agent trials and use that for evaluation and also be that into reinforcement learning so that agent can learn more in terms of these tasks.
+[ 363.00 -  368.00] Yeah, we just specify the reward and the agent starts to learn.
+[ 368.00 -  379.00] Inside the analogy of the SSH pair trial. First, we have to start the sandbox and the harbor format is going to try to create a pair of keys.
+[ 379.00 -  390.00] The verifier is going to validate those keys and then it's either going to be pass or fail zero or one.
+[ 390.00 -  400.00] And then the agent trajectory inside that action law will be used for as I said, like supervised by tuning and or oral training.
+[ 400.00 -  413.00] And this is not exhaustive of how the entire coach training process works, but it's just one simple example of a hard task.
+[ 413.00 -  423.00] So it's not a good example of how counts as a correct answer to the verifier. So it would be a fail if the files have the right names, but contain no keys.
+[ 423.00 -  429.00] If the keys were unrelated, that would not be a pair. So that would be a fail in terms of the trial.
+[ 429.00 -  434.00] And then number three is that success case, right, that reward equals one.
+[ 434.00 -  440.00] The keys would form a valid pair and occupy the request and locations.
+[ 440.00 -  449.00] So the verifier runs separately inside a harbor trial. So the agent does the work and the save files are checked against the verifier.
+[ 449.00 -  454.00] But I'd like to point out that this is actually a fairly news operation.
+[ 454.00 -  467.00] It was in a PR in the order, rebo in May and it emerged in the summer and TV reached with this specification of the separation.
+[ 467.00 -  480.00] Thus the difference between TV two and TV three and how hard has to change to like a California separation.
+[ 480.00 -  486.00] Yeah, I mean, if anyone wants to be here, feel free to, I know this actually if that you're more.
+[ 486.00 -  504.00] And then whoever is under active development, so the evaluation stacks still has flaws. So for example, there was an article recently by the startup call preference model and they actually bonded in the current 65 terminal bench for less.
+[ 504.00 -  516.00] And 41 of them on fan stated grading requirements and 44 of them allowed reward hacking. So no format is going to be immune from reward hacking right now.
+[ 516.00 -  520.00] And their safeguards don't replace task to review.
+[ 520.00 -  525.00] You know, we see that those of these have issues, but we'll talk more about it.
+[ 525.00 -  530.00] We have someone here as well, who's contributing actively right now to the hardware for that.
+[ 530.00 -  541.00] And it's also built in tools inside an chain to make harder kind of function better inside the roll outs. So we can talk about that.
+[ 541.00 -  549.00] So another team takeaway is live bench bars are software and software is going to have bugs, right.
+[ 549.00 -  558.00] So that the good reiteration for us with your working on projects and having fellows build tasks.
+[ 558.00 -  567.00] You're either building, you know, very durable software or software that's a little bit fragile, but they were pliers maintenance over time.
+[ 567.00 -  572.00] And this is just a good reminder to us just working on coding projects.
+[ 572.00 -  583.00] And additions to order. So live inspection. It's also called streaming. Let's us inspect the agents options and files while it works.
+[ 583.00 -  593.00] And then there are things that are in the works for accessible agents who have access to MCP.
+[ 593.00 -  597.00] And we use a poll grading that you can use.
+[ 597.00 -  604.00] The command is called like far more be grade, which applies data checks to save outputs.
+[ 604.00 -  619.00] And the semi new thing is hosted execution hardware, let's teams launch for both jobs and share their results.
+[ 619.00 -  628.00] I'll send this out later, but here are some things that you can do inside a hardware to mitigate or weren't happy.
+[ 628.00 -  637.00] I'm a little skeptical of this because it doesn't seem like everything works, but this is in their documentation.
+[ 637.00 -  645.00] I want to give some time like five minutes to talk about open source with Canadian and some of his experiences with contributing to a hardware.
+[ 645.00 -  651.00] So one, maybe I can just kind of give a microphone over to him.
+[ 651.00 -  662.00] Like what has been your experience like working with the hardware for that. And can you like kind of talk about what you've been doing recently on it?
+[ 662.00 -  666.00] Yeah, I think the market formats is very good.
+[ 666.00 -  674.00] The RLC based for standardization. A lot of our delivery and multiple customers are in our format or part of our Gs and formats.
+[ 674.00 -  684.00] So what's enter happening is a lot of what the customer's created for us on the hardware format, whether to actually start the environment out of the actual task being approved.
+[ 684.00 -  692.00] Some of them like Nemo, for example, is a superset on top of it where they have their own cyber variations on top of it.
+[ 692.00 -  698.00] And hardware is like great adoption and almost all of the RLC release today.
+[ 698.00 -  713.00] So to one customer is in hardware format in terms of a vehicle and source that's also great because a lot of the time to actually like to look at the source code to find a lot of the functionalities for coding and for the RLC use.
+[ 713.00 -  719.00] We have the hardware runner internally very similar to the posted runners that we just talked about.
+[ 719.00 -  723.00] We have the similar version internally where we can actually run hardware a lot of that scale.
+[ 723.00 -  732.00] And having the source for actually available means that it's a lot easier for us to copy their functionality as it is without having to be permanently along the.
+[ 732.00 -  740.00] And in terms of contributing. We recently started using water kit, which is partners, their fire library that they have.
+[ 740.00 -  747.00] And recently we found that the agent is a judge is very limited in terms of what the API keys can be used are.
+[ 747.00 -  762.00] And we essentially worked a lot of up yard in the harvest. We bought itself to like being the agent is a judge more accessible whether it's using but people may I in guy based URL and the guy key that wasn't supported before and you ever be our for it.
+[ 762.00 -  775.00] And some livingly a lot of the times. The community both from the last but also like open source contributors. It's had a lot of some also help make the platform a lot better just for the cells, but the little goes is visible.
+[ 775.00 -  787.00] Can you kind of explain your PR on like we were in a line. So you talked about a lot of us in jio. What exactly are you targeting with a batch?
+[ 787.00 -  798.00] So this is a change is when we're working. They haven't been trying judges they use so elements of judges work on that's what we haven't been using until now.
+[ 798.00 -  808.00] And they also had a judge which recently came on and when we try to using each of us a judge it only works with tragedy, you and cloud load logins.
+[ 808.00 -  819.00] But it doesn't work with an API which seems relatively trivial, but it was one of the limitations for agents and judges.
+[ 819.00 -  836.00] So we put up a PR where now whenever you run patients a judge with the work head you can essentially pass them the same API key and API URL and you're actually able to use any open AI response to the API other models as well.
+[ 836.00 -  850.00] That makes sense. What's your impression of the maintainers right now are you trying are you making the contribution to the open source repo or what's that process been.
+[ 850.00 -  863.00] Yeah, I would say like I'm like a very active contributor. So at least like for us it's mostly been if there's issues like you'll be a little more or it or we're going to like actually about the art in terms of the mean manners.
+[ 863.00 -  879.00] And so I think that's what we're going to do that's not with the actual team like Alex trying their very responsive in terms of community input feedback given that this is a system woman is a library that and it should just like use blindly.
+[ 879.00 -  889.00] I think getting it was on like any new features or even like fixing lots I think they're very responsive.
+[ 889.00 -  898.00] I also know we have an external channel in Slack where we can talk to the researchers from line to do the way.
+[ 898.00 -  906.00] And I think Sherry on the ball has a direct connect to the armor folks.
+[ 906.00 -  915.00] Yeah, the organization is called the institute and I don't think I mentioned this, but they're also behind terminal match.
+[ 915.00 -  925.00] So these folks maintaining this format are the ones like publishing TV to TV through TV for and eventually TV five.
+[ 925.00 -  936.00] I guess we do have a statement now on how these benchmarks are built. I think like it would be a good idea to start thinking more open source.
+[ 936.00 -  941.00] This is how the like the future of future glass are going to be packaged.
+[ 941.00 -  947.00] Think across and it's a great opportunity for us to work on this problem.
+[ 947.00 -  963.00] I think Gianni other like remarks on harbor, you know that like there must be a reason why we need to make a just fish HR issue are right.
+[ 963.00 -  975.00] Yeah, I think a couple of things with the barber is harvors and like we mentioned earlier, harvors defines a standard for how we'll file so it's supposed to be a lot of it still comes out to your presentation.
+[ 975.00 -  981.00] You know, where you can introduce your work hacking, you can introduce that past things like this.
+[ 981.00 -  990.00] So that's like one caveat to remember is even though harvors great as a framework itself, it's still only just a standard and you can still like shoot yourself in a phone a lot of the times.
+[ 990.00 -  993.00] So it's really good to be on like when things are really.
+[ 993.00 -  995.00] And the same thing is.
+[ 995.00 - 1000.00] Internally on the early team, we initially started with Harvard just about last year.
+[1000.00 - 1015.00] Yeah, so harvors only about a year ago, so when we started Harvors to new first about initially, so we build our own framework and essentially slowly we're learning the same exact primitive and foundations that the Harvard team has as well.
+[1015.00 - 1023.00] And slowly we have a much to also move a lot of our internal world moments to harbor format and also the part of remember mainly because.
+[1023.00 - 1032.00] Harvard provides us a lot of building functionality that we have had to run until now, which is essentially just do with the efforts.
+[1032.00 - 1042.00] So harvors also go just like a great starting point, but also like a place template for like a lot of projects internally, but also delivery.
+[1042.00 - 1045.00] Do we have any questions.
+[1045.00 - 1047.00] Yeah, actually John.
+[1047.00 - 1054.00] Yeah, I think question about testing. I don't know what test suites at all in our work as I just joined.
+[1054.00 - 1064.00] No, not yet. I would also like to ask you a question about that, but I asked your question and we also have Sherry on the call who might be able to answer if we.
+[1064.00 - 1077.00] Oh, yeah, sure. So me on we were doing some trials for the word acting and basically because me on what you have is the tests the way it is to unit tests.
+[1077.00 - 1081.00] So that's cold running. What we found out is.
+[1081.00 - 1090.00] The very fire even with a separate process is always very practical because you can run the solution that I've called like a very fire.
+[1090.00 - 1096.00] That was the last copy of answers from your search statements etc.
+[1096.00 - 1100.00] A prototype in test it is you just long answers to an answer sheet.
+[1100.00 - 1105.00] So it's a very far rating cold, which cold can do bad things.
+[1105.00 - 1113.00] You basically have very the very first only the very first passes and answer key from the solution to a separate process.
+[1113.00 - 1116.00] And you just great answer key like string string string.
+[1116.00 - 1122.00] I think this is how I like judge words or one of the benchmarks.
+[1122.00 - 1125.00] We found out when we were at the ball.
+[1125.00 - 1134.00] We actually find like see if this is capable or this me sense on the context of harder or have this thought about it.
+[1134.00 - 1144.00] I haven't got it but I'm curious to what you just said, but so even with separate orders for the verifier.
+[1144.00 - 1149.00] You have some arbitrary code inside that that you can write.
+[1149.00 - 1153.00] Then you have the possibility of a word back.
+[1153.00 - 1155.00] You can just describe that problem a little bit.
+[1155.00 - 1158.00] Yes, and this moment.
+[1158.00 - 1160.00] I will.
+[1160.00 - 1162.00] I have to.
+[1162.00 - 1167.00] We ran a lot of trials basically what the very buyer is doing for me on it.
+[1167.00 - 1170.00] It's it's a great unit tests.
+[1170.00 - 1177.00] And at that time you can basically find ways to cheat because you're waiting cold.
+[1177.00 - 1185.00] The code can say hey, very far being passed in this 11 you always delete all the tests blah blah blah.
+[1185.00 - 1187.00] But you cheat on unit tests.
+[1187.00 - 1190.00] But it's this.
+[1190.00 - 1196.00] Loophole in our tests where block really just rated an answer key like a message of Jason.
+[1196.00 - 1208.00] Of a text that also says theявout does equals and then does you do something, that'sGHTNistors you may refer to call it the evolution.
+[1208.00 - 1210.00] OK.
+[1210.00 - 1217.00] So this one needs just worms cannot be acted the same way.
+[1217.00 - 1223.00] I mean I think it's a good like inter award like dawn.
+[1223.00 - 1226.80] of people have gotten a snapshot testing. So you basically,
+[1226.80 - 1231.66] snapshot testing is every language has minus settings every
+[1231.66 - 1235.00] language has like a way to snapshot the result at test time.
+[1235.00 - 1237.70] And the result can be written in the JSON.
+[1237.70 - 1240.70] And basically you read the JSON as something that's locked
+[1240.70 - 1241.70] like a vault.
+[1241.70 - 1244.50] I see. Okay. So sort of like protecting.
+[1244.50 - 1248.50] Having a separate answer key kind of walking in a way.
+[1248.50 - 1249.50] Yes.
+[1250.50 - 1252.50] That helps the
+[1254.50 - 1257.50] verifier kind of be more robust.
+[1257.50 - 1259.50] Right. That is also about to say.
+[1259.50 - 1263.50] Yeah, we think this is true. We ran a lot of tests, but you want
+[1263.50 - 1264.50] to research a stake on it.
+[1264.50 - 1265.50] Yeah.
+[1265.50 - 1266.50] Yeah.
+[1266.50 - 1270.50] What is the patient have access to the test to begin with?
+[1270.50 - 1274.50] At reading time, the very fire has the test rate.
+[1274.50 - 1277.50] And basically, you can,
+[1277.50 - 1282.50] at that time, you can basically have sort of scripts or lines that
+[1282.50 - 1286.50] say it's just maybe pass.
+[1286.50 - 1288.50] How do we explain that?
+[1288.50 - 1289.50] No, we're just simplified.
+[1289.50 - 1291.50] Essentially.
+[1291.50 - 1295.50] The agent is editing the verified code.
+[1295.50 - 1299.50] So the agent solution is with the verifier, right?
+[1299.50 - 1301.50] The very fire has to run the solution.
+[1301.50 - 1305.50] But that's called the code can.
+[1305.50 - 1307.50] And that's the way we found out.
+[1307.50 - 1308.50] Yeah.
+[1308.50 - 1311.50] And we just did she trials and Daytona.
+[1311.50 - 1313.50] So we took me on test.
+[1313.50 - 1315.50] Like ourselves asked.
+[1315.50 - 1318.50] Daytona being basically gave soul like finally with the cheat.
+[1318.50 - 1319.50] Yeah.
+[1319.50 - 1320.50] And it felt like.
+[1320.50 - 1322.50] I tested it a lot of times all 11 times.
+[1322.50 - 1323.50] It was able to cheat.
+[1323.50 - 1324.50] Yeah.
+[1324.50 - 1327.50] It's not even the future, but pass all the unit tests and the.
+[1327.50 - 1328.50] Recurrency bet was.
+[1328.50 - 1330.50] Basically,
+[1330.50 - 1331.50] basically,
+[1331.50 - 1334.50] we're trying to.
+[1334.50 - 1337.50] We can't see that was.
+[1337.50 - 1338.50] Basically,
+[1338.50 - 1341.50] the change of code and reading time because it's called and not.
+[1341.50 - 1343.50] Yeah, it looks like a definitely more.
+[1343.50 - 1346.50] I mean, like, obviously, we're trying to fill in.
+[1346.50 - 1351.50] I mean, we're going to like sink a sink about like, you know,
+[1351.50 - 1353.50] where you're working on the content is.
+[1353.50 - 1355.50] Bench Jack is a paper on.
+[1355.50 - 1357.50] Yeah, they also found the same thing.
+[1357.50 - 1359.50] And I think I also have some more finishes.
+[1359.50 - 1361.50] So,
+[1361.50 - 1362.50] I think it's.
+[1362.50 - 1363.50] Yeah.
+[1363.50 - 1364.50] So is it,
+[1364.50 - 1369.50] is the issue that it's able to see the tests and.
+[1369.50 - 1373.50] Reverse engineer front of how they test service it or isn't that.
+[1373.50 - 1375.50] It's changing the tests.
+[1375.50 - 1377.50] I think it's changing the tests.
+[1377.50 - 1378.50] Um,
+[1378.50 - 1379.50] living could define my effect.
+[1379.50 - 1381.50] So I'll go through the few days.
+[1381.50 - 1383.50] Yeah, go ahead and like drop it in the chat.
+[1383.50 - 1385.50] Share your view of any.
+[1385.50 - 1387.50] Do you have any response to that?
+[1387.50 - 1388.50] Yeah, I do.
+[1388.50 - 1390.50] I mean, have you seen like similar.
+[1390.50 - 1397.50] War backing behaviors.
+[1397.50 - 1402.50] Um, you mean like the, um, the scenario, we just discussed here.
+[1402.50 - 1403.50] Um,
+[1403.50 - 1407.50] I guess the question I have is.
+[1407.50 - 1413.50] Um, cause that like the entry point is actually the test functions.
+[1413.50 - 1414.50] Right.
+[1414.50 - 1421.50] So the test functions actually runs whatever like functions produced by the agent.
+[1421.50 - 1424.50] Then in that case, how.
+[1424.50 - 1427.50] I guess I'm still trying to wrap my head around it.
+[1427.50 - 1431.50] How cool like the artifacts actually like.
+[1431.50 - 1433.50] Did they eat the test functions?
+[1433.50 - 1437.50] Oh, there's a look.
+[1437.50 - 1440.50] Um,
+[1440.50 - 1449.50] I think it is on.
+[1449.50 - 1451.50] Yeah, this is the.
+[1451.50 - 1453.50] Okay, we took.
+[1453.50 - 1462.50] Is it life that there's leakage for.
+[1462.50 - 1464.50] I'll actually put this in the thought.
+[1464.50 - 1466.50] Cause what was the core researcher?
+[1466.50 - 1467.50] I see.
+[1467.50 - 1468.50] Yeah.
+[1468.50 - 1470.50] Also like, you're maybe like a quick.
+[1470.50 - 1480.50] Um, and I'll hear is I think like there is also a difference between either like a function is tested or like a whole.
+[1480.50 - 1485.50] Um, like executable script is tested.
+[1485.50 - 1487.50] Um, because.
+[1487.50 - 1494.50] Yeah, I just like mentioned, I think the entry point is actually the test functions in the verify right.
+[1494.50 - 1506.50] And then a lot of times I think several are only execute like, for example, one word several functions produced by the agent, not like so, execute was script.
+[1506.50 - 1514.50] And then in that case, I think the chance for like, uh, real work hacking is lower because it's much harder.
+[1514.50 - 1516.50] So you see, it's a good.
+[1516.50 - 1521.50] Each function separately, the chance of your hacking is lower.
+[1521.50 - 1524.50] Yeah, because the.
+[1524.50 - 1531.50] Yeah, because the work gets executed is actually a simple function that has inputs and the.
+[1531.50 - 1541.50] Kind of like the verify or you know, compare it to our post against what is expected in startup, running like a whole executable file.
+[1541.50 - 1550.50] And as like that makes sense if you are basically because the output is like a string right it's like a source of truth that cannot be manipulated.
+[1550.50 - 1554.50] Um, yeah more like in percent outputs pairs.
+[1554.50 - 1559.50] Yeah, that's consistent with what we were worried about as well because we are running.
+[1559.50 - 1567.50] We are the very first like running unit tests right because it's a real gold features.
+[1567.50 - 1569.50] And this is super cheap.
+[1569.50 - 1575.50] I think one of my friends say we smell fire, but we'd like to research our two life.
+[1575.50 - 1576.50] That makes sense.
+[1576.50 - 1579.50] We should follow up and drop them on right?
+[1579.50 - 1580.50] Yeah, okay.
+[1580.50 - 1583.50] So we can talk to you about that.
+[1583.50 - 1584.50] Can I.
+[1584.50 - 1585.50] Yeah.
+[1585.50 - 1591.50] We need for her, we don't know necessarily if the right mental model that basically will be built about or I'm talking about.
+[1592.50 - 1595.72] So then, I'm how
+[1595.72 - 1601.50] Do we provide our, how do we communicate from how to mega reference in fact they died.
+[1601.50 - 1610.50] Yeah, the thing you know about this is, like our 들어 has been were always forced to use a jobnin center, in terms of the actual sample.
+[1610.50 - 1612.50] So this is the main dance.
+[1612.50 - 1618.18] So essentially the way that Harvard or set up is you can either have a dog,
+[1618.18 - 1621.58] most followed with an actual dog or follow the environment.
+[1621.58 - 1628.34] Or if you ignore the dog, well, it essentially wraps it around with like a default,
+[1628.34 - 1630.02] like a dog or a compost.
+[1630.02 - 1633.74] And we just always just wrap it around the dog or compost.
+[1633.74 - 1637.70] So that's the main difference, which means that to some extent,
+[1638.70 - 1643.30] the same box environment is slightly different compared to like a raw again,
+[1643.30 - 1644.90] because it is running set with that.
+[1644.90 - 1648.70] Yeah, but hosted, hosted by our runner.
+[1648.70 - 1651.30] This puts it in the V app.
+[1651.30 - 1653.14] I would assume they probably do.
+[1653.14 - 1658.06] We have a doctor in it and it's like that we spin up another doctor and it's an
+[1658.06 - 1659.26] expert raw trowel sprung.
+[1659.26 - 1660.06] Yeah.
+[1660.06 - 1660.42] Yeah.
+[1660.42 - 1666.10] So that said, it's not most of the tasks but defaults do use a doctor who most follow
+[1666.10 - 1667.50] with a natural dog or.
+[1667.50 - 1673.50] So that most tasks that should even better is just that we always said in our
+[1673.50 - 1674.50] events.
+[1674.50 - 1675.50] That's the main events.
+[1675.50 - 1677.50] But that is our trial itself.
+[1677.50 - 1679.50] We basically call our trial start command.
+[1679.50 - 1683.50] So anything that runs other than that is basically the same.
+[1683.50 - 1689.50] So the benefit is it fair to say that we still would want our own for our own spikiness
+[1689.50 - 1692.50] and like call control as opposed to having to go through that.
+[1692.50 - 1696.50] When we start understanding what the value is for us to maintain a long term as opposed
+[1696.50 - 1697.50] to relying on.
+[1697.50 - 1698.50] Oh, sorry.
+[1698.50 - 1700.50] We need to be on the screen.
+[1700.50 - 1701.50] But thanks everyone for joining.

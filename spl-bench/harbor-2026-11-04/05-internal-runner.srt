@@ -1,0 +1,147 @@
+1
+00:00:00,140 --> 00:00:00,560
+Can I.
+
+2
+00:00:02,100 --> 00:00:03,100
+Yeah.
+
+3
+00:00:03,100 --> 00:00:09,100
+We need for her, we don't know necessarily if the right mental model that basically will be built about or I'm talking about.
+
+4
+00:00:10,100 --> 00:00:13,320
+So then, I'm how
+
+5
+00:00:13,320 --> 00:00:19,100
+Do we provide our, how do we communicate from how to mega reference in fact they died.
+
+6
+00:00:19,100 --> 00:00:28,100
+Yeah, the thing you know about this is, like our 들어 has been were always forced to use a jobnin center, in terms of the actual sample.
+
+7
+00:00:28,100 --> 00:00:30,100
+So this is the main dance.
+
+8
+00:00:30,100 --> 00:00:35,780
+So essentially the way that Harvard or set up is you can either have a dog,
+
+9
+00:00:35,780 --> 00:00:39,180
+most followed with an actual dog or follow the environment.
+
+10
+00:00:39,180 --> 00:00:45,940
+Or if you ignore the dog, well, it essentially wraps it around with like a default,
+
+11
+00:00:45,940 --> 00:00:47,620
+like a dog or a compost.
+
+12
+00:00:47,620 --> 00:00:51,340
+And we just always just wrap it around the dog or compost.
+
+13
+00:00:51,340 --> 00:00:55,300
+So that's the main difference, which means that to some extent,
+
+14
+00:00:56,300 --> 00:01:00,900
+the same box environment is slightly different compared to like a raw again,
+
+15
+00:01:00,900 --> 00:01:02,500
+because it is running set with that.
+
+16
+00:01:02,500 --> 00:01:06,300
+Yeah, but hosted, hosted by our runner.
+
+17
+00:01:06,300 --> 00:01:08,900
+This puts it in the V app.
+
+18
+00:01:08,900 --> 00:01:10,740
+I would assume they probably do.
+
+19
+00:01:10,740 --> 00:01:15,660
+We have a doctor in it and it's like that we spin up another doctor and it's an
+
+20
+00:01:15,660 --> 00:01:16,860
+expert raw trowel sprung.
+
+21
+00:01:16,860 --> 00:01:17,660
+Yeah.
+
+22
+00:01:17,660 --> 00:01:18,020
+Yeah.
+
+23
+00:01:18,020 --> 00:01:23,700
+So that said, it's not most of the tasks but defaults do use a doctor who most follow
+
+24
+00:01:23,700 --> 00:01:25,100
+with a natural dog or.
+
+25
+00:01:25,100 --> 00:01:31,100
+So that most tasks that should even better is just that we always said in our
+
+26
+00:01:31,100 --> 00:01:32,100
+events.
+
+27
+00:01:32,100 --> 00:01:33,100
+That's the main events.
+
+28
+00:01:33,100 --> 00:01:35,100
+But that is our trial itself.
+
+29
+00:01:35,100 --> 00:01:37,100
+We basically call our trial start command.
+
+30
+00:01:37,100 --> 00:01:41,100
+So anything that runs other than that is basically the same.
+
+31
+00:01:41,100 --> 00:01:47,100
+So the benefit is it fair to say that we still would want our own for our own spikiness
+
+32
+00:01:47,100 --> 00:01:50,100
+and like call control as opposed to having to go through that.
+
+33
+00:01:50,100 --> 00:01:54,100
+When we start understanding what the value is for us to maintain a long term as opposed
+
+34
+00:01:54,100 --> 00:01:55,100
+to relying on.
+
+35
+00:01:55,100 --> 00:01:56,100
+Oh, sorry.
+
+36
+00:01:56,100 --> 00:01:58,100
+We need to be on the screen.
+
+37
+00:01:58,100 --> 00:01:59,100
+But thanks everyone for joining.
